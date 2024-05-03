@@ -1,0 +1,14 @@
+.container {
+    padding: 16px;
+    border-radius: 8px;
+    z-index: 10;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.69);
+}
+
+.warning {
+    background-color: var(--background-warning-color);
+}
+
+.success {
+    background-color: #071F07;
+}

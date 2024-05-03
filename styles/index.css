@@ -1,0 +1,8 @@
+@import './reset.css';
+@import './variables.css';
+@import './dark.css';
+@import './default.css';
+
+body * {
+    /*font-family: Hlebozavod-Medium, serif !important;*/
+}

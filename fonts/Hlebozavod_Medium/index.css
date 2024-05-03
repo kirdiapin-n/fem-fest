@@ -1,0 +1,15 @@
+/* Import Hlebozavod-Medium.woff */
+@font-face {
+    font-family: 'Hlebozavod-Medium';
+    src: url('Hlebozavod-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Import Hlebozavod-Medium.otf */
+@font-face {
+    font-family: 'Hlebozavod-Medium';
+    src: url('Hlebozavod-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,78 @@
+{
+  "name": "ninja-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "dev:external": "sh -c 'export IP=$(ipconfig getifaddr en0); next dev -H $IP -p 4283'",
+    "start": "next dev & tsc --noEmit --incremental --watch",
+    "firebase:emulators": "firebase emulators:start --only auth,firestore,storage",
+    "build": "next build && next export -o build/",
+    "lint": "eslint \"./**/*.{ts, tsx}\"",
+    "prettier": "prettier --check \"./**/*.{ts,tsx}\"",
+    "test": "npm run lint && npm run prettier && jest --detectOpenHandles --forceExit",
+    "test:watch": "jest --watch",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "boilerplate",
+    "react",
+    "next"
+  ],
+  "author": "nikita.kirdiapin@gmail.com",
+  "license": "MIT",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 8.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@mui/system": "^5.15.15",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@uiw/react-md-editor": "^3.20.5",
+    "classnames": "^2.3.2",
+    "effector": "^22.7.0",
+    "effector-react": "^22.5.1",
+    "firebase": "^9.6.10",
+    "fp-ts": "^2.13.1",
+    "io-ts": "^2.2.20",
+    "io-ts-types": "^0.5.19",
+    "jest": "^27.5.1",
+    "moment": "^2.29.4",
+    "next": "^13.5.4",
+    "next-pwa": "^5.6.0",
+    "next-remove-imports": "^1.0.10",
+    "next-themes": "^0.2.1",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-image-crop": "^10.0.9",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-effector": "^0.10.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "identity-obj-proxy": "^3.0.0",
+    "prettier": "2.8.4",
+    "typescript": "^5.0.2"
+  }
+}

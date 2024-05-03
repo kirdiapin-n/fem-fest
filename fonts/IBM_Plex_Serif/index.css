@@ -1,0 +1,111 @@
+/* Import IBMPlexSerif-Bold */
+@font-face {
+    font-family: 'IBMPlexSerif-Bold';
+    src: url('IBMPlexSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-BoldItalic */
+@font-face {
+    font-family: 'IBMPlexSerif-BoldItalic';
+    src: url('IBMPlexSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Import IBMPlexSerif-ExtraLight */
+@font-face {
+    font-family: 'IBMPlexSerif-ExtraLight';
+    src: url('IBMPlexSerif-ExtraLight.ttf') format('truetype');
+    font-weight: 200; /* ExtraLight font weight */
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-ExtraLightItalic */
+@font-face {
+    font-family: 'IBMPlexSerif-ExtraLightItalic';
+    src: url('IBMPlexSerif-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200; /* ExtraLight font weight */
+    font-style: italic;
+}
+
+/* Import IBMPlexSerif-Italic */
+@font-face {
+    font-family: 'IBMPlexSerif-Italic';
+    src: url('IBMPlexSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Import IBMPlexSerif-Light */
+@font-face {
+    font-family: 'IBMPlexSerif-Light';
+    src: url('IBMPlexSerif-Light.ttf') format('truetype');
+    font-weight: 300; /* Light font weight */
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-LightItalic */
+@font-face {
+    font-family: 'IBMPlexSerif-LightItalic';
+    src: url('IBMPlexSerif-LightItalic.ttf') format('truetype');
+    font-weight: 300; /* Light font weight */
+    font-style: italic;
+}
+
+/* Import IBMPlexSerif-Medium */
+@font-face {
+    font-family: 'IBMPlexSerif-Medium';
+    src: url('IBMPlexSerif-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium font weight */
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-MediumItalic */
+@font-face {
+    font-family: 'IBMPlexSerif-MediumItalic';
+    src: url('IBMPlexSerif-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium font weight */
+    font-style: italic;
+}
+
+/* Import IBMPlexSerif-Regular */
+@font-face {
+    font-family: 'IBMPlexSerif-Regular';
+    src: url('IBMPlexSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-SemiBold */
+@font-face {
+    font-family: 'IBMPlexSerif-SemiBold';
+    src: url('IBMPlexSerif-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold font weight */
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-SemiBoldItalic */
+@font-face {
+    font-family: 'IBMPlexSerif-SemiBoldItalic';
+    src: url('IBMPlexSerif-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600; /* SemiBold font weight */
+    font-style: italic;
+}
+
+/* Import IBMPlexSerif-Thin */
+@font-face {
+    font-family: 'IBMPlexSerif-Thin';
+    src: url('IBMPlexSerif-Thin.ttf') format('truetype');
+    font-weight: 100; /* Thin font weight */
+    font-style: normal;
+}
+
+/* Import IBMPlexSerif-ThinItalic */
+@font-face {
+    font-family: 'IBMPlexSerif-ThinItalic';
+    src: url('IBMPlexSerif-ThinItalic.ttf') format('truetype');
+    font-weight: 100; /* Thin font weight */
+    font-style: italic;
+}
