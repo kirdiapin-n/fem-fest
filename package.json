@@ -1,12 +1,12 @@
 {
-  "name": "ninja-blog",
+  "name": "fem-fest",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "dev:external": "sh -c 'export IP=$(ipconfig getifaddr en0); next dev -H $IP -p 4283'",
     "start": "next dev & tsc --noEmit --incremental --watch",
     "firebase:emulators": "firebase emulators:start --only auth,firestore,storage",
-    "build": "next build && next export -o build/",
+    "build": "next build",
     "lint": "eslint \"./**/*.{ts, tsx}\"",
     "prettier": "prettier --check \"./**/*.{ts,tsx}\"",
     "test": "npm run lint && npm run prettier && jest --detectOpenHandles --forceExit",
@@ -54,6 +54,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-image-crop": "^10.0.9",
+    "sharp": "^0.33.3",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

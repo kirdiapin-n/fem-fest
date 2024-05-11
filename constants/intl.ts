@@ -5,7 +5,7 @@ export const INTL = {
     CANCEL: "Cancel",
   },
   APP: {
-    NAME: "Ninja-Blog",
+    NAME: "Fem Fest",
     HEADER: {
       THEME_BUTTON: "Theme switcher",
     },

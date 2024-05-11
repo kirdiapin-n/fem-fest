@@ -1,9 +1,17 @@
-/* eslint @typescript-eslint/no-var-requires: "off" */
-const removeImports = require('next-remove-imports')()
-/** @type {import('next').NextConfig} */
-const withPWA = require('next-pwa')({
-  dest: 'public',
-  disable: process.env.NODE_ENV !== 'production',
-})
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  output: "export",
 
-module.exports = removeImports(withPWA())
+  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
+  // trailingSlash: true,
+
+  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
+  // skipTrailingSlashRedirect: true,
+
+  // Optional: Change the output directory `out` -> `dist`
+  distDir: "build",
+};
+
+module.exports = nextConfig;
