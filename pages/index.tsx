@@ -1,25 +1,25 @@
-import { Typography } from "@mui/material";
-import abstract_stars from "assets/images/abstract_stars_3d_form,_collection,_cinema4d,_on_white_background___--sref_https___i_0014_Layer-13.png";
-import bg from "assets/images/cloud-background-image.png";
 import React from "react";
-import { Section } from "ui/templates/Section";
+import About from "../landing/sections/About";
+import Exhibition from "../landing/sections/Exhibition";
+import Home from "../landing/sections/Home";
+import Lecturers from "../landing/sections/Lecturers";
+import Lectures from "../landing/sections/Lectures";
+import Market from "../landing/sections/Market";
 
 export default function Index() {
   return (
     <>
-      <Section sx={{ backgroundImage: `url(${bg.src})` }}>
-        <img src={abstract_stars.src} width="100px" height="100px" />
+      <Home />
 
-        <Typography
-          fontSize={80}
-          color="text.primary"
-          fontFamily="Hlebozavod-Medium, serif"
-        >
-          рефорум space Будва
-        </Typography>
-      </Section>
+      <About />
 
-      <Section sx={{ backgroundImage: `url(${bg.src})` }}>Section</Section>
+      <Lectures />
+
+      <Exhibition />
+
+      <Lecturers />
+
+      <Market />
     </>
   );
 }
