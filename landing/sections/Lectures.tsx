@@ -16,8 +16,9 @@ function LecturesList({ tags, items }: Props) {
   return (
     <Stack spacing={6} flex={1}>
       <Stack direction="row" spacing={2}>
-        {tags.map((tag) => (
+        {tags.map((tag, index) => (
           <Chip
+            key={index}
             label={
               <Typography fontSize="2.5rem" variant="h5" letterSpacing="0.3rem">
                 {tag}
