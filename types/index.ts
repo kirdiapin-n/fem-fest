@@ -26,3 +26,26 @@ export type TField = TFieldProps &
 export type TValue<T = TNullable<string | string[] | number | boolean | File>> =
   TNullable<T>;
 export type TData = Record<string, TValue>;
+
+export type Author = {
+  name: string;
+  description: string;
+  image_id: string;
+};
+
+export type Topic = {
+  time: string;
+  description: string;
+};
+
+export type Topics = {
+  first_day?: Topic;
+  second_day?: Topic;
+};
+
+export type TLector = {
+  author: Author;
+  topics: Topics;
+};
+
+export type Lectures = { id: string; author: Author; topic: Topic }[];

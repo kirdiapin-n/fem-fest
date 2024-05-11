@@ -1,7 +1,9 @@
+import { ACCENT_FONT, BLOCK_FONT } from "constants/fonts";
 import { ThemeOptions, Theme } from "types";
 import { createTheme, deepOrange, deepPurple, grey } from "utils/styles";
 
 const titles = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
+const primaryColor = "#CCFF5E";
 
 const defaultTheme: ThemeOptions = {
   components: {
@@ -10,15 +12,29 @@ const defaultTheme: ThemeOptions = {
         badge: { fontSize: 9, height: 15, minWidth: 15 },
       },
     },
+    MuiChip: {
+      styleOverrides: {
+        root: {
+          borderWidth: "4px",
+          borderRadius: "100px",
+          paddingRight: "1em",
+          paddingLeft: "1em",
+        },
+        colorPrimary: {
+          borderColor: primaryColor,
+          color: primaryColor,
+        },
+      },
+    },
   },
   typography: {
-    fontFamily: "IBM plex, serif",
+    fontFamily: BLOCK_FONT,
     ...titles.reduce((prev, curr) => {
       return {
         ...prev,
         [curr]: {
           letterSpacing: "0.6em",
-          fontFamily: "Hlebozavod-Medium, serif",
+          fontFamily: ACCENT_FONT,
         },
       };
     }, {}),
@@ -36,7 +52,7 @@ const darkTheme = createTheme({
       default: "#000000",
     },
     text: {
-      primary: "#CCFF5E",
+      primary: primaryColor,
       secondary: grey[500],
     },
   },
@@ -50,7 +66,7 @@ export const lightTheme = createTheme({
     secondary: grey,
     divider: deepPurple[300],
     text: {
-      primary: "#CCFF5E",
+      primary: primaryColor,
       secondary: grey[700],
     },
   },
