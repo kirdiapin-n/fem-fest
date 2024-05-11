@@ -3,10 +3,11 @@ import abstract_stars from "assets/images/abstract_stars_3d_form,_collection,_ci
 import bg from "assets/images/cloud-background-image.png";
 import React from "react";
 import { Section } from "ui/templates/Section";
+import { IDS } from "../../constants/landing";
 
 export default function Home() {
   return (
-    <Section sx={{ backgroundImage: `url(${bg.src})` }}>
+    <Section sx={{ backgroundImage: `url(${bg.src})` }} id={IDS.HOME}>
       <img src={abstract_stars.src} width="100px" height="100px" />
 
       <Typography
