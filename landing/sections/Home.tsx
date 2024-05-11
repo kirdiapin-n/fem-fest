@@ -26,7 +26,7 @@ export default function Home() {
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
           <Typography
-            fontSize={32}
+            fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
@@ -35,7 +35,7 @@ export default function Home() {
             </Link>
           </Typography>
           <Typography
-            fontSize={32}
+            fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
@@ -44,7 +44,7 @@ export default function Home() {
             </Link>
           </Typography>
           <Typography
-            fontSize={32}
+            fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
@@ -65,7 +65,7 @@ export default function Home() {
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
           <Typography
-            fontSize={32}
+            fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
@@ -74,7 +74,7 @@ export default function Home() {
             </Link>
           </Typography>
           <Typography
-            fontSize={32}
+            fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
@@ -83,7 +83,7 @@ export default function Home() {
             </Link>
           </Typography>
           <Typography
-            fontSize={32}
+            fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
@@ -116,7 +116,7 @@ export default function Home() {
         spacing={{ xs: 1, sm: 2, md: 4 }}
       >
         <Typography
-          fontSize={128}
+          fontSize="8rem"
           color="text.primary"
           fontFamily="Hlebozavod-Medium, serif"
         >
@@ -130,7 +130,7 @@ export default function Home() {
           height="100%"
         />
         <Typography
-          fontSize={80}
+          fontSize="2rem"
           color="text.primary"
           whiteSpace="pre-wrap"
           fontFamily="Hlebozavod-Medium, serif"

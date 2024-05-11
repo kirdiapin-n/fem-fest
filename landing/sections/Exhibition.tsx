@@ -7,7 +7,7 @@ export default function Exhibition() {
   return (
     <Section id={IDS.EXHIBITION}>
       <Typography
-        fontSize={80}
+        fontSize="2rem"
         color="text.primary"
         fontFamily="Hlebozavod-Medium, serif"
       >

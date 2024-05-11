@@ -19,7 +19,7 @@ function LecturesList({ tags, items }: Props) {
         {tags.map((tag) => (
           <Chip
             label={
-              <Typography fontSize={40} variant="h5" letterSpacing="0.3em">
+              <Typography fontSize="2.5rem" variant="h5" letterSpacing="0.3rem">
                 {tag}
               </Typography>
             }
@@ -37,13 +37,13 @@ function LecturesList({ tags, items }: Props) {
           <Stack key={id} direction="row" spacing={2}>
             <Typography
               fontFamily={ACCENT_FONT}
-              letterSpacing="0.2em"
+              letterSpacing="0.2rem"
               fontSize="40px"
-              lineHeight="1em"
+              lineHeight="2.5rem"
             >
               {topic.time}
             </Typography>
-            <Typography fontSize="32px" lineHeight="1.1em">
+            <Typography fontSize="2rem" lineHeight="2rem">
               <Link color="inherit" underline="none" href={`#${id}`}>
                 <b>{author.name}</b>
               </Link>

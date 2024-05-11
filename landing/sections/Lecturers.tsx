@@ -30,7 +30,7 @@ function Lecturer(props: TLector & { id: string }) {
 
   return (
     <Stack p={4} flex={1} id={id}>
-      <Box width="500px" position="relative" height="420px">
+      <Box width="31.25rem" position="relative" height="26.26rem">
         <img
           style={{ position: "absolute", left: "-70px", top: "-20px" }}
           src={pink_fl.src}
@@ -42,9 +42,9 @@ function Lecturer(props: TLector & { id: string }) {
           position="absolute"
           top="0"
           left="0"
-          width="470px"
+          width="29.375rem"
           bgcolor="gray"
-          height="390px"
+          height="24.375rem"
           borderRadius="200px"
           overflow="hidden"
           sx={{ backgroundImage: `url(${PHOTOS[author.image_id].src})` }}
@@ -55,20 +55,20 @@ function Lecturer(props: TLector & { id: string }) {
         <Stack direction="row">
           <div style={{ flex: 1 }}></div>
           <Stack flex={1}>
-            <Typography variant="h5" fontSize="40px">
+            <Typography variant="h5" fontSize="2.5rem">
               {author.name}
             </Typography>
-            <Typography fontSize="24px">{author.description}</Typography>
+            <Typography fontSize="1.5rem">{author.description}</Typography>
           </Stack>
         </Stack>
 
         {topics.first_day && (
-          <Typography lineHeight="1em" fontSize="40px">
+          <Typography lineHeight="3rem" fontSize="2.5rem">
             {topics.first_day.description}
           </Typography>
         )}
         {topics.second_day && (
-          <Typography lineHeight="1em" fontSize="40px">
+          <Typography lineHeight="3rem" fontSize="2.5rem">
             {topics.second_day.description}
           </Typography>
         )}
