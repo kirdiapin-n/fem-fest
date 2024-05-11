@@ -34,14 +34,12 @@ export default function About() {
           <Box
             style={{
               marginLeft: "80px",
-              marginTop: "80px",
               marginRight: "80px",
             }}
             position="relative"
             width="40rem"
             sx={{
               justifyContent: "center",
-              margin: "20px",
               display: { xs: "none", lg: "flex" },
             }}
           >
@@ -63,9 +61,9 @@ export default function About() {
               />
             </Box>
             <Box
-              sx={{ right: "-160px", top: "-250px", zIndex: "0" }}
-              width={"24rem"}
-              height={"24rem"}
+              sx={{ right: "-120px", top: "-200px", zIndex: "0" }}
+              width={"20rem"}
+              height={"20rem"}
               position={"absolute"}
             >
               <img
