@@ -49,7 +49,7 @@ function Lecturer(props: TLector & { id: string }) {
           height="24.375rem"
           borderRadius="200px"
           overflow="hidden"
-          sx={{ backgroundImage: `url(${PHOTOS[author.image_id].src})` }}
+          sx={{ backgroundImage: `url(${PHOTOS[author.image_id]?.src})` }}
         ></StyledBox>
         <Box
           sx={{ right: "-5%", top: "-5%", zIndex: "1" }}

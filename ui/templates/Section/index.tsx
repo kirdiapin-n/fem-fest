@@ -25,6 +25,5 @@ const StyledSection = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     padding: theme.spacing(1),
   },
-
-  paddingTop: theme.spacing(2),
+  overflowX: "hidden",
 }));
