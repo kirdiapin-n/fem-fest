@@ -65,7 +65,7 @@ export default function Index() {
         >
           <MenuItem onClick={handleClose}>
             <Typography
-              fontSize={32}
+              fontSize="2rem"
               color="text.primary"
               fontFamily="Hlebozavod-Medium, serif"
             >
@@ -76,7 +76,7 @@ export default function Index() {
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Typography
-              fontSize={32}
+              fontSize="2rem"
               color="text.primary"
               fontFamily="Hlebozavod-Medium, serif"
             >
@@ -87,7 +87,7 @@ export default function Index() {
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Typography
-              fontSize={32}
+              fontSize="2rem"
               color="text.primary"
               fontFamily="Hlebozavod-Medium, serif"
             >
@@ -102,7 +102,7 @@ export default function Index() {
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Typography
-              fontSize={32}
+              fontSize="2rem"
               color="text.primary"
               fontFamily="Hlebozavod-Medium, serif"
             >
@@ -113,7 +113,7 @@ export default function Index() {
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Typography
-              fontSize={32}
+              fontSize="2rem"
               color="text.primary"
               fontFamily="Hlebozavod-Medium, serif"
             >
@@ -124,7 +124,7 @@ export default function Index() {
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <Typography
-              fontSize={32}
+              fontSize="2rem"
               color="text.primary"
               fontFamily="Hlebozavod-Medium, serif"
             >

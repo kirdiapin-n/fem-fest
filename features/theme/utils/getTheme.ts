@@ -1,5 +1,5 @@
 import { ACCENT_FONT, BLOCK_FONT } from "constants/fonts";
-import { ThemeOptions, Theme } from "types";
+import { Theme, ThemeOptions } from "types";
 import { createTheme, deepOrange, deepPurple, grey } from "utils/styles";
 
 const titles = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
@@ -17,8 +17,8 @@ const defaultTheme: ThemeOptions = {
         root: {
           borderWidth: "4px",
           borderRadius: "100px",
-          paddingRight: "1em",
-          paddingLeft: "1em",
+          paddingRight: "1rem",
+          paddingLeft: "1rem",
         },
         colorPrimary: {
           borderColor: primaryColor,
@@ -33,7 +33,7 @@ const defaultTheme: ThemeOptions = {
       return {
         ...prev,
         [curr]: {
-          letterSpacing: "0.6em",
+          letterSpacing: "1.5rem",
           fontFamily: ACCENT_FONT,
         },
       };

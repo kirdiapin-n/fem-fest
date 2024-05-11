@@ -6,3 +6,16 @@
 body * {
     /*font-family: Hlebozavod-Medium, serif !important;*/
 }
+
+html {
+    font-size: 16px;
+
+    @media (max-width: 1200px) {
+        font-size: 13px;
+    }
+
+    @media (max-width: 800px) {
+        font-size: 11px;
+    }
+}
+

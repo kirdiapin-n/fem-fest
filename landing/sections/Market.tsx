@@ -7,7 +7,7 @@ export default function Market() {
   return (
     <Section id={IDS.MARKET}>
       <Typography
-        fontSize={80}
+        fontSize="2rem"
         color="text.primary"
         fontFamily="Hlebozavod-Medium, serif"
       >
