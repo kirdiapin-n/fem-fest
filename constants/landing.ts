@@ -5,4 +5,5 @@ export const IDS = {
   EXHIBITION: "exhibition",
   LECTURERS: "lecturers",
   MARKET: "market",
+  PHOTO: "photo",
 };

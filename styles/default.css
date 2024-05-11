@@ -1,7 +1,9 @@
 html {
     background-color: var(--background-app-color);
 }
-
+body {
+    overflow-x: hidden;
+}
 * {
     transition: background-color .4s;
 }
