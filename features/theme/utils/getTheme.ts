@@ -1,6 +1,8 @@
 import { ThemeOptions, Theme } from "types";
 import { createTheme, deepOrange, deepPurple, grey } from "utils/styles";
 
+const titles = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
+
 const defaultTheme: ThemeOptions = {
   components: {
     MuiBadge: {
@@ -8,6 +10,18 @@ const defaultTheme: ThemeOptions = {
         badge: { fontSize: 9, height: 15, minWidth: 15 },
       },
     },
+  },
+  typography: {
+    fontFamily: "IBM plex, serif",
+    ...titles.reduce((prev, curr) => {
+      return {
+        ...prev,
+        [curr]: {
+          letterSpacing: "0.6em",
+          fontFamily: "Hlebozavod-Medium, serif",
+        },
+      };
+    }, {}),
   },
 };
 
