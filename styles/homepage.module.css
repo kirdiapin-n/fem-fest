@@ -1,5 +1,9 @@
 .femfest {
     @media (max-width: 1200px) {
+        height: 420px;
+        width: 430px;
+    }
+    @media (max-width: 680px) {
         width: 50%;
         height: 50%;
     }

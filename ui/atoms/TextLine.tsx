@@ -9,6 +9,7 @@ interface TextLineProps {
 export const TextLine = ({ children, rotation, ...props }: TextLineProps) => (
   <Typography
     sx={{
+      boxShadow: "0px 4px 4px 0px rgba(0, 0, 0, 0.25)",
       display: { xs: "none", lg: "block" },
       right: { lg: "-40%", xl: "-2%" },
       top: { lg: "32%", xl: "20%" },
