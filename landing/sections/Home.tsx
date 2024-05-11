@@ -1,4 +1,4 @@
-import { Typography, Link } from "@mui/material";
+import { Typography, Link, Box } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import bg from "assets/images/cloud-background-image.png";
 import femfest from "assets/images/femfest.png";
@@ -8,16 +8,32 @@ import styles from "styles/homepage.module.css";
 import { Section } from "ui/templates/Section";
 import { IDS } from "../../constants/landing";
 import { TextLine } from "../../ui/atoms/TextLine";
+import { getRandomImage } from "../../utils/images";
 
 export default function Home() {
   return (
     <Section
+      overflow="hidden"
+      position="relative"
       sx={{
         backgroundImage: `url(${bg.src})`,
         height: { xs: "100vh", lg: "150vh" },
       }}
       id={IDS.HOME}
     >
+      <Box
+        display={{ xs: "none", lg: "block" }}
+        sx={{ left: "20%", bottom: "-6%" }}
+        width={"12rem"}
+        height={"12rem"}
+        position={"absolute"}
+      >
+        <img
+          className={styles.abstractUnderDate}
+          alt="abstraction"
+          src={getRandomImage()}
+        />
+      </Box>
       <Stack
         justifyContent="space-between"
         direction={{ xs: "column", sm: "row" }}
@@ -133,6 +149,7 @@ export default function Home() {
           height="100%"
         />
         <Typography
+          position="relative"
           fontSize="5rem"
           color="text.primary"
           whiteSpace="pre-wrap"
@@ -140,6 +157,30 @@ export default function Home() {
         >
           {`рефорум space \nбудва`}
         </Typography>
+        <Box
+          sx={{ left: "0", top: "0" }}
+          width={"8rem"}
+          height={"8rem"}
+          position={"absolute"}
+        >
+          <img
+            className={styles.abstractUnderDate}
+            alt="abstraction"
+            src={getRandomImage()}
+          />
+        </Box>
+        <Box
+          sx={{ right: "20%", bottom: "0" }}
+          width={"8rem"}
+          height={"8rem"}
+          position={"absolute"}
+        >
+          <img
+            className={styles.abstractUnderDate}
+            alt="abstraction"
+            src={getRandomImage()}
+          />
+        </Box>
       </Stack>
     </Section>
   );

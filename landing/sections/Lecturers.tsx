@@ -7,6 +7,8 @@ import { PHOTOS } from "assets/photos";
 import React from "react";
 import { TLector } from "types";
 import { Section } from "ui/templates/Section";
+import styles from "../../styles/about.module.css";
+import { getRandomImage } from "../../utils/images";
 
 const StyledBox = styled(Box)({
   backgroundPosition: "center center",
@@ -49,6 +51,30 @@ function Lecturer(props: TLector & { id: string }) {
           overflow="hidden"
           sx={{ backgroundImage: `url(${PHOTOS[author.image_id].src})` }}
         ></StyledBox>
+        <Box
+          sx={{ right: "-5%", top: "-5%", zIndex: "1" }}
+          width={"8rem"}
+          height={"8rem"}
+          position={"absolute"}
+        >
+          <img
+            className={styles.abstractRightAngle}
+            alt="abstraction"
+            src={getRandomImage()}
+          />
+        </Box>
+        <Box
+          sx={{ left: "0", bottom: "-5%" }}
+          width={"8rem"}
+          height={"8rem"}
+          position={"absolute"}
+        >
+          <img
+            className={styles.abstractRightAngle}
+            alt="abstraction"
+            src={getRandomImage()}
+          />
+        </Box>
       </Box>
 
       <Stack spacing={4}>
