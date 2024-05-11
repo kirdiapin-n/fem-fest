@@ -28,6 +28,9 @@ const defaultTheme: ThemeOptions = {
     },
   },
   typography: {
+    allVariants: {
+      zIndex: 1,
+    },
     fontFamily: BLOCK_FONT,
     ...titles.reduce((prev, curr) => {
       return {

@@ -130,7 +130,7 @@ export default function Home() {
           height="100%"
         />
         <Typography
-          fontSize="2rem"
+          fontSize="5rem"
           color="text.primary"
           whiteSpace="pre-wrap"
           fontFamily="Hlebozavod-Medium, serif"
