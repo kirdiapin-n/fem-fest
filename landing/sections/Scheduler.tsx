@@ -39,12 +39,12 @@ function List({ tags, items }: Props) {
             <Typography
               fontFamily={ACCENT_FONT}
               letterSpacing="0.2rem"
-              fontSize="40px"
+              fontSize="2.125rem"
               lineHeight="2.5rem"
             >
               {topic.time}
             </Typography>
-            <Typography fontSize="2rem" lineHeight="2rem">
+            <Typography fontSize="1.7rem" lineHeight="2.3rem">
               <Link color="inherit" underline="none" href={`#${id}`}>
                 <b>{author.name}</b>
               </Link>
@@ -73,7 +73,7 @@ export default function Scheduler() {
       sx={{ backgroundImage: `url(${bg.src})` }}
       color="white"
     >
-      <Stack gap={4} direction="row" flexWrap="wrap">
+      <Stack gap={5.2} direction="row" flexWrap="wrap">
         <List tags={["1 июня"]} items={firstDayLectures} />
         <List tags={["2 июня"]} items={secondDayLectures} />
       </Stack>
