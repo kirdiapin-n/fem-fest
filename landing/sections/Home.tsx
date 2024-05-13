@@ -1,8 +1,8 @@
 import { Typography, Link, Box } from "@mui/material";
 import Stack from "@mui/material/Stack";
-import bg from "assets/images/cloud-background-image.png";
-import femfest from "assets/images/femfest.png";
-import logo from "assets/images/logo.png";
+import bg from "assets/images/cloud-background-image.webp";
+import femfest from "assets/images/femfest.webp";
+import logo from "assets/images/logo.webp";
 import React from "react";
 import styles from "styles/homepage.module.css";
 import { Section } from "ui/templates/Section";

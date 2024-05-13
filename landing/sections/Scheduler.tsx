@@ -2,7 +2,7 @@ import { ACCENT_FONT } from "constants/fonts";
 import { IDS } from "constants/landing";
 import { Chip, Link, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
-import bg from "assets/images/cloud-background-image.png";
+import bg from "assets/images/cloud-background-image.webp";
 import React from "react";
 import { Lectures } from "types";
 import { Section } from "ui/templates/Section";
