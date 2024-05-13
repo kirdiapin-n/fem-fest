@@ -12,7 +12,7 @@ type Props = {
   tags: string[];
   items: Lectures;
 };
-function LecturesList({ tags, items }: Props) {
+function List({ tags, items }: Props) {
   return (
     <Stack spacing={6} flex={1}>
       <Stack direction="row" spacing={2}>
@@ -57,7 +57,7 @@ function LecturesList({ tags, items }: Props) {
   );
 }
 
-export default function Lectures() {
+export default function Scheduler() {
   const preparedData = Object.entries(data).map(([id, value]) => ({
     id,
     ...value,
@@ -74,8 +74,8 @@ export default function Lectures() {
       color="white"
     >
       <Stack gap={4} direction="row" flexWrap="wrap">
-        <LecturesList tags={["1 июня", "лекции"]} items={firstDayLectures} />
-        <LecturesList tags={["2 июня", "лекции"]} items={secondDayLectures} />
+        <List tags={["1 июня", "лекции"]} items={firstDayLectures} />
+        <List tags={["2 июня", "лекции"]} items={secondDayLectures} />
       </Stack>
     </Section>
   );
