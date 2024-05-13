@@ -74,8 +74,8 @@ export default function Scheduler() {
       color="white"
     >
       <Stack gap={4} direction="row" flexWrap="wrap">
-        <List tags={["1 июня", "лекции"]} items={firstDayLectures} />
-        <List tags={["2 июня", "лекции"]} items={secondDayLectures} />
+        <List tags={["1 июня"]} items={firstDayLectures} />
+        <List tags={["2 июня"]} items={secondDayLectures} />
       </Stack>
     </Section>
   );
