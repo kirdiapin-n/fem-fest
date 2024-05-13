@@ -1,0 +1,6 @@
+export const REFORUM_SPACE_COORDS = {
+  lat: 42.29065536549658,
+  lng: 18.838943618769793,
+};
+
+export const DEFAULT_ZOOM = 18;
