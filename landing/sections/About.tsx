@@ -1,12 +1,12 @@
+import { IDS } from "constants/landing";
 import { Box, Typography } from "@mui/material";
-import letter from "assets/images/f-letter.png";
+import letter from "assets/images/f-letter.webp";
+import womanRights from "assets/images/womans-rights.webp";
 import React from "react";
+import styles from "styles/about.module.css";
+import { Stack } from "ui/atoms/Stack";
 import { Section } from "ui/templates/Section";
-import womanRights from "../../assets/images/womans-rights.png";
-import { IDS } from "../../constants/landing";
-import styles from "../../styles/about.module.css";
-import { Stack } from "../../ui/atoms/Stack";
-import { getRandomImage } from "../../utils/images";
+import { getRandomImage } from "utils/images";
 
 export default function About() {
   return (

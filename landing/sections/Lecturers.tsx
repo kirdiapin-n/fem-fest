@@ -2,7 +2,7 @@ import { IDS } from "constants/landing";
 import { Box, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import data from "api/data.json";
-import pink_fl from "assets/images/pink_realistic_fluffy.png";
+import pink_fl from "assets/images/pink_realistic_fluffy.webp";
 import { PHOTOS } from "assets/photos";
 import React from "react";
 import { TLector } from "types";
