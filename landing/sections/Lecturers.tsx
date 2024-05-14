@@ -1,5 +1,5 @@
 import { IDS } from "constants/landing";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Grid, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import data from "api/data.json";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
@@ -23,39 +23,51 @@ const StyledBox = styled(Box)({
     bottom: 0,
     left: 0,
     background: "inherit",
-    filter: "grayscale(100%) contrast(1.3)",
+    filter: "grayscale(100%) contrast(1.1)",
   },
 });
+
+const PHOTO_RATIO = 86.25;
+const MAX_PERCENTS = 100;
+const PHOTO_RATIO_PERCENTS = `${PHOTO_RATIO}%`;
+const PHOTO_TOP_POSITION_PERCENTS = `${(MAX_PERCENTS - PHOTO_RATIO) / 2}%`;
+const PHOTO_LEFT_POSITION = `${MAX_PERCENTS - PHOTO_RATIO}%`;
+const ABSTRACTION_SIZE_PERCENT = "25%";
 
 function Lecturer(props: TLector & { id: string }) {
   const { id, author, topics } = props;
 
   return (
-    <Stack p={4} flex={1} id={id}>
-      <Box width="31.25rem" position="relative" height="26.26rem">
+    <Stack id={id}>
+      <Box position="relative" paddingTop={PHOTO_RATIO_PERCENTS}>
         <img
-          style={{ position: "absolute", left: "-70px", top: "-20px" }}
+          style={{ position: "absolute", top: 0, left: 0 }}
           src={pink_fl.src}
           width="100%"
           height="100%"
           alt="pink_fl"
         />
-        <StyledBox
-          position="absolute"
-          top="0"
-          left="0"
-          width="29.375rem"
-          bgcolor="gray"
-          height="24.375rem"
-          borderRadius="200px"
-          overflow="hidden"
-          sx={{ backgroundImage: `url(${PHOTOS[author.image_id]?.src})` }}
-        ></StyledBox>
         <Box
+          position="absolute"
+          height={PHOTO_RATIO_PERCENTS}
+          width={PHOTO_RATIO_PERCENTS}
+          top={PHOTO_TOP_POSITION_PERCENTS}
+          left={PHOTO_LEFT_POSITION}
+        >
+          <StyledBox
+            width="100%"
+            height="100%"
+            bgcolor="gray"
+            overflow="hidden"
+            borderRadius="200px"
+            sx={{ backgroundImage: `url(${PHOTOS[author.image_id]?.src})` }}
+          />
+        </Box>
+        <Box
+          position="absolute"
+          height={ABSTRACTION_SIZE_PERCENT}
+          width={ABSTRACTION_SIZE_PERCENT}
           sx={{ right: "-5%", top: "-5%", zIndex: "1" }}
-          width={"8rem"}
-          height={"8rem"}
-          position={"absolute"}
         >
           <img
             className={styles.abstractRightAngle}
@@ -64,10 +76,10 @@ function Lecturer(props: TLector & { id: string }) {
           />
         </Box>
         <Box
-          sx={{ left: "0", bottom: "-5%" }}
-          width={"8rem"}
-          height={"8rem"}
           position={"absolute"}
+          height={ABSTRACTION_SIZE_PERCENT}
+          width={ABSTRACTION_SIZE_PERCENT}
+          sx={{ left: "0", bottom: "-5%" }}
         >
           <img
             className={styles.abstractRightAngle}
@@ -81,20 +93,20 @@ function Lecturer(props: TLector & { id: string }) {
         <Stack direction="row">
           <div style={{ flex: 1 }}></div>
           <Stack flex={1}>
-            <Typography variant="h5" fontSize="2.5rem">
+            <Typography variant="h5" letterSpacing=".5rem" fontSize="1.75rem">
               {author.name}
             </Typography>
-            <Typography fontSize="1.5rem">{author.description}</Typography>
+            <Typography fontSize="1.2rem">{author.description}</Typography>
           </Stack>
         </Stack>
 
         {topics.first_day && (
-          <Typography lineHeight="3rem" fontSize="2.5rem">
+          <Typography lineHeight="2rem" fontSize="1.5rem">
             {topics.first_day.description}
           </Typography>
         )}
         {topics.second_day && (
-          <Typography lineHeight="3rem" fontSize="2.5rem">
+          <Typography lineHeight="2rem" fontSize="1.5rem">
             {topics.second_day.description}
           </Typography>
         )}
@@ -111,11 +123,13 @@ export default function Lecturers() {
 
   return (
     <Section id={IDS.LECTURERS}>
-      <Stack direction="row" flexWrap="wrap">
+      <Grid container spacing={6}>
         {lecturers.map((lecturer, index) => (
-          <Lecturer key={index} {...lecturer} />
+          <Grid key={index} item xs={6} md={3}>
+            <Lecturer {...lecturer} />
+          </Grid>
         ))}
-      </Stack>
+      </Grid>
     </Section>
   );
 }
