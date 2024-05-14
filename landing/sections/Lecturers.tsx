@@ -23,7 +23,7 @@ const StyledBox = styled(Box)({
     bottom: 0,
     left: 0,
     background: "inherit",
-    filter: "grayscale(100%) contrast(1.3)",
+    filter: "grayscale(100%) contrast(1.1)",
   },
 });
 
