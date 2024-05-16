@@ -1,11 +1,10 @@
 .femfest {
-    @media (max-width: 1200px) {
-        height: 420px;
-        width: 430px;
-    }
-    @media (max-width: 680px) {
-        width: 50%;
-        height: 50%;
+    height: 28rem;
+    width: 22rem;
+
+    @media (min-width: 1441px ) {
+        height: 50vh;
+        width: 40vh;
     }
 }
 .abstractUnderDate {
