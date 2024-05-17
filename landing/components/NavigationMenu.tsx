@@ -113,17 +113,17 @@ export default function NavigationMenu() {
             </Link>
           </Typography>
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.EXHIBITION}`} underline="none" color="black">
-              выставка
-            </Link>
-          </Typography>
-        </MenuItem>
+        {/*<MenuItem onClick={handleClose}>*/}
+        {/*  <Typography*/}
+        {/*    fontSize="2rem"*/}
+        {/*    color="text.primary"*/}
+        {/*    fontFamily="Hlebozavod-Medium, serif"*/}
+        {/*  >*/}
+        {/*    <Link href={`#${IDS.EXHIBITION}`} underline="none" color="black">*/}
+        {/*      выставка*/}
+        {/*    </Link>*/}
+        {/*  </Typography>*/}
+        {/*</MenuItem>*/}
         <MenuItem onClick={handleClose}>
           <Typography
             fontSize="2rem"
@@ -135,28 +135,28 @@ export default function NavigationMenu() {
             </Link>
           </Typography>
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.MARKET}`} underline="none" color="black">
-              маркет
-            </Link>
-          </Typography>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.PHOTO}`} underline="none" color="black">
-              фото
-            </Link>
-          </Typography>
-        </MenuItem>
+        {/*<MenuItem onClick={handleClose}>*/}
+        {/*  <Typography*/}
+        {/*    fontSize="2rem"*/}
+        {/*    color="text.primary"*/}
+        {/*    fontFamily="Hlebozavod-Medium, serif"*/}
+        {/*  >*/}
+        {/*    <Link href={`#${IDS.MARKET}`} underline="none" color="black">*/}
+        {/*      маркет*/}
+        {/*    </Link>*/}
+        {/*  </Typography>*/}
+        {/*</MenuItem>*/}
+        {/*<MenuItem onClick={handleClose}>*/}
+        {/*  <Typography*/}
+        {/*    fontSize="2rem"*/}
+        {/*    color="text.primary"*/}
+        {/*    fontFamily="Hlebozavod-Medium, serif"*/}
+        {/*  >*/}
+        {/*    <Link href={`#${IDS.PHOTO}`} underline="none" color="black">*/}
+        {/*      фото*/}
+        {/*    </Link>*/}
+        {/*  </Typography>*/}
+        {/*</MenuItem>*/}
       </Menu>
     </Box>
   );
