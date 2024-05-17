@@ -121,7 +121,7 @@ export default function Lecturers() {
   }));
 
   return (
-    <Section id={IDS.LECTURERS}>
+    <Section id={IDS.LECTURERS} title={"Лекторы"}>
       <Grid container spacing={6}>
         {lecturers.map((lecturer, index) => (
           <Grid key={index} item xs={6} md={3}>

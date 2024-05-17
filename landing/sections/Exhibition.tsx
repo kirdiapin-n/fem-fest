@@ -5,7 +5,7 @@ import { IDS } from "../../constants/landing";
 
 export default function Exhibition() {
   return (
-    <Section id={IDS.EXHIBITION}>
+    <Section id={IDS.EXHIBITION} title={"Выставки"}>
       <Typography
         fontSize="2rem"
         color="text.primary"

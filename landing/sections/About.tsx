@@ -10,12 +10,8 @@ import { getRandomImage } from "utils/images";
 
 export default function About() {
   return (
-    <Section id={IDS.ABOUT}>
+    <Section id={IDS.ABOUT} title={"о нас"}>
       <Stack spacing={4} direction={"column"}>
-        <Typography variant="h1" fontSize="5rem">
-          О нас
-        </Typography>
-
         <Stack sx={{ alignItems: "center", justifyContent: "space-between" }}>
           <Typography
             fontSize="2rem"

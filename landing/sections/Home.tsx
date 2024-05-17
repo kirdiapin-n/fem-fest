@@ -17,6 +17,8 @@ export default function Home() {
       position="relative"
       sx={{
         backgroundImage: `url(${bg.src})`,
+        minHeight: { xs: "unset", lg: "100vh" },
+        paddingTop: { xs: "70px", lg: "0" },
       }}
       id={IDS.HOME}
     >
@@ -131,11 +133,10 @@ export default function Home() {
           position: "relative",
         }}
         sx={{
-          top: { xs: "5vh", lg: "20vh" },
-          height: { xs: "90vh", lg: "fit-content" },
+          top: { xs: "0", lg: "20vh" },
         }}
         direction={{ xs: "column", lg: "row" }}
-        spacing={{ xs: 0, lg: 0 }}
+        spacing={{ xs: 3, lg: 0 }}
       >
         <Typography
           sx={{
@@ -160,7 +161,7 @@ export default function Home() {
           whiteSpace="pre-wrap"
           fontFamily="Hlebozavod-Medium, serif"
         >
-          {`рефорум space \nбудва`}
+          {`рефорум space\nбудва`}
         </Typography>
         <Box
           sx={{ left: "0", top: "0" }}
