@@ -5,7 +5,7 @@ import { IDS } from "../../constants/landing";
 
 export default function Market() {
   return (
-    <Section id={IDS.MARKET}>
+    <Section id={IDS.MARKET} title={"Маркет"}>
       <Typography
         fontSize="2rem"
         color="text.primary"

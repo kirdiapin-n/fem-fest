@@ -30,7 +30,7 @@ export type TData = Record<string, TValue>;
 export type Author = {
   name: string;
   description: string;
-  image_id: string;
+  photo_url: string;
 };
 
 export type Topic = {

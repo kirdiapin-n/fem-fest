@@ -3,7 +3,6 @@ import { Box, Grid, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import data from "api/data.json";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
-import { PHOTOS } from "assets/photos";
 import React from "react";
 import { TLector } from "types";
 import { Section } from "ui/templates/Section";
@@ -60,7 +59,7 @@ function Lecturer(props: TLector & { id: string }) {
             bgcolor="gray"
             overflow="hidden"
             borderRadius="200px"
-            sx={{ backgroundImage: `url(${PHOTOS[author.image_id]?.src})` }}
+            sx={{ backgroundImage: `url(${author.photo_url})` }}
           />
         </Box>
         <Box
@@ -122,7 +121,7 @@ export default function Lecturers() {
   }));
 
   return (
-    <Section id={IDS.LECTURERS}>
+    <Section id={IDS.LECTURERS} title={"Лекторы"}>
       <Grid container spacing={6}>
         {lecturers.map((lecturer, index) => (
           <Grid key={index} item xs={6} md={3}>

@@ -17,7 +17,8 @@ export default function Home() {
       position="relative"
       sx={{
         backgroundImage: `url(${bg.src})`,
-        height: { xs: "100vh", lg: "150vh" },
+        minHeight: { xs: "unset", lg: "100vh" },
+        paddingTop: { xs: "70px", lg: "0" },
       }}
       id={IDS.HOME}
     >
@@ -37,12 +38,13 @@ export default function Home() {
       <Stack
         justifyContent="space-between"
         direction={{ xs: "column", sm: "row" }}
-        spacing={{ xs: 1, sm: 2, md: 4 }}
+        spacing={{ xs: 0, lg: 0 }}
         display={{ xs: "none", lg: "flex" }}
+        sx={{ margin: "0 auto", maxWidth: "1440px" }}
       >
         <Stack
           direction={{ xs: "column", sm: "row" }}
-          spacing={{ xs: 1, sm: 2, md: 4 }}
+          spacing={{ xs: 0, lg: 2 }}
         >
           <Typography
             fontSize="2rem"
@@ -76,8 +78,8 @@ export default function Home() {
           className={styles.logo}
           alt="fem community"
           src={logo.src}
-          width="205px"
-          height="85px"
+          width="285px"
+          height="110px"
         />
         <Stack
           direction={{ xs: "column", sm: "row" }}
@@ -130,32 +132,36 @@ export default function Home() {
           textAlign: "center",
           position: "relative",
         }}
-        sx={{ top: { xs: "5%", lg: "20%" } }}
+        sx={{
+          top: { xs: "0", lg: "20vh" },
+        }}
         direction={{ xs: "column", lg: "row" }}
-        spacing={{ xs: 1, sm: 2, md: 4 }}
+        spacing={{ xs: 3, lg: 0 }}
       >
         <Typography
-          fontSize="8rem"
+          sx={{
+            fontSize: { xs: "4rem", lg: "8rem" },
+            lineHeight: "6rem",
+            width: { xs: "100%", lg: "33%" },
+          }}
           color="text.primary"
           fontFamily="Hlebozavod-Medium, serif"
         >
           1-2 июня
         </Typography>
-        <img
-          className={styles.femfest}
-          alt="fem fest"
-          src={femfest.src}
-          width="502px"
-          height="100%"
-        />
+        <img className={styles.femfest} alt="fem fest" src={femfest.src} />
         <Typography
           position="relative"
-          fontSize="5rem"
+          sx={{
+            fontSize: { xs: "3rem", lg: "5rem" },
+            lineHeight: { xs: "4rem", lg: "4.5rem" },
+            width: { xs: "100%", lg: "33%" },
+          }}
           color="text.primary"
           whiteSpace="pre-wrap"
           fontFamily="Hlebozavod-Medium, serif"
         >
-          {`рефорум space \nбудва`}
+          {`рефорум space\nбудва`}
         </Typography>
         <Box
           sx={{ left: "0", top: "0" }}
