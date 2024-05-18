@@ -1,0 +1,57 @@
+{
+  "1": {
+    "product": {
+      "photo_url": "http://",
+      "description": "Меня зовут Вера, а мою маленькую домашнюю мастерскую Glaube.c. \n\nРаньше наш дом был в Петербурге, а сейчас я восстанавливаю свое дело здесь, в маленьком прибрежном городке Херцег-Нови. \n\nВ мастерской шью изделия из натурально кожи (кошельки, обложки для документов, кардхолдеры) полностью вручную. От раскроя до прошивки мои руки трудятся, чтобы создать кошелечек, который будет оберегать ваше золотишко.",
+      "name":"Кожа - кошельки, картхолдеры"
+    },
+    "author_name": "Вера",
+    "day":  "1 июня",
+    "contact": {
+      "instagram": "https://www.instagram.com/glaube.c/",
+      "telegram": "https://t.me/veravalitova42"
+    }
+  },
+  "2": {
+    "product": {
+      "photo_url": "http://",
+      "description": "loremp",
+      "name": "some name"
+    },
+    "author_name": "lorem Ipsum",
+    "day": "lorem",
+    "contact": {
+      "instagram": "http://www.instagram.com",
+      "facebook": "http",
+      "telegram": "http://www."
+    }
+  },
+  "3": {
+    "product": {
+      "photo_url": "http://",
+      "description": "loremp",
+      "name": "some name"
+    },
+    "author_name": "lorem Ipsum",
+    "day": "lorem",
+    "contact": {
+      "instagram": "http://www.instagram.com",
+      "facebook": "http",
+      "telegram": "http://www."
+    }
+  },
+  "4": {
+    "product": {
+      "photo_url": "http://",
+      "description": "loremp",
+      "name": "some name"
+    },
+    "author_name": "lorem Ipsum",
+    "day": "lorem",
+    "contact": {
+      "instagram": "http://www.instagram.com",
+      "facebook": "http",
+      "telegram": "http://www."
+    }
+  }
+}

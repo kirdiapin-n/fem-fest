@@ -49,3 +49,18 @@ export type TLector = {
 };
 
 export type TLectures = ({ id: string } & TLector)[];
+
+export type TProduct = {
+  product: {
+    photo_url: string;
+    name: string;
+    description: string;
+  };
+  author_name: string;
+  day: string;
+  contact: {
+    instagram?: string;
+    facebook?: string;
+    telegram?: string;
+  };
+};

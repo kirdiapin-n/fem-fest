@@ -5,7 +5,7 @@ import { Contacts } from "../landing/sections/Contacts";
 // import Exhibition from "../landing/sections/Exhibition";
 import Home from "../landing/sections/Home";
 import Lecturers from "../landing/sections/Lecturers";
-// import Market from "../landing/sections/Market";
+import Market from "../landing/sections/Market";
 import Scheduler from "../landing/sections/Scheduler";
 
 export default function Index() {
@@ -23,9 +23,9 @@ export default function Index() {
 
       <Lecturers />
 
-      <Contacts />
+      <Market />
 
-      {/*<Market />*/}
+      <Contacts />
     </>
   );
 }
