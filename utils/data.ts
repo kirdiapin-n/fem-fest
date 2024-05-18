@@ -1,18 +1,12 @@
-import { Lectures, TLector, Topics } from "../types";
+import { TLector } from "../types";
 
 export const getLectures = (
   data: (TLector & { id: string })[],
-  day: "first_day" | "second_day"
+  day: "first" | "second",
+  room: "big" | "small"
 ) =>
   data
-    .reduce((prev: Lectures, curr) => {
-      const topics = curr.topics as Topics;
-      if (!topics[day]) return prev;
-
-      const { author, id } = curr;
-
-      return [...prev, { id, author, topic: topics[day] }] as any;
-    }, [] as Lectures)
+    .filter(({ topic }) => topic.day === day && topic.room === room)
     .sort((a, b) => {
       const timeA = a.topic.time.split(":").map(Number);
       const timeB = b.topic.time.split(":").map(Number);

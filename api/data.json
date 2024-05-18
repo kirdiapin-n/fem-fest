@@ -3,13 +3,14 @@
     "author": {
       "name": "Антон Митрофанов",
       "description": "психолог, нарративный практик, ведущий групп",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e",
+      "telegram": "https://"
     },
-    "topics": {
-      "first_day": {
-        "time": "13:00",
-        "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
-      }
+    "topic": {
+      "room":"small",
+      "day": "first",
+      "time": "13:00",
+      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
     }
   },
   "2": {
@@ -18,11 +19,11 @@
       "description": "психолог, нарративный практик, ведущий групп",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
     },
-    "topics": {
-      "first_day": {
-        "time": "10:35",
-        "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
-      }
+    "topic": {
+      "room": "small",
+      "day": "first",
+      "time": "10:35",
+      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
     }
   },
   "3": {
@@ -31,15 +32,11 @@
       "description": "психолог, нарративный практик, ведущий групп",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
     },
-    "topics": {
-      "second_day": {
-        "time": "14:00",
-        "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
-      },
-      "first_day": {
-        "time": "10:30",
-        "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
-      }
+    "topic": {
+      "room": "small",
+      "day": "first",
+      "time": "14:00",
+      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
     }
   },
   "4": {
@@ -48,15 +45,11 @@
       "description": "психолог, нарративный практик, ведущий групп",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
     },
-    "topics": {
-      "second_day": {
-        "time": "14:00",
-        "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
-      },
-      "first_day": {
-        "time": "10:30",
-        "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
-      }
+    "topic": {
+      "room": "small",
+      "day": "first",
+      "time": "14:00",
+      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
     }
   }
 }

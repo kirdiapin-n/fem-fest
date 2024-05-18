@@ -3,11 +3,13 @@ import { Box, Grid, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import data from "api/data.json";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
+import { Icons } from "icons";
 import React from "react";
+import styles from "styles/about.module.css";
 import { TLector } from "types";
+import { Button } from "ui/atoms/Button";
 import { Section } from "ui/templates/Section";
-import styles from "../../styles/about.module.css";
-import { getRandomImage } from "../../utils/images";
+import { getRandomImage } from "utils/images";
 
 const StyledBox = styled(Box)({
   backgroundPosition: "center center",
@@ -34,7 +36,7 @@ const PHOTO_LEFT_POSITION = `${MAX_PERCENTS - PHOTO_RATIO}%`;
 const ABSTRACTION_SIZE_PERCENT = "25%";
 
 function Lecturer(props: TLector & { id: string }) {
-  const { id, author, topics } = props;
+  const { id, author, topic } = props;
 
   return (
     <Stack id={id}>
@@ -99,15 +101,18 @@ function Lecturer(props: TLector & { id: string }) {
           </Stack>
         </Stack>
 
-        {topics.first_day && (
-          <Typography lineHeight="2rem" fontSize="1.5rem">
-            {topics.first_day.description}
-          </Typography>
-        )}
-        {topics.second_day && (
-          <Typography lineHeight="2rem" fontSize="1.5rem">
-            {topics.second_day.description}
-          </Typography>
+        <Typography lineHeight="2rem" fontSize="1.5rem">
+          {topic.description}
+        </Typography>
+
+        {author.telegram && (
+          <Button
+            variant="outlined"
+            href={author.telegram}
+            endIcon={<Icons.Telegram />}
+          >
+            подробнее в
+          </Button>
         )}
       </Stack>
     </Stack>
