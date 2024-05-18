@@ -46,16 +46,11 @@ function Product(props: TProduct) {
 }
 
 export default function Market() {
-  const marketItems = Object.entries(data).map(([id, value]) => ({
-    ...value,
-    id,
-  }));
-
   return (
     <Section id={IDS.MARKET} title={"Маркет"}>
-      <Grid container spacing={6}>
-        {marketItems.map(({ id, ...props }) => (
-          <Grid key={id} item xs={3} md={2}>
+      <Grid container spacing={4}>
+        {data.map((props, index) => (
+          <Grid key={index} item xs={3} md={2}>
             <Product {...props} />
           </Grid>
         ))}
