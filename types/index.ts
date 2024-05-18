@@ -31,21 +31,20 @@ export type Author = {
   name: string;
   description: string;
   photo_url: string;
+  telegram?: string;
 };
 
 export type Topic = {
   time: string;
   description: string;
-};
-
-export type Topics = {
-  first_day?: Topic;
-  second_day?: Topic;
+  room: string;
+  day: string;
 };
 
 export type TLector = {
   author: Author;
-  topics: Topics;
+  topic: Topic;
+  type: string;
 };
 
 export type Lectures = { id: string; author: Author; topic: Topic }[];
