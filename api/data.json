@@ -1,59 +1,187 @@
 {
   "1": {
-    "type": "lecturer",
     "author": {
-      "name": "Антон Митрофанов",
-      "description": "психолог, нарративный практик, ведущий групп",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e",
-      "telegram": "https://"
+      "name": "Екатерина Фимина",
+      "description": "Психолог, сертифицированный консультант Профессиональной Психотерапевтической Лиги. Помогу справиться с такими проблемами, как тревога, депрессия, страхи, последствия детских травм, созависимые отношения в семье… 10 лет работала в Москве в Международном Институте Психосоматического Здоровья и помогла справиться с психосоматическими заболеваниями более, чем 100 пациентов.",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.28.12%E2%80%AFAM.jpeg?alt=media&token=2acdf270-34fd-4337-97dd-d22f551fc545"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
-      "room":"small",
       "day": "first",
-      "time": "13:00",
-      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
+      "room": "big",
+      "time": "11:00",
+      "description": ""
     }
   },
   "2": {
-    "type": "lecturer",
     "author": {
-      "name": "Антон Митрофанов",
-      "description": "психолог, нарративный практик, ведущий групп",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
+      "name": "Марина Травкова",
+      "description": "Семейный психолог, супружеский и секс-терапевт.Занимаюсь сексуальным образованием взрослых и детей, участвую в просветительских проектах.",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
-      "room": "small",
       "day": "first",
-      "time": "10:35",
-      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
+      "room": "big",
+      "time": "12:00",
+      "description": "Кто боится секспросвета: почему провалились попытки секс.воспитания в РФ?"
     }
   },
   "3": {
-    "type": "lecturer",
     "author": {
-      "name": "Антон Митрофанов",
-      "description": "психолог, нарративный практик, ведущий групп",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
+      "name": "Маша Мюллер",
+      "description": "Консультантка по родительскому выгоранию, равная консультантка для родитель_ниц и основательница «Лаборатории родительства».",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.38%E2%80%AFAM.jpeg?alt=media&token=ec800a6c-b1df-4186-a93a-bfc8025e43ed"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
-      "room": "small",
       "day": "first",
-      "time": "14:00",
-      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
+      "room": "big",
+      "time": "13:30",
+      "description": "Вебинар-тренинг «Взаимосвязь между гендерно обусловленным насилием и родительским выгоранием: понимание и поддержка»"
     }
   },
   "4": {
-    "type": "lecturer",
     "author": {
-      "name": "Антон Митрофанов",
-      "description": "психолог, нарративный практик, ведущий групп",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fes27yqjkat8b1_1688039288.jpg?alt=media&token=7ea2afe4-156e-4250-b7a9-06c31c26786e"
+      "name": "Jana Šekularac",
+      "description": "psychologist",
+      "image_id": "photo1"
+       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
-      "room": "small",
       "day": "first",
+      "room": "big",
+      "time": "15:00",
+      "description": "Gender stereotypes/problems in society, and talk a bit about this with a psychological perspective on the different upbringing of boys and girls."
+    }
+  },
+  "5": {
+    "author": {
+      "name": "Ксения Петрова",
+      "description": "юристка, практикующий психолог, IFS-практик, феминистка. Специализируюсь на психологической помощи женщинам. 1,5 года живу в Черногории, мама усыновленного ребенка.",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "big",
+      "time": "16:00",
+      "description": "Депрессия, патриархат и феминизм. Почему женщины болеют депрессией намного чаще"
+    }
+  },
+  "6": {
+    "author": {
+      "name": "Дина Тансари",
+      "description": "Правозащитница из Казахстана.Соосновательница движения #НеМолчи в Казахстане и Центральной Азии.",
+      "image_id": " "
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "big",
+      "time": "17:00",
+      "description": "Домашнее насилие"
+    }
+  },
+  "7": {
+    "author": {
+      "name": "Maja Raičević",
+      "description": "Executive Director / Advocacy Program Coordinator",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-19%203.54.02%E2%80%AFPM.jpeg?alt=media&token=52a8e8b0-bff4-4461-b0e7-0f8faeadc1b4 "
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "big",
+      "time": "18:00",
+      "description": "CŽP is a non-profit, non-partisan, non-religious organization that fights against all forms of violence against women and ensures their access to justice, developing gender-equal democratic practices and collaborating with all relevant domestic and international actors."
+    }
+  },
+ "8": {
+    "author": {
+      "name": "Антон Митрофанов",
+      "description": "Индивидуальные и семейные консультации, телесная терапия",
+      "image_id": " "
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "big",
+      "time": "15:00",
+      "description": "Про настоящих мужчин - почему их не существует и почему это хорошо?"
+    }
+  },
+ "9": {
+    "author": {
+      "name": "Квир Фем вечеринка",
+      "description": "Приглашаем вас на незабываемую квир фем вечеринку с кроссдрессингом! Это будет вечер, полный веселья, свободы самовыражения и принятия!",
+      "image_id": " "
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "big",
+      "time": "21:00",
+      "description": "Кроссдрессинг приветствуется! Это отличная возможность попробовать что-то новое и выразить себя через одежду. Будьте смелыми и креативными!"
+    }
+  },
+ "10": {
+    "author": {
+      "name": "Зубарь Евгения",
+      "description": "corporate programs EPAM Montenegro",
+      "image_id": " https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "small",
+      "time": "13:00",
+      "description": "Зачем нужна корпоративная социальная ответственность в больших корпорациях и при чем тут наши дети?"
+    }
+  },
+ "11": {
+    "author": {
+      "name": "Аня Соловьёва",
+      "second name": "Знаменская Ирина Игорьевна"
+      "description": "Аня Соловьёва: нарративная IFS-терапевтка",
+      "second description":" Знаменская Ирина Игорьевна: Психолог"
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1" 
+      "second image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "small",
       "time": "14:00",
-      "description": "Про настоящих мужчин - почему их не существует, и почему это хорошо."
+      "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
+    }
+  },
+ "12": {
+    "author": {
+      "name": "Виктория Викторовна Сандо",
+      "description": " Филолог, психолог, психотерапевт, преподаватель.",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd "
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "small",
+      "time": "17:00",
+      "description": "Я это мое тело"
+    }
+  },
+ "13": {
+    "author": {
+      "name": "Оксана Потницева",
+      "description": "Практикующий психолог-консультант.",
+      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.32.41%E2%80%AFAM.jpeg?alt=media&token=f193145f-0647-4810-b584-edc70bbfd9ad"
+      "telegram" : "https://t.me/FAR_Montenegro/105"
+    },
+    "topic": {
+      "day": "first",
+      "room": "small",
+      "time": "15:00",
+      "description": "Феминистическая психотерапия: как гендерное равенство улучшает ментальное здоровье."
     }
   }
 }
