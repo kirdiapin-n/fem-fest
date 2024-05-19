@@ -44,7 +44,6 @@ export type Topic = {
 export type TLector = {
   author: Author;
   topic: Topic;
-  type: string;
 };
 
 export type Lectures = { id: string; author: Author; topic: Topic }[];

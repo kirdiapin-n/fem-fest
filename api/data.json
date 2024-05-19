@@ -3,7 +3,7 @@
     "author": {
       "name": "Екатерина Фимина",
       "description": "Психолог, сертифицированный консультант Профессиональной Психотерапевтической Лиги. Помогу справиться с такими проблемами, как тревога, депрессия, страхи, последствия детских травм, созависимые отношения в семье… 10 лет работала в Москве в Международном Институте Психосоматического Здоровья и помогла справиться с психосоматическими заболеваниями более, чем 100 пациентов.",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.28.12%E2%80%AFAM.jpeg?alt=media&token=2acdf270-34fd-4337-97dd-d22f551fc545"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.28.12%E2%80%AFAM.jpeg?alt=media&token=2acdf270-34fd-4337-97dd-d22f551fc545",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -17,7 +17,7 @@
     "author": {
       "name": "Марина Травкова",
       "description": "Семейный психолог, супружеский и секс-терапевт.Занимаюсь сексуальным образованием взрослых и детей, участвую в просветительских проектах.",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -31,7 +31,7 @@
     "author": {
       "name": "Маша Мюллер",
       "description": "Консультантка по родительскому выгоранию, равная консультантка для родитель_ниц и основательница «Лаборатории родительства».",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.38%E2%80%AFAM.jpeg?alt=media&token=ec800a6c-b1df-4186-a93a-bfc8025e43ed"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.38%E2%80%AFAM.jpeg?alt=media&token=ec800a6c-b1df-4186-a93a-bfc8025e43ed",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -45,7 +45,7 @@
     "author": {
       "name": "Jana Šekularac",
       "description": "psychologist",
-      "image_id": "photo1"
+      "photo_url": "",
        "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -59,7 +59,7 @@
     "author": {
       "name": "Ксения Петрова",
       "description": "юристка, практикующий психолог, IFS-практик, феминистка. Специализируюсь на психологической помощи женщинам. 1,5 года живу в Черногории, мама усыновленного ребенка.",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -73,7 +73,7 @@
     "author": {
       "name": "Дина Тансари",
       "description": "Правозащитница из Казахстана.Соосновательница движения #НеМолчи в Казахстане и Центральной Азии.",
-      "image_id": " "
+      "photo_url": "",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -87,7 +87,7 @@
     "author": {
       "name": "Maja Raičević",
       "description": "Executive Director / Advocacy Program Coordinator",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-19%203.54.02%E2%80%AFPM.jpeg?alt=media&token=52a8e8b0-bff4-4461-b0e7-0f8faeadc1b4 "
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-19%203.54.02%E2%80%AFPM.jpeg?alt=media&token=52a8e8b0-bff4-4461-b0e7-0f8faeadc1b4 ",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -101,7 +101,7 @@
     "author": {
       "name": "Антон Митрофанов",
       "description": "Индивидуальные и семейные консультации, телесная терапия",
-      "image_id": " "
+      "photo_url": "",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -115,7 +115,7 @@
     "author": {
       "name": "Квир Фем вечеринка",
       "description": "Приглашаем вас на незабываемую квир фем вечеринку с кроссдрессингом! Это будет вечер, полный веселья, свободы самовыражения и принятия!",
-      "image_id": " "
+      "photo_url": "",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -129,7 +129,7 @@
     "author": {
       "name": "Зубарь Евгения",
       "description": "corporate programs EPAM Montenegro",
-      "image_id": " https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563"
+      "photo_url": " https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -142,11 +142,11 @@
  "11": {
     "author": {
       "name": "Аня Соловьёва",
-      "second name": "Знаменская Ирина Игорьевна"
+      "second name": "Знаменская Ирина Игорьевна",
       "description": "Аня Соловьёва: нарративная IFS-терапевтка",
-      "second description":" Знаменская Ирина Игорьевна: Психолог"
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1" 
-      "second image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
+      "second description":" Знаменская Ирина Игорьевна: Психолог",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1" ,
+      "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -160,7 +160,7 @@
     "author": {
       "name": "Виктория Викторовна Сандо",
       "description": " Филолог, психолог, психотерапевт, преподаватель.",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd "
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd ",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
@@ -174,7 +174,7 @@
     "author": {
       "name": "Оксана Потницева",
       "description": "Практикующий психолог-консультант.",
-      "image_id": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.32.41%E2%80%AFAM.jpeg?alt=media&token=f193145f-0647-4810-b584-edc70bbfd9ad"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.32.41%E2%80%AFAM.jpeg?alt=media&token=f193145f-0647-4810-b584-edc70bbfd9ad",
       "telegram" : "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
