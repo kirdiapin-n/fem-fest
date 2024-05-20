@@ -4,13 +4,13 @@ import { Chip, Link, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
 import bg from "assets/images/cloud-background-image.webp";
 import React from "react";
-import { Lectures } from "types";
+import { TLectures } from "types";
 import { Section } from "ui/templates/Section";
 import { getLectures } from "utils/data";
 
 type Props = {
   tags: string[];
-  items: Lectures;
+  items: TLectures;
 };
 function List({ tags, items }: Props) {
   if (!items.length) return null;

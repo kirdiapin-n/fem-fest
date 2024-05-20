@@ -29,9 +29,34 @@ const PHOTO_TOP_POSITION_PERCENTS = `${(MAX_PERCENTS - PHOTO_RATIO) / 2}%`;
 const PHOTO_LEFT_POSITION = `${MAX_PERCENTS - PHOTO_RATIO}%`;
 const ABSTRACTION_SIZE_PERCENT = "25%";
 
-export function Photo({ url }: { url: string }) {
+export function Photo({
+  url,
+  isFirstSpeaker,
+  isSecondSpeaker,
+}: {
+  url: string;
+  isFirstSpeaker?: boolean;
+  isSecondSpeaker?: boolean;
+}) {
+  const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
+  const showBottomPic = areTwoSpeakers
+    ? isFirstSpeaker && !isSecondSpeaker
+    : true;
+
+  const showTopPic = areTwoSpeakers ? !isFirstSpeaker && isSecondSpeaker : true;
+
   return (
-    <Box position="relative" paddingTop={PHOTO_RATIO_PERCENTS}>
+    <Box
+      position="relative"
+      paddingTop={PHOTO_RATIO_PERCENTS}
+      sx={{
+        transform: areTwoSpeakers
+          ? `translateX(${isFirstSpeaker ? "" : "-"}40px)`
+          : "unset",
+        aspectRatio: areTwoSpeakers ? "1/1" : "unset",
+        maxHeight: "275px",
+      }}
+    >
       <img
         style={{ position: "absolute", top: 0, left: 0 }}
         src={pink_fl.src}
@@ -51,34 +76,49 @@ export function Photo({ url }: { url: string }) {
           height="100%"
           bgcolor="gray"
           overflow="hidden"
-          borderRadius="200px"
+          borderRadius={areTwoSpeakers ? "100%" : "200px"}
           sx={{ backgroundImage: `url(${url})` }}
         />
       </Box>
-      <Box
-        position="absolute"
-        height={ABSTRACTION_SIZE_PERCENT}
-        width={ABSTRACTION_SIZE_PERCENT}
-        sx={{ right: "-5%", top: "-5%", zIndex: "1" }}
-      >
-        <img
-          className={styles.abstractRightAngle}
-          alt="abstraction"
-          src={getRandomImage()}
-        />
-      </Box>
-      <Box
-        position={"absolute"}
-        height={ABSTRACTION_SIZE_PERCENT}
-        width={ABSTRACTION_SIZE_PERCENT}
-        sx={{ left: "0", bottom: "-5%" }}
-      >
-        <img
-          className={styles.abstractRightAngle}
-          alt="abstraction"
-          src={getRandomImage()}
-        />
-      </Box>
+
+      {showTopPic && (
+        <Box
+          position="absolute"
+          height={ABSTRACTION_SIZE_PERCENT}
+          width={ABSTRACTION_SIZE_PERCENT}
+          sx={{
+            right: "-5%",
+            top: isSecondSpeaker ? "unset" : "-5%",
+            bottom: isSecondSpeaker ? "-5%" : "unset",
+            zIndex: "1",
+          }}
+        >
+          <img
+            className={styles.abstractRightAngle}
+            alt="abstraction"
+            src={getRandomImage()}
+          />
+        </Box>
+      )}
+
+      {showBottomPic && (
+        <Box
+          position={"absolute"}
+          height={ABSTRACTION_SIZE_PERCENT}
+          width={ABSTRACTION_SIZE_PERCENT}
+          sx={{
+            left: "0",
+            bottom: isFirstSpeaker ? "unset" : "-5%",
+            top: isFirstSpeaker ? "-5%" : "unset",
+          }}
+        >
+          <img
+            className={styles.abstractRightAngle}
+            alt="abstraction"
+            src={getRandomImage()}
+          />
+        </Box>
+      )}
     </Box>
   );
 }
