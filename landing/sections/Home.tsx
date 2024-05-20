@@ -60,7 +60,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.LECTURES}`} underline="none" color="inherit">
+            <Link href={`#${IDS.SCHEDULER}`} underline="none" color="inherit">
               расписание
             </Link>
           </Typography>
