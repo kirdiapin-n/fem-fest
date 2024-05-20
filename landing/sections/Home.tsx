@@ -94,15 +94,15 @@ export default function Home() {
               лекторы
             </Link>
           </Typography>
-          {/*<Typography*/}
-          {/*  fontSize="2rem"*/}
-          {/*  color="text.primary"*/}
-          {/*  fontFamily="Hlebozavod-Medium, serif"*/}
-          {/*>*/}
-          {/*  <Link href={`#${IDS.MARKET}`} underline="hover" color="inherit">*/}
-          {/*    маркет*/}
-          {/*  </Link>*/}
-          {/*</Typography>*/}
+          <Typography
+            fontSize="2rem"
+            color="text.primary"
+            fontFamily="Hlebozavod-Medium, serif"
+          >
+            <Link href={`#${IDS.MARKET}`} underline="hover" color="inherit">
+              маркет
+            </Link>
+          </Typography>
           <Typography
             fontSize="2rem"
             color="text.primary"
