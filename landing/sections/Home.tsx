@@ -64,15 +64,15 @@ export default function Home() {
               расписание
             </Link>
           </Typography>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.EXHIBITION}`} underline="hover" color="inherit">
-              выставка
-            </Link>
-          </Typography>
+          {/*<Typography*/}
+          {/*  fontSize="2rem"*/}
+          {/*  color="text.primary"*/}
+          {/*  fontFamily="Hlebozavod-Medium, serif"*/}
+          {/*>*/}
+          {/*  <Link href={`#${IDS.EXHIBITION}`} underline="hover" color="inherit">*/}
+          {/*    выставка*/}
+          {/*  </Link>*/}
+          {/*</Typography>*/}
         </Stack>
         <img
           className={styles.logo}
@@ -94,22 +94,22 @@ export default function Home() {
               лекторы
             </Link>
           </Typography>
+          {/*<Typography*/}
+          {/*  fontSize="2rem"*/}
+          {/*  color="text.primary"*/}
+          {/*  fontFamily="Hlebozavod-Medium, serif"*/}
+          {/*>*/}
+          {/*  <Link href={`#${IDS.MARKET}`} underline="hover" color="inherit">*/}
+          {/*    маркет*/}
+          {/*  </Link>*/}
+          {/*</Typography>*/}
           <Typography
             fontSize="2rem"
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.MARKET}`} underline="hover" color="inherit">
-              маркет
-            </Link>
-          </Typography>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.PHOTO}`} underline="hover" color="inherit">
-              фото
+            <Link href={`#${IDS.CONTACTS}`} underline="hover" color="inherit">
+              Контакты
             </Link>
           </Typography>
         </Stack>
