@@ -93,8 +93,8 @@ export default function Scheduler() {
       sx={{ backgroundImage: `url(${bg.src})` }}
       color="white"
     >
-      <Stack gap={4} direction="column" flexWrap="wrap">
-        <Stack direction="row" spacing={4}>
+      <Stack spacing={4} direction="column">
+        <Stack direction="row" spacing={4} flexWrap="wrap">
           <List
             tags={["1 июня", "большой зал"]}
             items={getLectures(preparedData, "first", "big")}
@@ -106,7 +106,7 @@ export default function Scheduler() {
           />
         </Stack>
 
-        <Stack direction="row" spacing={4}>
+        <Stack direction="row" spacing={4} flexWrap="wrap">
           <List
             tags={["2 июня", "большой зал"]}
             items={getLectures(preparedData, "second", "big")}
