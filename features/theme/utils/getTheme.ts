@@ -48,7 +48,11 @@ export const lightTheme = createTheme({
   ...defaultTheme,
   palette: {
     mode: "light",
-    primary: deepPurple,
+    primary: {
+      light: primaryColor,
+      dark: primaryColor,
+      main: primaryColor,
+    },
     secondary: grey,
     divider: deepPurple[300],
     text: {

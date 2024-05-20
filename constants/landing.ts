@@ -1,9 +1,10 @@
 export const IDS = {
   HOME: "home",
   ABOUT: "about",
-  LECTURES: "lectures",
+  SCHEDULER: "scheduler",
   EXHIBITION: "exhibition",
   LECTURERS: "lecturers",
   MARKET: "market",
   PHOTO: "photo",
+  CONTACTS: "contacts",
 };

@@ -9,10 +9,10 @@ body > *:first-child {
     min-height: 100vh;
 }
 
-ul {
-    padding: 0;
-    list-style: none;
-}
+/*ul {*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*}*/
 
 a {
     text-decoration: none;

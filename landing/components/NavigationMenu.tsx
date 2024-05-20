@@ -108,7 +108,7 @@ export default function NavigationMenu() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.LECTURES}`} underline="none" color="black">
+            <Link href={`#${IDS.SCHEDULER}`} underline="none" color="black">
               лекции
             </Link>
           </Typography>
