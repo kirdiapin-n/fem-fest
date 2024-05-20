@@ -3,12 +3,12 @@
         transform: translateX(0%);
     }
     100% {
-        transform: translateX(calc(-70% - 1rem))
+        transform: translateX(calc(-50% - 1rem))
     }
 }
 @keyframes marqueeRight {
     0% {
-        transform: translateX(calc(-70% - 1rem))
+        transform: translateX(calc(-50% - 1rem))
     }
     100% {
         transform: translateX(0%);
