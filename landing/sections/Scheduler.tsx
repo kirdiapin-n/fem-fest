@@ -13,6 +13,8 @@ type Props = {
   items: Lectures;
 };
 function List({ tags, items }: Props) {
+  if (!items.length) return null;
+
   return (
     <Stack spacing={6} flex={1}>
       <Stack direction="row" spacing={2}>
@@ -63,10 +65,6 @@ export default function Scheduler() {
     ...value,
   }));
 
-  const firstDayLectures = getLectures(preparedData, "first_day");
-
-  const secondDayLectures = getLectures(preparedData, "second_day");
-
   return (
     <Section
       id={IDS.LECTURES}
@@ -75,8 +73,25 @@ export default function Scheduler() {
       color="white"
     >
       <Stack gap={5.2} direction="row" flexWrap="wrap">
-        <List tags={["1 июня"]} items={firstDayLectures} />
-        <List tags={["2 июня"]} items={secondDayLectures} />
+        <List
+          tags={["1 июня", "большой зал"]}
+          items={getLectures(preparedData, "first", "big")}
+        />
+
+        <List
+          tags={["1 июня", "малый зал"]}
+          items={getLectures(preparedData, "first", "small")}
+        />
+
+        <List
+          tags={["2 июня", "большой зал"]}
+          items={getLectures(preparedData, "second", "big")}
+        />
+
+        <List
+          tags={["2 июня", "Малый зал"]}
+          items={getLectures(preparedData, "second", "small")}
+        />
       </Stack>
     </Section>
   );
