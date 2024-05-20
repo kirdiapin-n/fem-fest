@@ -1,9 +1,17 @@
-@keyframes marquee {
+@keyframes marqueeLeft {
     0% {
         transform: translateX(0%);
     }
     100% {
-        transform: translateX(calc(-100% - 1rem))
+        transform: translateX(calc(-70% - 1rem))
+    }
+}
+@keyframes marqueeRight {
+    0% {
+        transform: translateX(calc(-70% - 1rem))
+    }
+    100% {
+        transform: translateX(0%);
     }
 }
 
@@ -24,5 +32,11 @@
 .textline {
     height: 100%;
     display: inline-block;
-    animation: marquee 600s linear infinite;
+}
+
+.leftAnimation {
+    animation: marqueeLeft 600s linear infinite;
+}
+.rightAnimation {
+    animation: marqueeRight 600s linear infinite;
 }
