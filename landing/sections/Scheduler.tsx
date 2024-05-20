@@ -36,7 +36,7 @@ function List({ tags, items }: Props) {
       </Stack>
 
       <Stack spacing={4}>
-        {items.map(({ topic, author, id }) => (
+        {items.map(({ topic, author, id, is_not_speaker }) => (
           <Stack key={id} direction="row" spacing={2}>
             <Typography
               fontFamily={ACCENT_FONT}
@@ -47,9 +47,13 @@ function List({ tags, items }: Props) {
               {topic.time}
             </Typography>
             <Typography fontSize="1.7rem" lineHeight="2.3rem">
-              <Link color="inherit" underline="none" href={`#${id}`}>
+              {is_not_speaker ? (
                 <b>{author.name}</b>
-              </Link>
+              ) : (
+                <Link color="inherit" underline="none" href={`#${id}`}>
+                  <b>{author.name}</b>
+                </Link>
+              )}
               . {topic.description}
             </Typography>
           </Stack>

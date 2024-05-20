@@ -45,16 +45,18 @@ export default function Lecturers() {
   return (
     <Section id={IDS.LECTURERS} title={"Лекторы"}>
       <Grid container spacing={6}>
-        {lecturers.map((lecturer, index) => (
-          <Grid
-            key={index}
-            item
-            xs={lecturer.second_author ? 12 : 6}
-            md={lecturer.second_author ? 6 : 3}
-          >
-            <Lecturer {...lecturer} />
-          </Grid>
-        ))}
+        {lecturers
+          .filter(({ is_not_speaker }) => !is_not_speaker)
+          .map((lecturer, index) => (
+            <Grid
+              key={index}
+              item
+              xs={lecturer.second_author ? 12 : 6}
+              md={lecturer.second_author ? 6 : 3}
+            >
+              <Lecturer {...lecturer} />
+            </Grid>
+          ))}
       </Grid>
     </Section>
   );
