@@ -27,7 +27,7 @@ export type TValue<T = TNullable<string | string[] | number | boolean | File>> =
   TNullable<T>;
 export type TData = Record<string, TValue>;
 
-export type Author = {
+export type TAuthor = {
   name: string;
   description: string;
   photo_url: string;
@@ -42,8 +42,10 @@ export type Topic = {
 };
 
 export type TLector = {
-  author: Author;
+  is_not_speaker?: boolean;
+  author: TAuthor;
+  second_author?: TAuthor;
   topic: Topic;
 };
 
-export type Lectures = { id: string; author: Author; topic: Topic }[];
+export type TLectures = ({ id: string } & TLector)[];

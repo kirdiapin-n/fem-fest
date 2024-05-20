@@ -3,43 +3,35 @@ import { Grid, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
 import { Icons } from "icons";
 import React from "react";
-import { TLector } from "types";
+import { TLector, TLectures } from "types";
 import { Button } from "ui/atoms/Button";
-import { Photo } from "ui/atoms/Photo";
 import { Section } from "ui/templates/Section";
+import { Author } from "../components/Author";
 
 function Lecturer(props: TLector & { id: string }) {
-  const { id, author, topic } = props;
+  const { id, author, topic, second_author } = props;
 
   return (
-    <Stack id={id}>
-      <Photo url={author.photo_url} />
+    <Stack id={id} spacing={4}>
+      <Stack direction="row">
+        <Author {...author} isFirstSpeaker={!!second_author} />
 
-      <Stack spacing={4}>
-        <Stack direction="row">
-          <div style={{ flex: 1 }}></div>
-          <Stack flex={1}>
-            <Typography variant="h5" letterSpacing=".5rem" fontSize="1.75rem">
-              {author.name}
-            </Typography>
-            <Typography fontSize="1.2rem">{author.description}</Typography>
-          </Stack>
-        </Stack>
-
-        <Typography lineHeight="2rem" fontSize="1.5rem">
-          {topic.description}
-        </Typography>
-
-        {author.telegram && (
-          <Button
-            variant="outlined"
-            href={author.telegram}
-            endIcon={<Icons.Telegram />}
-          >
-            подробнее в
-          </Button>
-        )}
+        {second_author && <Author {...second_author} isSecondSpeaker />}
       </Stack>
+
+      <Typography lineHeight="2rem" fontSize="1.5rem">
+        {topic.description}
+      </Typography>
+
+      {author.telegram && (
+        <Button
+          variant="outlined"
+          href={author.telegram}
+          endIcon={<Icons.Telegram />}
+        >
+          подробнее в
+        </Button>
+      )}
     </Stack>
   );
 }
@@ -48,16 +40,23 @@ export default function Lecturers() {
   const lecturers = Object.entries(data).map(([id, value]) => ({
     id,
     ...value,
-  }));
+  })) as TLectures;
 
   return (
     <Section id={IDS.LECTURERS} title={"Лекторы"}>
       <Grid container spacing={6}>
-        {lecturers.map((lecturer, index) => (
-          <Grid key={index} item xs={6} md={3}>
-            <Lecturer {...lecturer} />
-          </Grid>
-        ))}
+        {lecturers
+          .filter(({ is_not_speaker }) => !is_not_speaker)
+          .map((lecturer, index) => (
+            <Grid
+              key={index}
+              item
+              xs={lecturer.second_author ? 12 : 6}
+              md={lecturer.second_author ? 6 : 3}
+            >
+              <Lecturer {...lecturer} />
+            </Grid>
+          ))}
       </Grid>
     </Section>
   );

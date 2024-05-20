@@ -7,6 +7,6 @@ export const Gate = createGate();
 
 sample({
   clock: Gate.open,
-  fn: () => getTheme("light"),
+  fn: () => getTheme(),
   target: setTheme,
 });
