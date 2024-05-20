@@ -1,17 +1,53 @@
 import { ACCENT_FONT } from "constants/fonts";
-import { IDS } from "constants/landing";
-import { Chip, Link, Stack, Typography } from "@mui/material";
+import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
+import { Button, Chip, Link, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
 import bg from "assets/images/cloud-background-image.webp";
+import { Icons } from "icons";
 import React from "react";
 import { TLectures } from "types";
 import { Section } from "ui/templates/Section";
-import { getLectures } from "utils/data";
+import { getLectures } from "utils/landing";
+import { concatStrings } from "utils/typography";
 
 type Props = {
   tags: string[];
   items: TLectures;
 };
+function Item({
+  id,
+  author,
+  second_author,
+  is_not_speaker,
+  topic,
+}: TLectures[number]) {
+  const authorName = concatStrings(" и ", author.name, second_author?.name);
+
+  const authorNameElement = is_not_speaker ? (
+    <b>{authorName}</b>
+  ) : (
+    <Link color="inherit" underline="none" href={`#${id}`}>
+      <b>{authorName}</b>
+    </Link>
+  );
+
+  return (
+    <Stack key={id} direction="row" spacing={2}>
+      <Typography
+        fontFamily={ACCENT_FONT}
+        letterSpacing="0.2rem"
+        fontSize="2.125rem"
+        lineHeight="2.5rem"
+      >
+        {topic.time}
+      </Typography>
+      <Typography fontSize="1.7rem" lineHeight="2.3rem">
+        {concatStrings(". ", authorNameElement, topic.description)}
+      </Typography>
+    </Stack>
+  );
+}
+
 function List({ tags, items }: Props) {
   if (!items.length) return null;
 
@@ -36,27 +72,8 @@ function List({ tags, items }: Props) {
       </Stack>
 
       <Stack spacing={4}>
-        {items.map(({ topic, author, id, is_not_speaker }) => (
-          <Stack key={id} direction="row" spacing={2}>
-            <Typography
-              fontFamily={ACCENT_FONT}
-              letterSpacing="0.2rem"
-              fontSize="2.125rem"
-              lineHeight="2.5rem"
-            >
-              {topic.time}
-            </Typography>
-            <Typography fontSize="1.7rem" lineHeight="2.3rem">
-              {is_not_speaker ? (
-                <b>{author.name}</b>
-              ) : (
-                <Link color="inherit" underline="none" href={`#${id}`}>
-                  <b>{author.name}</b>
-                </Link>
-              )}
-              . {topic.description}
-            </Typography>
-          </Stack>
+        {items.map((props) => (
+          <Item key={props.id} {...props} />
         ))}
       </Stack>
     </Stack>
@@ -96,6 +113,18 @@ export default function Scheduler() {
           tags={["2 июня", "Малый зал"]}
           items={getLectures(preparedData, "second", "small")}
         />
+        <Stack alignItems="center" width="100%">
+          <Button
+            component="a"
+            target="_blank"
+            endIcon={<Icons.Telegram />}
+            variant="contained"
+            href={FAR_TELEGRAM_URL}
+            size="large"
+          >
+            Подробнее о спикерах и их лецкиях в
+          </Button>
+        </Stack>
       </Stack>
     </Section>
   );

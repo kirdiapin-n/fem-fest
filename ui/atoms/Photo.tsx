@@ -1,26 +1,29 @@
 import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
+import { Icons } from "icons";
 import React from "react";
 import styles from "styles/about.module.css";
 import { getRandomImage } from "utils/images";
 
-const StyledBox = styled(Box)({
-  backgroundPosition: "center center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  position: "relative",
-  "&:before": {
-    content: "''",
-    position: "absolute",
-    top: 0,
-    right: 0,
-    bottom: 0,
-    left: 0,
-    background: "inherit",
-    filter: "grayscale(100%) contrast(1.1)",
-  },
-});
+const StyledBox = styled(Box)<{ withoutFilters?: boolean }>(
+  ({ withoutFilters }) => ({
+    backgroundPosition: "center center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    position: "relative",
+    "&:before": {
+      content: "''",
+      position: "absolute",
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0,
+      background: "inherit",
+      filter: withoutFilters ? "unset" : "grayscale(100%) contrast(1.1)",
+    },
+  })
+);
 
 const PHOTO_RATIO = 86.25;
 const MAX_PERCENTS = 100;
@@ -33,10 +36,12 @@ export function Photo({
   url,
   isFirstSpeaker,
   isSecondSpeaker,
+  withoutFilters,
 }: {
   url: string;
   isFirstSpeaker?: boolean;
   isSecondSpeaker?: boolean;
+  withoutFilters?: boolean;
 }) {
   const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
   const showBottomPic = areTwoSpeakers
@@ -71,14 +76,19 @@ export function Photo({
         top={PHOTO_TOP_POSITION_PERCENTS}
         left={PHOTO_LEFT_POSITION}
       >
-        <StyledBox
-          width="100%"
-          height="100%"
-          bgcolor="gray"
-          overflow="hidden"
-          borderRadius={areTwoSpeakers ? "100%" : "200px"}
-          sx={{ backgroundImage: `url(${url})` }}
-        />
+        {url ? (
+          <StyledBox
+            width="100%"
+            height="100%"
+            bgcolor="gray"
+            overflow="hidden"
+            withoutFilters={withoutFilters}
+            borderRadius={areTwoSpeakers ? "100%" : "200px"}
+            sx={{ backgroundImage: `url(${url})` }}
+          />
+        ) : (
+          <Icons.ImageNotSupported sx={{ width: "100%", height: "100%" }} />
+        )}
       </Box>
 
       {showTopPic && (

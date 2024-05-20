@@ -8,3 +8,5 @@ export const IDS = {
   PHOTO: "photo",
   CONTACTS: "contacts",
 };
+
+export const FAR_TELEGRAM_URL = "https://t.me/FAR_Montenegro";
