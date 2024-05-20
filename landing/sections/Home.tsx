@@ -51,7 +51,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.ABOUT}`} underline="none" color="inherit">
+            <Link href={`#${IDS.ABOUT}`} underline="hover" color="inherit">
               о нас
             </Link>
           </Typography>
@@ -60,7 +60,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.SCHEDULER}`} underline="none" color="inherit">
+            <Link href={`#${IDS.SCHEDULER}`} underline="hover" color="inherit">
               расписание
             </Link>
           </Typography>
@@ -69,7 +69,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.EXHIBITION}`} underline="none" color="inherit">
+            <Link href={`#${IDS.EXHIBITION}`} underline="hover" color="inherit">
               выставка
             </Link>
           </Typography>
@@ -90,7 +90,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.LECTURERS}`} underline="none" color="inherit">
+            <Link href={`#${IDS.LECTURERS}`} underline="hover" color="inherit">
               лекторы
             </Link>
           </Typography>
@@ -99,7 +99,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.MARKET}`} underline="none" color="inherit">
+            <Link href={`#${IDS.MARKET}`} underline="hover" color="inherit">
               маркет
             </Link>
           </Typography>
@@ -108,7 +108,7 @@ export default function Home() {
             color="text.primary"
             fontFamily="Hlebozavod-Medium, serif"
           >
-            <Link href={`#${IDS.PHOTO}`} underline="none" color="inherit">
+            <Link href={`#${IDS.PHOTO}`} underline="hover" color="inherit">
               фото
             </Link>
           </Typography>
@@ -150,19 +150,21 @@ export default function Home() {
           1-2 июня
         </Typography>
         <img className={styles.femfest} alt="fem fest" src={femfest.src} />
-        <Typography
-          position="relative"
-          sx={{
-            fontSize: { xs: "3rem", lg: "5rem" },
-            lineHeight: { xs: "4rem", lg: "4.5rem" },
-            width: { xs: "100%", lg: "33%" },
-          }}
-          color="text.primary"
-          whiteSpace="pre-wrap"
-          fontFamily="Hlebozavod-Medium, serif"
-        >
-          {`рефорум space\nбудва`}
-        </Typography>
+        <Link href={`#${IDS.CONTACTS}`} underline="hover" color="text.primary">
+          <Typography
+            position="relative"
+            sx={{
+              fontSize: { xs: "3rem", lg: "5rem" },
+              lineHeight: { xs: "4rem", lg: "4.5rem" },
+              width: { xs: "100%", lg: "33%" },
+            }}
+            color="text.primary"
+            whiteSpace="pre-wrap"
+            fontFamily="Hlebozavod-Medium, serif"
+          >
+            {`рефорум space\nбудва`}
+          </Typography>
+        </Link>
         <Box
           sx={{ left: "0", top: "0" }}
           width={"8rem"}

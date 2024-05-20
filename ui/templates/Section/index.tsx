@@ -41,6 +41,7 @@ const StyledTitle = styled(Box)(({ theme }) => ({
 const StyledWrapper = styled(Box)(({ theme }) => ({
   maxWidth: "1440px",
   margin: "0 auto",
+  height: "100%",
   padding: theme.spacing(5),
   [theme.breakpoints.down("sm")]: {
     padding: theme.spacing(1),

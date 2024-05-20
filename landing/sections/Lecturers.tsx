@@ -1,10 +1,9 @@
 import { IDS } from "constants/landing";
-import { Grid, Stack, Typography } from "@mui/material";
+import { Button, Grid, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
 import { Icons } from "icons";
 import React from "react";
 import { TLector, TLectures } from "types";
-import { Button } from "ui/atoms/Button";
 import { Section } from "ui/templates/Section";
 import { Author } from "../components/Author";
 
@@ -25,7 +24,9 @@ function Lecturer(props: TLector & { id: string }) {
 
       {author.telegram && (
         <Button
-          variant="outlined"
+          target="_blank"
+          component="a"
+          variant="contained"
           href={author.telegram}
           endIcon={<Icons.Telegram />}
         >
