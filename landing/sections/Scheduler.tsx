@@ -68,7 +68,7 @@ export default function Scheduler() {
   return (
     <Section
       id={IDS.LECTURES}
-      title={"Лекции"}
+      title="Расписание"
       sx={{ backgroundImage: `url(${bg.src})` }}
       color="white"
     >

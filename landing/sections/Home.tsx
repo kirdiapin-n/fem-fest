@@ -61,7 +61,7 @@ export default function Home() {
             fontFamily="Hlebozavod-Medium, serif"
           >
             <Link href={`#${IDS.LECTURES}`} underline="none" color="inherit">
-              лекции
+              расписание
             </Link>
           </Typography>
           <Typography
