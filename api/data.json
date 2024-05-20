@@ -41,11 +41,13 @@
   "4": {
     "author": {
       "name": "Jana Šekularac",
-      "second name": "Arnela Šukurica",
       "description": "Psychologist, employed in the Municipality of Bar as an independent consultant for the prevention of addiction diseases",
-      "second description": "MICE manager by profession",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%207.24.17%E2%80%AFPM.jpeg?alt=media&token=3594da09-0d7e-4e31-a2b7-5af629db5e32",
-      "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%207.24.14%E2%80%AFPM.jpeg?alt=media&token=72b72c37-2f85-4fd3-a38f-98de36d83c29"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%207.24.17%E2%80%AFPM.jpeg?alt=media&token=3594da09-0d7e-4e31-a2b7-5af629db5e32"
+    },
+    "second_author": {
+      "name": "Arnela Šukurica",
+      "description": "MICE manager by profession",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%207.24.14%E2%80%AFPM.jpeg?alt=media&token=72b72c37-2f85-4fd3-a38f-98de36d83c29"
     },
     "topic": {
       "day": "first",
@@ -137,11 +139,13 @@
   "11": {
     "author": {
       "name": "Аня Соловьёва",
-      "second name": "Знаменская Ирина Игорьевна",
       "description": "Аня Соловьёва: нарративная IFS-терапевтка",
-      "second description": " Знаменская Ирина Игорьевна: Психолог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1",
-      "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1"
+    },
+    "second_author": {
+      "name": "Знаменская Ирина Игорьевна",
+      "description": "Знаменская Ирина Игорьевна: Психолог",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
     },
     "topic": {
       "day": "first",
