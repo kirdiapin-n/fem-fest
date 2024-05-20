@@ -29,8 +29,8 @@ export type TData = Record<string, TValue>;
 
 export type TAuthor = {
   name: string;
-  description: string;
-  photo_url: string;
+  description?: string;
+  photo_url?: string;
   telegram?: string;
 };
 
@@ -52,7 +52,7 @@ export type TLectures = ({ id: string } & TLector)[];
 
 export type TProduct = {
   product: {
-    photo_url: string;
+    photo_url?: string;
     name: string;
     description: string;
   };
