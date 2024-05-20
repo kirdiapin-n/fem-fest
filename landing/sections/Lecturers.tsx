@@ -1,7 +1,6 @@
 import { IDS } from "constants/landing";
-import { Button, Grid, Stack, Typography } from "@mui/material";
+import { Grid, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
-import { Icons } from "icons";
 import React from "react";
 import { TLector, TLectures } from "types";
 import { Section } from "ui/templates/Section";
@@ -21,18 +20,6 @@ function Lecturer(props: TLector & { id: string }) {
       <Typography lineHeight="2rem" fontSize="1.5rem">
         {topic.description}
       </Typography>
-
-      {author.telegram && (
-        <Button
-          target="_blank"
-          component="a"
-          variant="contained"
-          href={author.telegram}
-          endIcon={<Icons.Telegram />}
-        >
-          подробнее в
-        </Button>
-      )}
     </Stack>
   );
 }

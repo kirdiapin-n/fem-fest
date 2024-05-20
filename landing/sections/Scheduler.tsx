@@ -1,8 +1,9 @@
 import { ACCENT_FONT } from "constants/fonts";
-import { IDS } from "constants/landing";
-import { Chip, Link, Stack, Typography } from "@mui/material";
+import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
+import { Button, Chip, Link, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
 import bg from "assets/images/cloud-background-image.webp";
+import { Icons } from "icons";
 import React from "react";
 import { TLectures } from "types";
 import { Section } from "ui/templates/Section";
@@ -112,6 +113,18 @@ export default function Scheduler() {
           tags={["2 июня", "Малый зал"]}
           items={getLectures(preparedData, "second", "small")}
         />
+        <Stack alignItems="center" width="100%">
+          <Button
+            component="a"
+            target="_blank"
+            endIcon={<Icons.Telegram />}
+            variant="contained"
+            href={FAR_TELEGRAM_URL}
+            size="large"
+          >
+            Подробнее о спикерах и их лецкиях в
+          </Button>
+        </Stack>
       </Stack>
     </Section>
   );

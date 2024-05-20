@@ -9,7 +9,7 @@ import {
 } from "@react-google-maps/api";
 import React, { useState } from "react";
 import { Section } from "ui/templates/Section";
-import { IDS } from "../../constants/landing";
+import { FAR_TELEGRAM_URL, IDS } from "../../constants/landing";
 
 export function Contacts() {
   const [isShow, setIsShow] = useState(false);
@@ -59,7 +59,7 @@ export function Contacts() {
           component="a"
           sx={{ alignSelf: "center" }}
           size="large"
-          href="https://t.me/FAR_Montenegro"
+          href={FAR_TELEGRAM_URL}
           target="_blank"
           variant="contained"
           color="primary"
