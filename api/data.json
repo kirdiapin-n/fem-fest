@@ -85,7 +85,7 @@
       "name": "Maja Raičević",
       "description": "Executive Director / Advocacy Program Coordinator",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-19%203.54.02%E2%80%AFPM.jpeg?alt=media&token=52a8e8b0-bff4-4461-b0e7-0f8faeadc1b4 ",
-      "telegram" : "https://t.me/FAR_Montenegro/105"
+      "telegram": "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
       "day": "first",
@@ -94,12 +94,12 @@
       "description": "CŽP is a non-profit, non-partisan, non-religious organization that fights against all forms of violence against women and ensures their access to justice, developing gender-equal democratic practices and collaborating with all relevant domestic and international actors."
     }
   },
- "8": {
+  "8": {
     "author": {
       "name": "Антон Митрофанов",
       "description": "Индивидуальные и семейные консультации, телесная терапия",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%2010.44.16%E2%80%AFPM.jpeg?alt=media&token=0e7d14ac-14e7-441a-94c4-5589529915f4",
-      "telegram" : "https://t.me/FAR_Montenegro/105"
+      "telegram": "https://t.me/FAR_Montenegro/105"
     },
     "topic": {
       "day": "first",
@@ -108,8 +108,8 @@
       "description": "Про настоящих мужчин - почему их не существует и почему это хорошо?"
     }
   },
- "9": {
-   "is_not_speaker": true,
+  "9": {
+    "is_not_speaker": true,
     "author": {
       "name": "Квир Фем вечеринка",
       "description": "Приглашаем вас на незабываемую квир фем вечеринку с кроссдрессингом! Это будет вечер, полный веселья, свободы самовыражения и принятия!"
@@ -121,12 +121,11 @@
       "description": "Кроссдрессинг приветствуется! Это отличная возможность попробовать что-то новое и выразить себя через одежду. Будьте смелыми и креативными!"
     }
   },
- "10": {
+  "10": {
     "author": {
       "name": "Зубарь Евгения",
       "description": "corporate programs EPAM Montenegro",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563"
-  
     },
     "topic": {
       "day": "first",
@@ -135,13 +134,13 @@
       "description": "Зачем нужна корпоративная социальная ответственность в больших корпорациях и при чем тут наши дети?"
     }
   },
- "11": {
+  "11": {
     "author": {
       "name": "Аня Соловьёва",
       "second name": "Знаменская Ирина Игорьевна",
       "description": "Аня Соловьёва: нарративная IFS-терапевтка",
-      "second description":" Знаменская Ирина Игорьевна: Психолог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1" ,
+      "second description": " Знаменская Ирина Игорьевна: Психолог",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1",
       "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
     },
     "topic": {
@@ -151,7 +150,7 @@
       "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
     }
   },
- "12": {
+  "12": {
     "author": {
       "name": "Виктория Викторовна Сандо",
       "description": " Филолог, психолог, психотерапевт, преподаватель.",
@@ -164,7 +163,7 @@
       "description": "Я это мое тело."
     }
   },
-   "14": {
+  "14": {
     "author": {
       "name": "Маша Семилетова",
       "description": "Я блогер и smm-специалист, популяризатор мультфильмов",
@@ -177,12 +176,11 @@
       "description": "Гендерные стереотипы в мультиках."
     }
   },
-     "15": {
+  "15": {
     "author": {
       "name": "Анна Балдина",
       "description": "Медиатренер, преподаватель по развитию речевого голоса, журналист",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%2010.31.08%E2%80%AFPM.jpeg?alt=media&token=7165ecb7-b67a-4475-a888-c019f3731e98"
-
     },
     "topic": {
       "day": "second",
@@ -191,12 +189,11 @@
       "description": "Голос в женском имидже: сила или слабость?"
     }
   },
-       "16": {
+  "16": {
     "author": {
       "name": "Настя Вареник",
       "description": "Художница, режиссерка, фемактивистка, театральный педагог",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
- 
     },
     "topic": {
       "day": "second",
@@ -204,13 +201,12 @@
       "time": "13:00",
       "description": "Мастер-класс \"Живая речь.\""
     }
-  },     
+  },
   "17": {
     "author": {
       "name": "Денис Тихомиров",
       "description": "Фотограф, автор курса лекций об истории феминисткой фотографии",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FDSC03473.jpeg?alt=media&token=1e25a810-0423-4850-82d5-9902d14404d1"
-
     },
     "topic": {
       "day": "second",
@@ -218,13 +214,12 @@
       "time": "14:00",
       "description": "Тело, Камера,взгляд. Что становится видимым?"
     }
-  },    
+  },
   "18": {
     "author": {
       "name": "Самоорганизация ШШШ",
       "description": "ШШШ — самоорганизованная группа художниц",
       "photo_url": ""
-
     },
     "topic": {
       "day": "second",
@@ -232,13 +227,12 @@
       "time": "15:00",
       "description": "Экофеминизм - видеоперформанс"
     }
-  },     
+  },
   "19": {
     "author": {
       "name": "Наталья Севец-Ермолина",
       "description": "Ведущая журналистка, блогерка, координаторка Reforum Space Budva",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnatalia.JPG?alt=media&token=e53f9eaa-3b4f-4807-b848-fe52a1751289"
-
     },
     "topic": {
       "day": "second",
@@ -247,7 +241,7 @@
       "description": "Воркшоп по лаконичному письма"
     }
   },
-    "20": {
+  "20": {
     "author": {
       "name": "Евгения Тарануха",
       "description": "Графический дизайнер, иллюстратор, диджитал-художница, колумнистка «Щ»",
@@ -260,7 +254,7 @@
       "description": "Лекция \"Художественный подход в работе с генеративными нейросетями\" (Midjourney, Stable Diffusion, Dalle)."
     }
   },
- "21": {
+  "21": {
     "author": {
       "name": "Юлия Воротынцева",
       "description": "Искусствовед, куратор, лектор. Рассматривает искусство ХХ-ХХI веков сквозь призму феминистской оптики.",
@@ -272,21 +266,24 @@
       "time": "17:00",
       "description": "Лекция \"Почему не было великих женщин-художниц?\""
     }
-  }, 
+  },
   "22": {
+    "is_not_speaker": true,
     "author": {
       "name": "Юлия Воротынцева",
-      "second name":"Настя Вареник",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22",
-      "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22"
+    },
+    "second_author": {
+      "name": "Настя Вареник",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
     },
     "topic": {
       "day": "second",
       "room": "big",
       "time": "18:00",
-      "description": "Финисаж выставки"
+      "description": "Открытие выставки женщин-художниц: Лада\nУчаева, Ира Цыханская, Tania BigSister, Мария Макарова, Настя Вареник, Катя Кэндор"
     }
-  }, 
+  },
   "23": {
     "author": {
       "name": "Надежда Кузнецова",
@@ -299,7 +296,7 @@
       "time": "18:00",
       "description": "Барский своп едет в гости в Будву!"
     }
-  }, 
+  },
   "24": {
     "author": {
       "name": "Варвара Гранкова",
@@ -312,7 +309,7 @@
       "time": "18:30",
       "description": "Перформанс “die Lorelei. Художница поднимает тему потери идентичности, котрая происходит с ней в имиграции."
     }
-  }, 
+  },
   "25": {
     "author": {
       "name": "Выступление Like Standup Montenegro",
@@ -325,8 +322,8 @@
       "time": "20:00",
       "description": "Выступление Like Standup Montenegro"
     }
-  }, 
-   "26": {
+  },
+  "26": {
     "author": {
       "name": "Эковечеринка",
       "description": ""
