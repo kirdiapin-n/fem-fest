@@ -38,7 +38,7 @@ export function Photo({
   isSecondSpeaker,
   withoutFilters,
 }: {
-  url: string;
+  url?: string;
   isFirstSpeaker?: boolean;
   isSecondSpeaker?: boolean;
   withoutFilters?: boolean;

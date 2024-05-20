@@ -3,8 +3,7 @@
     "author": {
       "name": "Марина Травкова",
       "description": "Семейный психолог, супружеский и секс-терапевт.Занимаюсь сексуальным образованием взрослых и детей, участвую в просветительских проектах.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be",
-
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be"
     },
     "topic": {
       "day": "first",
@@ -17,8 +16,7 @@
     "author": {
       "name": "Екатерина Фимина",
       "description": "Психолог, сертифицированный консультант Профессиональной Психотерапевтической Лиги.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.28.12%E2%80%AFAM.jpeg?alt=media&token=2acdf270-34fd-4337-97dd-d22f551fc545",
-
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.28.12%E2%80%AFAM.jpeg?alt=media&token=2acdf270-34fd-4337-97dd-d22f551fc545"
     },
     "topic": {
       "day": "first",
@@ -31,7 +29,7 @@
     "author": {
       "name": "Маша Мюллер",
       "description": "Консультантка по родительскому выгоранию, равная консультантка для родитель_ниц и основательница «Лаборатории родительства».",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.38%E2%80%AFAM.jpeg?alt=media&token=ec800a6c-b1df-4186-a93a-bfc8025e43ed",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.38%E2%80%AFAM.jpeg?alt=media&token=ec800a6c-b1df-4186-a93a-bfc8025e43ed"
     },
     "topic": {
       "day": "first",
@@ -43,9 +41,9 @@
   "4": {
     "author": {
       "name": "Jana Šekularac",
-      "second name": "Arnela Šukurica"
+      "second name": "Arnela Šukurica",
       "description": "Psychologist, employed in the Municipality of Bar as an independent consultant for the prevention of addiction diseases",
-      "second description": "MICE manager by profession"
+      "second description": "MICE manager by profession",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%207.24.17%E2%80%AFPM.jpeg?alt=media&token=3594da09-0d7e-4e31-a2b7-5af629db5e32",
       "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%207.24.14%E2%80%AFPM.jpeg?alt=media&token=72b72c37-2f85-4fd3-a38f-98de36d83c29"
     },
@@ -60,7 +58,7 @@
     "author": {
       "name": "Ксения Петрова",
       "description": "юристка, практикующий психолог, IFS-практик, феминистка.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882"
     },
     "topic": {
       "day": "first",
@@ -73,7 +71,7 @@
     "author": {
       "name": "Дина Тансари",
       "description": "Правозащитница из Казахстана.Соосновательница движения #НеМолчи в Казахстане и Центральной Азии.",
-      "photo_url": "",
+      "photo_url": ""
     },
     "topic": {
       "day": "first",
@@ -111,9 +109,10 @@
     }
   },
  "9": {
+   "is_not_speaker": true,
     "author": {
       "name": "Квир Фем вечеринка",
-      "description": "Приглашаем вас на незабываемую квир фем вечеринку с кроссдрессингом! Это будет вечер, полный веселья, свободы самовыражения и принятия!",
+      "description": "Приглашаем вас на незабываемую квир фем вечеринку с кроссдрессингом! Это будет вечер, полный веселья, свободы самовыражения и принятия!"
     },
     "topic": {
       "day": "first",
@@ -126,7 +125,7 @@
     "author": {
       "name": "Зубарь Евгения",
       "description": "corporate programs EPAM Montenegro",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563"
   
     },
     "topic": {
@@ -143,7 +142,7 @@
       "description": "Аня Соловьёва: нарративная IFS-терапевтка",
       "second description":" Знаменская Ирина Игорьевна: Психолог",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1" ,
-      "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3",
+      "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
     },
     "topic": {
       "day": "first",
@@ -156,7 +155,7 @@
     "author": {
       "name": "Виктория Викторовна Сандо",
       "description": " Филолог, психолог, психотерапевт, преподаватель.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd ",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd "
     },
     "topic": {
       "day": "first",
@@ -169,7 +168,7 @@
     "author": {
       "name": "Маша Семилетова",
       "description": "Я блогер и smm-специалист, популяризатор мультфильмов",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fmaria_semeletova.JPG?alt=media&token=2c39c105-c24b-4578-8b4c-0a07e313f50f",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fmaria_semeletova.JPG?alt=media&token=2c39c105-c24b-4578-8b4c-0a07e313f50f"
     },
     "topic": {
       "day": "second",
@@ -182,7 +181,7 @@
     "author": {
       "name": "Анна Балдина",
       "description": "Медиатренер, преподаватель по развитию речевого голоса, журналист",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%2010.31.08%E2%80%AFPM.jpeg?alt=media&token=7165ecb7-b67a-4475-a888-c019f3731e98",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%2010.31.08%E2%80%AFPM.jpeg?alt=media&token=7165ecb7-b67a-4475-a888-c019f3731e98"
 
     },
     "topic": {
@@ -196,21 +195,21 @@
     "author": {
       "name": "Настя Вареник",
       "description": "Художница, режиссерка, фемактивистка, театральный педагог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
  
     },
     "topic": {
       "day": "second",
       "room": "big",
       "time": "13:00",
-      "description": "Мастер-класс "Живая речь.""
+      "description": "Мастер-класс \"Живая речь.\""
     }
   },     
   "17": {
     "author": {
       "name": "Денис Тихомиров",
       "description": "Фотограф, автор курса лекций об истории феминисткой фотографии",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FDSC03473.jpeg?alt=media&token=1e25a810-0423-4850-82d5-9902d14404d1",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FDSC03473.jpeg?alt=media&token=1e25a810-0423-4850-82d5-9902d14404d1"
 
     },
     "topic": {
@@ -224,7 +223,7 @@
     "author": {
       "name": "Самоорганизация ШШШ",
       "description": "ШШШ — самоорганизованная группа художниц",
-      "photo_url": "_",
+      "photo_url": ""
 
     },
     "topic": {
@@ -238,7 +237,7 @@
     "author": {
       "name": "Наталья Севец-Ермолина",
       "description": "Ведущая журналистка, блогерка, координаторка Reforum Space Budva",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnatalia.JPG?alt=media&token=e53f9eaa-3b4f-4807-b848-fe52a1751289",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnatalia.JPG?alt=media&token=e53f9eaa-3b4f-4807-b848-fe52a1751289"
 
     },
     "topic": {
@@ -252,32 +251,32 @@
     "author": {
       "name": "Евгения Тарануха",
       "description": "Графический дизайнер, иллюстратор, диджитал-художница, колумнистка «Щ»",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fevgenia.jpg?alt=media&token=e377ddb3-cf5a-4b3f-9057-aa7b28fd0caa",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fevgenia.jpg?alt=media&token=e377ddb3-cf5a-4b3f-9057-aa7b28fd0caa"
     },
     "topic": {
       "day": "second",
       "room": "big",
       "time": "16:00",
-      "description": "Лекция “Художественный подход в работе с генеративными нейросетями" (Midjourney, Stable Diffusion, Dalle)."
+      "description": "Лекция \"Художественный подход в работе с генеративными нейросетями\" (Midjourney, Stable Diffusion, Dalle)."
     }
   },
  "21": {
     "author": {
       "name": "Юлия Воротынцева",
       "description": "Искусствовед, куратор, лектор. Рассматривает искусство ХХ-ХХI веков сквозь призму феминистской оптики.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22"
     },
     "topic": {
       "day": "second",
       "room": "big",
       "time": "17:00",
-      "description": "Лекция "Почему не было великих женщин-художниц?""
+      "description": "Лекция \"Почему не было великих женщин-художниц?\""
     }
   }, 
   "22": {
     "author": {
-      "name": "Юлия Воротынцева"
-      "second name":"Настя Вареник"
+      "name": "Юлия Воротынцева",
+      "second name":"Настя Вареник",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22",
       "second photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
     },
@@ -292,7 +291,7 @@
     "author": {
       "name": "Надежда Кузнецова",
       "description": "Экоактивистка и косметолог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8113.jpg?alt=media&token=5433d4d2-947a-481b-ba24-dcd3b0cc3f6e",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8113.jpg?alt=media&token=5433d4d2-947a-481b-ba24-dcd3b0cc3f6e"
     },
     "topic": {
       "day": "second",
@@ -305,7 +304,7 @@
     "author": {
       "name": "Варвара Гранкова",
       "description": "Художница и иллюстраторка",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fvarvara.jpeg?alt=media&token=6f7ca08b-6553-4ccc-a9a6-f085550a6682",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fvarvara.jpeg?alt=media&token=6f7ca08b-6553-4ccc-a9a6-f085550a6682"
     },
     "topic": {
       "day": "second",
@@ -318,7 +317,7 @@
     "author": {
       "name": "Выступление Like Standup Montenegro",
       "description": "Первое стендап сообщество, которое включает в себя стендап, студию комедийной импровизации и создает уникальные комедийные проекты.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_1063.jpg?alt=media&token=e8567ca8-3fdc-4303-ade0-d65c109d13ce",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_1063.jpg?alt=media&token=e8567ca8-3fdc-4303-ade0-d65c109d13ce"
     },
     "topic": {
       "day": "second",
@@ -330,7 +329,7 @@
    "26": {
     "author": {
       "name": "Эковечеринка",
-      "description": "",
+      "description": ""
     },
     "topic": {
       "day": "second",
@@ -338,5 +337,5 @@
       "time": "21:30",
       "description": "Приходите сами и приводите друзей. Эковечеринка – это пространство для всех, кто любит веселиться и заботиться о нашей планете."
     }
-  }, 
+  }
 }
