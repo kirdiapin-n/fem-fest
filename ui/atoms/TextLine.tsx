@@ -4,7 +4,7 @@ import styles from "../../styles/textline.module.css";
 
 interface TextLineProps {
   children: React.ReactNode;
-  left: boolean;
+  left?: boolean;
   rotation?: number;
 }
 
