@@ -17,7 +17,7 @@ function List({ tags, items }: Props) {
 
   return (
     <Stack spacing={6} flex={1}>
-      <Stack direction="row" spacing={2}>
+      <Stack direction="row" gap={2} flexWrap="wrap">
         {tags.map((tag, index) => (
           <Chip
             key={index}
