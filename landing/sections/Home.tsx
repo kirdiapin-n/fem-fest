@@ -61,7 +61,7 @@ export default function Home() {
             fontFamily="Hlebozavod-Medium, serif"
           >
             <Link href={`#${IDS.LECTURES}`} underline="none" color="inherit">
-              лекции
+              расписание
             </Link>
           </Typography>
           <Typography
@@ -119,7 +119,7 @@ export default function Home() {
         маркет дискуссии взаимопомощь кросс-дресс вечеринка лекции консультации
         выставки общение маркет дискуссии взаимопомощь
       </TextLine>
-      <TextLine rotation={-0.11}>
+      <TextLine rotation={-0.11} left={true}>
         выставки общение маркет дискуссии взаимопомощь кросс-дресс вечеринка
         лекции консультации выставки общение маркет дискуссии взаимопомощь
         лекции консультации выставки общение маркет дискуссии

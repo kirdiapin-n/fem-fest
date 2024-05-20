@@ -4,10 +4,16 @@ import styles from "../../styles/textline.module.css";
 
 interface TextLineProps {
   children: React.ReactNode;
+  left?: boolean;
   rotation?: number;
 }
 
-export const TextLine = ({ children, rotation, ...props }: TextLineProps) => (
+export const TextLine = ({
+  children,
+  rotation,
+  left,
+  ...props
+}: TextLineProps) => (
   <div
     className={styles.textlineContainer}
     style={{
@@ -18,7 +24,9 @@ export const TextLine = ({ children, rotation, ...props }: TextLineProps) => (
   >
     <Typography
       component="div"
-      className={styles.textline}
+      className={`${styles.textline} ${
+        left ? styles.leftAnimation : styles.rightAnimation
+      }`}
       fontSize={30}
       color="black"
       fontFamily="Hlebozavod-Medium, serif"

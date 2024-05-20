@@ -1,6 +1,6 @@
 import { ACCENT_FONT, BLOCK_FONT } from "constants/fonts";
 import { Theme, ThemeOptions } from "types";
-import { createTheme, deepOrange, deepPurple, grey } from "utils/styles";
+import { createTheme, deepPurple, grey } from "utils/styles";
 
 const titles = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
 const primaryColor = "#CCFF5E";
@@ -44,23 +44,6 @@ const defaultTheme: ThemeOptions = {
   },
 };
 
-const darkTheme = createTheme({
-  ...defaultTheme,
-  palette: {
-    mode: "dark",
-    primary: deepOrange,
-    secondary: grey,
-    divider: deepOrange[700],
-    background: {
-      default: "#000000",
-    },
-    text: {
-      primary: primaryColor,
-      secondary: grey[500],
-    },
-  },
-});
-
 export const lightTheme = createTheme({
   ...defaultTheme,
   palette: {
@@ -75,8 +58,8 @@ export const lightTheme = createTheme({
   },
 });
 
-export const getTheme = (value: "dark" | "light") =>
+export const getTheme = () =>
   ({
     ...defaultTheme,
-    ...(value === "dark" ? darkTheme : lightTheme),
+    ...lightTheme,
   } as Theme);
