@@ -5,22 +5,24 @@ import React from "react";
 import styles from "styles/about.module.css";
 import { getRandomImage } from "utils/images";
 
-const StyledBox = styled(Box)({
-  backgroundPosition: "center center",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  position: "relative",
-  "&:before": {
-    content: "''",
-    position: "absolute",
-    top: 0,
-    right: 0,
-    bottom: 0,
-    left: 0,
-    background: "inherit",
-    filter: "grayscale(100%) contrast(1.1)",
-  },
-});
+const StyledBox = styled(Box)<{ withoutFilters?: boolean }>(
+  ({ withoutFilters }) => ({
+    backgroundPosition: "center center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    position: "relative",
+    "&:before": {
+      content: "''",
+      position: "absolute",
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0,
+      background: "inherit",
+      filter: withoutFilters ? "unset" : "grayscale(100%) contrast(1.1)",
+    },
+  })
+);
 
 const PHOTO_RATIO = 86.25;
 const MAX_PERCENTS = 100;
@@ -33,10 +35,12 @@ export function Photo({
   url,
   isFirstSpeaker,
   isSecondSpeaker,
+  withoutFilters,
 }: {
   url: string;
   isFirstSpeaker?: boolean;
   isSecondSpeaker?: boolean;
+  withoutFilters?: boolean;
 }) {
   const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
   const showBottomPic = areTwoSpeakers
@@ -76,6 +80,7 @@ export function Photo({
           height="100%"
           bgcolor="gray"
           overflow="hidden"
+          withoutFilters={withoutFilters}
           borderRadius={areTwoSpeakers ? "100%" : "200px"}
           sx={{ backgroundImage: `url(${url})` }}
         />
