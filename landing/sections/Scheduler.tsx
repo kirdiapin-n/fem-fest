@@ -52,7 +52,13 @@ function List({ tags, items }: Props) {
   if (!items.length) return null;
 
   return (
-    <Stack spacing={4} flex={1}>
+    <Stack
+      spacing={4}
+      flex={1}
+      sx={{
+        textShadow: "1px 1px 1px black",
+      }}
+    >
       <Stack direction="row" gap={2} flexWrap="wrap">
         {tags.map((tag, index) => (
           <Chip
