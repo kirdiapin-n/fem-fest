@@ -17,8 +17,7 @@ export default function Home() {
       position="relative"
       sx={{
         backgroundImage: `url(${bg.src})`,
-        minHeight: { xs: "unset", lg: "100vh" },
-        paddingTop: { xs: "70px", lg: "0" },
+        paddingTop: { xs: "70px" },
       }}
       id={IDS.HOME}
     >
@@ -133,7 +132,7 @@ export default function Home() {
           position: "relative",
         }}
         sx={{
-          top: { xs: "0", lg: "20vh" },
+          padding: { xs: "0", lg: "200px 0 80px 0" },
         }}
         direction={{ xs: "column", lg: "row" }}
         spacing={{ xs: 3, lg: 0 }}
@@ -156,7 +155,6 @@ export default function Home() {
             sx={{
               fontSize: { xs: "3rem", lg: "5rem" },
               lineHeight: { xs: "4rem", lg: "4.5rem" },
-              width: { xs: "100%", lg: "33%" },
             }}
             color="text.primary"
             whiteSpace="pre-wrap"

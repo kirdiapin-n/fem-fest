@@ -54,7 +54,7 @@ export type TProduct = {
   product: {
     photo_url?: string;
     name: string;
-    description: string;
+    description?: string;
   };
   author_name: string;
   day: string;

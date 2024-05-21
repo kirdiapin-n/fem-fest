@@ -26,7 +26,6 @@ const StyledSection = styled(Box)(() => ({
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   width: "100%",
-  minHeight: "100vh",
   overflowX: "hidden",
 }));
 
