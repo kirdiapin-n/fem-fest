@@ -27,7 +27,7 @@ export const TextLine = ({
       className={`${styles.textline} ${
         left ? styles.leftAnimation : styles.rightAnimation
       }`}
-      fontSize={30}
+      fontSize="2rem"
       color="black"
       fontFamily="Hlebozavod-Medium, serif"
       noWrap

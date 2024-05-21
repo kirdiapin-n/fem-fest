@@ -30,11 +30,12 @@ export function Author(
 
       <Stack direction="row">
         {!areTwoSpeakers && <div style={{ flex: 1 }}></div>}
-        <Stack flex={1}>
-          <Typography variant="h5" letterSpacing=".5rem" fontSize="1.75rem">
+
+        <Stack flex={2}>
+          <Typography variant="h5" letterSpacing=".5rem" fontSize="1.3rem">
             {name}
           </Typography>
-          <Typography fontSize="1.2rem">{description}</Typography>
+          <Typography fontSize="0.8rem">{description}</Typography>
         </Stack>
       </Stack>
     </StyledStack>

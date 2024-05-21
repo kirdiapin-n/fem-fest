@@ -1,5 +1,5 @@
-{
-  "2": {
+[
+  {
     "author": {
       "name": "Марина Травкова",
       "description": "Семейный психолог, супружеский и секс-терапевт.Занимаюсь сексуальным образованием взрослых и детей, участвую в просветительских проектах.",
@@ -12,7 +12,7 @@
       "description": "Кто боится секспросвета: почему провалились попытки секс.воспитания в РФ?"
     }
   },
-  "1": {
+  {
     "author": {
       "name": "Екатерина Фимина",
       "description": "Психолог, сертифицированный консультант Профессиональной Психотерапевтической Лиги.",
@@ -25,7 +25,7 @@
       "description": "Тема власти в межличностных отношениях."
     }
   },
-  "3": {
+  {
     "author": {
       "name": "Маша Мюллер",
       "description": "Консультантка по родительскому выгоранию, равная консультантка для родитель_ниц и основательница «Лаборатории родительства».",
@@ -38,7 +38,7 @@
       "description": "Вебинар-тренинг «Взаимосвязь между гендерно обусловленным насилием и родительским выгоранием: понимание и поддержка»"
     }
   },
-  "4": {
+  {
     "author": {
       "name": "Ксения Петрова",
       "description": "юристка, практикующий психолог, IFS-практик, феминистка.",
@@ -51,7 +51,7 @@
       "description": "Депрессия, патриархат и феминизм. Почему женщины болеют депрессией намного чаще"
     }
   },
-  "5": {
+  {
     "author": {
       "name": "Jana Šekularac",
       "description": "Psychologist, employed in the Municipality of Bar as an independent consultant for the prevention of addiction diseases",
@@ -69,7 +69,7 @@
       "description": "Differences in upbringing between boys and girls"
     }
   },
-  "6": {
+  {
     "author": {
       "name": "Дина Тансари",
       "description": "Правозащитница из Казахстана.Соосновательница движения #НеМолчи в Казахстане и Центральной Азии.",
@@ -82,7 +82,7 @@
       "description": "Домашнее насилие"
     }
   },
-  "7": {
+  {
     "author": {
       "name": "Maja Raičević",
       "description": "Executive Director / Advocacy Program Coordinator",
@@ -96,7 +96,7 @@
       "description": "CŽP is a non-profit, non-partisan, non-religious organization that fights against all forms of violence against women and ensures their access to justice, developing gender-equal democratic practices and collaborating with all relevant domestic and international actors."
     }
   },
-  "8": {
+  {
     "author": {
       "name": "Антон Митрофанов",
       "description": "Индивидуальные и семейные консультации, телесная терапия",
@@ -110,7 +110,7 @@
       "description": "Про настоящих мужчин - почему их не существует и почему это хорошо?"
     }
   },
-  "9": {
+  {
     "is_not_speaker": true,
     "author": {
       "name": "Квир Фем вечеринка",
@@ -123,7 +123,7 @@
       "description": "Кроссдрессинг приветствуется! Это отличная возможность попробовать что-то новое и выразить себя через одежду. Будьте смелыми и креативными!"
     }
   },
-  "10": {
+  {
     "author": {
       "name": "Зубарь Евгения",
       "description": "corporate programs EPAM Montenegro",
@@ -136,7 +136,7 @@
       "description": "Зачем нужна корпоративная социальная ответственность в больших корпорациях и при чем тут наши дети?"
     }
   },
-  "12": {
+  {
     "author": {
       "name": "Виктория Викторовна Сандо",
       "description": " Филолог, психолог, психотерапевт, преподаватель.",
@@ -149,25 +149,7 @@
       "description": "Я это мое тело."
     }
   },
-  "11": {
-    "author": {
-      "name": "Аня Соловьёва",
-      "description": "Аня Соловьёва: нарративная IFS-терапевтка",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1"
-    },
-    "second_author": {
-      "name": "Знаменская Ирина Игорьевна",
-      "description": "Знаменская Ирина Игорьевна: Психолог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
-    },
-    "topic": {
-      "day": "first",
-      "room": "small",
-      "time": "14:00",
-      "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
-    }
-  },
-  "14": {
+  {
     "author": {
       "name": "Маша Семилетова",
       "description": "Я блогер и smm-специалист, популяризатор мультфильмов",
@@ -180,7 +162,7 @@
       "description": "Гендерные стереотипы в мультиках."
     }
   },
-  "15": {
+  {
     "author": {
       "name": "Анна Балдина",
       "description": "Медиатренер, преподаватель по развитию речевого голоса, журналист",
@@ -193,7 +175,25 @@
       "description": "Голос в женском имидже: сила или слабость?"
     }
   },
-  "16": {
+  {
+    "author": {
+      "name": "Аня Соловьёва",
+      "description": "Аня Соловьёва: нарративная IFS-терапевтка",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1"
+    },
+    "second_author": {
+      "name": "Знаменская Ирина",
+      "description": "Знаменская Ирина: Психолог",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
+    },
+    "topic": {
+      "day": "first",
+      "room": "small",
+      "time": "14:00",
+      "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
+    }
+  },
+  {
     "author": {
       "name": "Настя Вареник",
       "description": "Художница, режиссерка, фемактивистка, театральный педагог",
@@ -206,7 +206,7 @@
       "description": "Мастер-класс \"Живая речь.\""
     }
   },
-  "17": {
+  {
     "author": {
       "name": "Денис Тихомиров",
       "description": "Фотограф, автор курса лекций об истории феминисткой фотографии",
@@ -219,20 +219,7 @@
       "description": "Тело, Камера,взгляд. Что становится видимым?"
     }
   },
-  "18": {
-    "author": {
-      "name": "Самоорганизация ШШШ",
-      "description": "ШШШ — самоорганизованная группа художниц",
-      "photo_url": ""
-    },
-    "topic": {
-      "day": "second",
-      "room": "big",
-      "time": "15:00",
-      "description": "Экофеминизм - видеоперформанс"
-    }
-  },
-  "19": {
+  {
     "author": {
       "name": "Наталья Севец-Ермолина",
       "description": "Ведущая журналистка, блогерка, координаторка Reforum Space Budva",
@@ -245,7 +232,7 @@
       "description": "Воркшоп по лаконичному письма"
     }
   },
-  "20": {
+  {
     "author": {
       "name": "Евгения Тарануха",
       "description": "Графический дизайнер, иллюстратор, диджитал-художница, колумнистка «Щ»",
@@ -258,7 +245,7 @@
       "description": "Лекция \"Художественный подход в работе с генеративными нейросетями\" (Midjourney, Stable Diffusion, Dalle)."
     }
   },
-  "21": {
+  {
     "author": {
       "name": "Юлия Воротынцева",
       "description": "Искусствовед, куратор, лектор. Рассматривает искусство ХХ-ХХI веков сквозь призму феминистской оптики.",
@@ -271,28 +258,23 @@
       "description": "Лекция \"Почему не было великих женщин-художниц?\""
     }
   },
-  "22": {
+  {
     "is_not_speaker": true,
     "author": {
-      "name": "Юлия Воротынцева",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22"
-    },
-    "second_author": {
-      "name": "Настя Вареник",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
+      "name": "Финисаж выставки художниц"
     },
     "topic": {
       "day": "second",
       "room": "big",
       "time": "18:00",
-      "description": "Открытие выставки женщин-художниц: Лада\nУчаева, Ира Цыханская, Tania BigSister, Мария Макарова, Настя Вареник, Катя Кэндор"
+      "description": "Лада Учаева, Ира Цыханская, Tania BigSister, Мария Макарова, Настя Вареник, Катя Кэндор"
     }
   },
-  "23": {
+  {
     "author": {
       "name": "Надежда Кузнецова",
       "description": "Экоактивистка и косметолог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8113.jpg?alt=media&token=5433d4d2-947a-481b-ba24-dcd3b0cc3f6e"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-21%208.39.05%E2%80%AFAM.jpeg?alt=media&token=cc9b6d4d-4188-4466-9f0b-1d4c5e0a0eea"
     },
     "topic": {
       "day": "second",
@@ -301,7 +283,7 @@
       "description": "Барский своп едет в гости в Будву!"
     }
   },
-  "24": {
+  {
     "author": {
       "name": "Варвара Гранкова",
       "description": "Художница и иллюстраторка",
@@ -311,10 +293,10 @@
       "day": "second",
       "room": "big",
       "time": "18:30",
-      "description": "Перформанс “die Lorelei. Художница поднимает тему потери идентичности, котрая происходит с ней в имиграции."
+      "description": "Перформанс \"die Lorelei\". Художница поднимает тему потери идентичности, котрая происходит с ней в иммиграции."
     }
   },
-  "25": {
+  {
     "author": {
       "name": "Выступление Like Standup Montenegro",
       "description": "Первое стендап сообщество, которое включает в себя стендап, студию комедийной импровизации и создает уникальные комедийные проекты.",
@@ -327,7 +309,7 @@
       "description": "Выступление Like Standup Montenegro"
     }
   },
-  "26": {
+  {
     "is_not_speaker": true,
     "author": {
       "name": "Эковечеринка",
@@ -339,5 +321,18 @@
       "time": "21:30",
       "description": "Приходите сами и приводите друзей. Эковечеринка – это пространство для всех, кто любит веселиться и заботиться о нашей планете."
     }
+  },
+  {
+    "author": {
+      "name": "Самоорганизация ШШШ",
+      "description": "ШШШ — самоорганизованная группа художниц",
+      "photo_url": ""
+    },
+    "topic": {
+      "day": "second",
+      "room": "big",
+      "time": "15:00",
+      "description": "Экофеминизм - видеоперформанс"
+    }
   }
-}
+]

@@ -17,10 +17,14 @@ function Product(props: TProduct) {
     <Stack direction="column">
       <Photo url={photo_url} withoutFilters />
 
-      <Stack direction="column">
-        <Typography align="center">{name}</Typography>
+      <Stack direction="column" spacing={0}>
+        <Typography align="center">
+          <u>{name}</u>
+        </Typography>
 
-        <Typography align="center">{day}</Typography>
+        <Typography fontSize="small" align="center">
+          {day}
+        </Typography>
 
         <Typography>
           Автор: <b>{author_name}</b>
@@ -50,7 +54,7 @@ export default function Market() {
     <Section id={IDS.MARKET} title={"Маркет"}>
       <Grid container spacing={4}>
         {data.map((props, index) => (
-          <Grid key={index} item xs={3} md={2}>
+          <Grid key={index} item xs={4} md={2}>
             <Product {...props} />
           </Grid>
         ))}

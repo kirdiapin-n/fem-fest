@@ -48,7 +48,7 @@ export type TLector = {
   topic: Topic;
 };
 
-export type TLectures = ({ id: string } & TLector)[];
+export type LectureType = { id: number } & TLector;
 
 export type TProduct = {
   product: {
