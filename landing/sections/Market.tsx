@@ -30,7 +30,9 @@ function Product(props: TProduct) {
           Автор: <b>{author_name}</b>
         </Typography>
 
-        <Typography whiteSpace="pre-wrap">О себе: {description}</Typography>
+        {description && (
+          <Typography whiteSpace="pre-wrap">О себе: {description}</Typography>
+        )}
       </Stack>
 
       <Stack justifyContent="center">
