@@ -36,12 +36,12 @@ function Item({
       <Typography
         fontFamily={ACCENT_FONT}
         letterSpacing="0.2rem"
-        fontSize="2.125rem"
+        fontSize="1.5rem"
         lineHeight="2.5rem"
       >
         {topic.time}
       </Typography>
-      <Typography fontSize="1.7rem" lineHeight="2.3rem">
+      <Typography fontSize="1.3rem" lineHeight="2.3rem">
         {concatStrings(". ", authorNameElement, topic.description)}
       </Typography>
     </Stack>
@@ -52,7 +52,7 @@ function List({ tags, items }: Props) {
   if (!items.length) return null;
 
   return (
-    <Stack spacing={6} flex={1}>
+    <Stack spacing={4} flex={1}>
       <Stack direction="row" gap={2} flexWrap="wrap">
         {tags.map((tag, index) => (
           <Chip
@@ -71,7 +71,7 @@ function List({ tags, items }: Props) {
         ))}
       </Stack>
 
-      <Stack spacing={4}>
+      <Stack spacing={2}>
         {items.map((props) => (
           <Item key={props.id} {...props} />
         ))}
