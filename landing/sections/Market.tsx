@@ -15,7 +15,7 @@ function Product(props: TProduct) {
 
   return (
     <Stack direction="column">
-      <Photo url={photo_url} withoutFilters />
+      <Photo url={photo_url} nofilters />
 
       <Stack direction="column">
         <Typography align="center">{name}</Typography>

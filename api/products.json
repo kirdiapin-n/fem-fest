@@ -65,6 +65,18 @@
   },
   {
     "product": {
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8118.jpg?alt=media&token=68d3bd28-1a21-47a9-94e0-83935a9e6040",
+      "description": "Мое хобби - шитье. \nЯ шью с большим удовольствием в свое свободное время",
+      "name": "Авоськи и др шитье"
+    },
+    "author_name": "Ольга",
+    "day": "2 июня",
+    "contact": {
+      "telegram": "https://t.me/farfalla_nera_13"
+    }
+  },
+  {
+    "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F2024-05-18_09-07-54.jpeg?alt=media&token=44dbb919-e2a0-4529-a54a-286105ce12d2",
       "description": "Создаю предметы интерьера и одежды в двух техниках ковровая вышивка и макраме. Помогаю создавать уют и обретать в нем чувство дома, а еще украшать и радовать себя.",
       "name": "Макраме интерьерное"
@@ -104,7 +116,7 @@
   },
   {
     "product": {
-      "photo_url": "",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8110.jpg?alt=media&token=9cbb12c5-2491-458e-9bae-8ce2b7ba0255",
       "description": "Ювелирная мастерская Lasgaros Workshop. Авторские изделия ручной работы из серебра, золота и натуральных камней.",
       "name": "Украшения из серебра золота камней"
     },
@@ -117,7 +129,7 @@
   },
   {
     "product": {
-      "photo_url": "",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8111.jpg?alt=media&token=ece0b90a-0963-4f8d-b62b-c4e006a0ecd8",
       "description": "Мастерская S.A.L.T. создает чокеры, портупеи, браслеты и ремни из натуральной кожи, выполненные вручную. Эти аксессуары станут стильным дополнением вашего образа",
       "name": "Кожа - портупеи"
     },
@@ -180,7 +192,7 @@
   },
   {
     "product": {
-      "photo_url": "",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8116.jpg?alt=media&token=ce4ca2d7-9a4e-4af3-ac2f-ad6aa20e342e",
       "description": "Я волшебница, мастер по пчелиному воску и природным материалам. Люблю все натуральное. Делаю чудесные душистые свечи из пчелиного воска с изумительным ароматом меда, с добавлением трав.",
       "name": "Свечи пчелиные"
     },
@@ -256,7 +268,7 @@
   },
   {
     "product": {
-      "photo_url": "",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8123.jpg?alt=media&token=041120dd-1844-4432-9ee1-2032e6efd72f",
       "description": "Я создаю миниатюрных тедди уже на протяжении 6 лет. Частый комплимент, который получают мои мишки - «удивительный».",
       "name": "Микро тедди"
     },
