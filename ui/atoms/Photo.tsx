@@ -6,7 +6,7 @@ import React from "react";
 import styles from "styles/about.module.css";
 import { getRandomImage } from "utils/images";
 
-const StyledBox = styled(Box)<{ nofilters?: boolean }>(({ nofilters }) => ({
+const StyledBox = styled(Box)({
   backgroundPosition: "center center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -19,9 +19,9 @@ const StyledBox = styled(Box)<{ nofilters?: boolean }>(({ nofilters }) => ({
     bottom: 0,
     left: 0,
     background: "inherit",
-    filter: nofilters ? "unset" : "grayscale(100%) contrast(1.1)",
+    filter: "grayscale(100%) contrast(1.1)",
   },
-}));
+});
 
 const PHOTO_RATIO = 86.25;
 const MAX_PERCENTS = 100;
@@ -34,12 +34,12 @@ export function Photo({
   url,
   isFirstSpeaker,
   isSecondSpeaker,
-  nofilters,
+  withoutFilters,
 }: {
   url?: string;
   isFirstSpeaker?: boolean;
   isSecondSpeaker?: boolean;
-  nofilters?: boolean;
+  withoutFilters?: boolean;
 }) {
   const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
   const showBottomPic = areTwoSpeakers
@@ -80,9 +80,15 @@ export function Photo({
             height="100%"
             bgcolor="gray"
             overflow="hidden"
-            nofilters={nofilters}
             borderRadius={areTwoSpeakers ? "100%" : "200px"}
-            sx={{ backgroundImage: `url(${url})` }}
+            sx={{
+              backgroundImage: `url(${url})`,
+              ...(withoutFilters && {
+                "&:before": {
+                  filter: "unset",
+                },
+              }),
+            }}
           />
         ) : (
           <Icons.ImageNotSupported sx={{ width: "100%", height: "100%" }} />
