@@ -2,15 +2,15 @@ import { IDS } from "constants/landing";
 import { Grid, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
 import React from "react";
-import { TLector, TLectures } from "types";
+import { LectureType } from "types";
 import { Section } from "ui/templates/Section";
 import { Author } from "../components/Author";
 
-function Lecturer(props: TLector & { id: string }) {
+function Lecturer(props: LectureType) {
   const { id, author, topic, second_author } = props;
 
   return (
-    <Stack id={id} spacing={4}>
+    <Stack id={String(id)} spacing={4}>
       <Stack direction="row">
         <Author {...author} isFirstSpeaker={!!second_author} />
 
@@ -25,15 +25,10 @@ function Lecturer(props: TLector & { id: string }) {
 }
 
 export default function Lecturers() {
-  const lecturers = Object.entries(data).map(([id, value]) => ({
-    id,
-    ...value,
-  })) as TLectures;
-
   return (
-    <Section id={IDS.LECTURERS} title={"Лекторы"}>
+    <Section id={IDS.LECTURERS} title="Лекторы">
       <Grid container spacing={6}>
-        {lecturers
+        {data
           .filter(({ is_not_speaker }) => !is_not_speaker)
           .map((lecturer, index) => (
             <Grid
@@ -42,7 +37,7 @@ export default function Lecturers() {
               xs={lecturer.second_author ? 12 : 6}
               md={lecturer.second_author ? 6 : 3}
             >
-              <Lecturer {...lecturer} />
+              <Lecturer {...lecturer} id={index} />
             </Grid>
           ))}
       </Grid>

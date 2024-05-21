@@ -5,14 +5,14 @@ import data from "api/data.json";
 import bg from "assets/images/cloud-background-image.webp";
 import { Icons } from "icons";
 import React from "react";
-import { TLectures } from "types";
+import { LectureType } from "types";
 import { Section } from "ui/templates/Section";
 import { getLectures } from "utils/landing";
 import { concatStrings } from "utils/typography";
 
 type Props = {
   tags: string[];
-  items: TLectures;
+  items: LectureType[];
 };
 function Item({
   id,
@@ -20,7 +20,7 @@ function Item({
   second_author,
   is_not_speaker,
   topic,
-}: TLectures[number]) {
+}: LectureType) {
   const authorName = concatStrings(" и ", author.name, second_author?.name);
 
   const authorNameElement = is_not_speaker ? (
@@ -81,11 +81,6 @@ function List({ tags, items }: Props) {
 }
 
 export default function Scheduler() {
-  const preparedData = Object.entries(data).map(([id, value]) => ({
-    id,
-    ...value,
-  }));
-
   return (
     <Section
       id={IDS.SCHEDULER}
@@ -97,24 +92,24 @@ export default function Scheduler() {
         <Stack direction="row" spacing={4} flexWrap="wrap">
           <List
             tags={["1 июня", "большой зал"]}
-            items={getLectures(preparedData, "first", "big")}
+            items={getLectures(data, "first", "big")}
           />
 
           <List
             tags={["1 июня", "малый зал"]}
-            items={getLectures(preparedData, "first", "small")}
+            items={getLectures(data, "first", "small")}
           />
         </Stack>
 
         <Stack direction="row" spacing={4} flexWrap="wrap">
           <List
             tags={["2 июня", "большой зал"]}
-            items={getLectures(preparedData, "second", "big")}
+            items={getLectures(data, "second", "big")}
           />
 
           <List
             tags={["2 июня", "Малый зал"]}
-            items={getLectures(preparedData, "second", "small")}
+            items={getLectures(data, "second", "small")}
           />
         </Stack>
         <Stack alignItems="center" width="100%">
