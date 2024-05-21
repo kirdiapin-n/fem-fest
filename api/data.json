@@ -156,8 +156,8 @@
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1"
     },
     "second_author": {
-      "name": "Знаменская Ирина Игорьевна",
-      "description": "Знаменская Ирина Игорьевна: Психолог",
+      "name": "Знаменская Ирина",
+      "description": "Знаменская Ирина: Психолог",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.43.31%E2%80%AFAM.jpeg?alt=media&token=1b0cb04c-e117-4952-b0bd-7d72b43360e3"
     },
     "topic": {
@@ -274,25 +274,20 @@
   "22": {
     "is_not_speaker": true,
     "author": {
-      "name": "Юлия Воротынцева",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22"
-    },
-    "second_author": {
-      "name": "Настя Вареник",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
+      "name": "Финисаж выставки художниц"
     },
     "topic": {
       "day": "second",
       "room": "big",
       "time": "18:00",
-      "description": "Открытие выставки женщин-художниц: Лада\nУчаева, Ира Цыханская, Tania BigSister, Мария Макарова, Настя Вареник, Катя Кэндор"
+      "description": "Лада Учаева, Ира Цыханская, Tania BigSister, Мария Макарова, Настя Вареник, Катя Кэндор"
     }
   },
   "23": {
     "author": {
       "name": "Надежда Кузнецова",
       "description": "Экоактивистка и косметолог",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8113.jpg?alt=media&token=5433d4d2-947a-481b-ba24-dcd3b0cc3f6e"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-21%208.39.05%E2%80%AFAM.jpeg?alt=media&token=cc9b6d4d-4188-4466-9f0b-1d4c5e0a0eea"
     },
     "topic": {
       "day": "second",
@@ -311,7 +306,7 @@
       "day": "second",
       "room": "big",
       "time": "18:30",
-      "description": "Перформанс “die Lorelei. Художница поднимает тему потери идентичности, котрая происходит с ней в имиграции."
+      "description": "Перформанс \"die Lorelei\". Художница поднимает тему потери идентичности, котрая происходит с ней в иммиграции."
     }
   },
   "25": {
