@@ -10,16 +10,14 @@ function Lecturer(props: LectureType) {
   const { id, author, topic, second_author } = props;
 
   return (
-    <Stack id={String(id)} spacing={4}>
+    <Stack id={String(id)} spacing={2}>
       <Stack direction="row">
         <Author {...author} isFirstSpeaker={!!second_author} />
 
         {second_author && <Author {...second_author} isSecondSpeaker />}
       </Stack>
 
-      <Typography lineHeight="2rem" fontSize="1.5rem">
-        {topic.description}
-      </Typography>
+      <Typography lineHeight="1.5rem">{topic.description}</Typography>
     </Stack>
   );
 }

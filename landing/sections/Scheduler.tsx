@@ -89,7 +89,7 @@ export default function Scheduler() {
       color="white"
     >
       <Stack spacing={4} direction="column">
-        <Stack direction="row" spacing={4} flexWrap="wrap">
+        <Stack direction="row" gap={4} flexWrap="wrap">
           <List
             tags={["1 июня", "большой зал"]}
             items={getLectures(data, "first", "big")}

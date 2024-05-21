@@ -164,6 +164,19 @@
   },
   {
     "author": {
+      "name": "Анна Балдина",
+      "description": "Медиатренер, преподаватель по развитию речевого голоса, журналист",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%2010.31.08%E2%80%AFPM.jpeg?alt=media&token=7165ecb7-b67a-4475-a888-c019f3731e98"
+    },
+    "topic": {
+      "day": "second",
+      "room": "big",
+      "time": "12:00",
+      "description": "Голос в женском имидже: сила или слабость?"
+    }
+  },
+  {
+    "author": {
       "name": "Аня Соловьёва",
       "description": "Аня Соловьёва: нарративная IFS-терапевтка",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1"
@@ -178,19 +191,6 @@
       "room": "small",
       "time": "14:00",
       "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
-    }
-  },
-  {
-    "author": {
-      "name": "Анна Балдина",
-      "description": "Медиатренер, преподаватель по развитию речевого голоса, журналист",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-20%2010.31.08%E2%80%AFPM.jpeg?alt=media&token=7165ecb7-b67a-4475-a888-c019f3731e98"
-    },
-    "topic": {
-      "day": "second",
-      "room": "big",
-      "time": "12:00",
-      "description": "Голос в женском имидже: сила или слабость?"
     }
   },
   {
@@ -217,19 +217,6 @@
       "room": "big",
       "time": "14:00",
       "description": "Тело, Камера,взгляд. Что становится видимым?"
-    }
-  },
-  {
-    "author": {
-      "name": "Самоорганизация ШШШ",
-      "description": "ШШШ — самоорганизованная группа художниц",
-      "photo_url": ""
-    },
-    "topic": {
-      "day": "second",
-      "room": "big",
-      "time": "15:00",
-      "description": "Экофеминизм - видеоперформанс"
     }
   },
   {
@@ -333,6 +320,19 @@
       "room": "big",
       "time": "21:30",
       "description": "Приходите сами и приводите друзей. Эковечеринка – это пространство для всех, кто любит веселиться и заботиться о нашей планете."
+    }
+  },
+  {
+    "author": {
+      "name": "Самоорганизация ШШШ",
+      "description": "ШШШ — самоорганизованная группа художниц",
+      "photo_url": ""
+    },
+    "topic": {
+      "day": "second",
+      "room": "big",
+      "time": "15:00",
+      "description": "Экофеминизм - видеоперформанс"
     }
   }
 ]
