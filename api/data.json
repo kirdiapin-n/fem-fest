@@ -151,6 +151,19 @@
   },
   {
     "author": {
+      "name": "Маша Семилетова",
+      "description": "Я блогер и smm-специалист, популяризатор мультфильмов",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fmaria_semeletova.JPG?alt=media&token=2c39c105-c24b-4578-8b4c-0a07e313f50f"
+    },
+    "topic": {
+      "day": "second",
+      "room": "big",
+      "time": "11:00",
+      "description": "Гендерные стереотипы в мультиках."
+    }
+  },
+  {
+    "author": {
       "name": "Аня Соловьёва",
       "description": "Аня Соловьёва: нарративная IFS-терапевтка",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.33.57%E2%80%AFAM.jpeg?alt=media&token=e271bb2f-d5a8-4bad-880e-df58549cc2c1"
@@ -165,19 +178,6 @@
       "room": "small",
       "time": "14:00",
       "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
-    }
-  },
-  {
-    "author": {
-      "name": "Маша Семилетова",
-      "description": "Я блогер и smm-специалист, популяризатор мультфильмов",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fmaria_semeletova.JPG?alt=media&token=2c39c105-c24b-4578-8b4c-0a07e313f50f"
-    },
-    "topic": {
-      "day": "second",
-      "room": "big",
-      "time": "11:00",
-      "description": "Гендерные стереотипы в мультиках."
     }
   },
   {
