@@ -17,10 +17,14 @@ function Product(props: TProduct) {
     <Stack direction="column">
       <Photo url={photo_url} nofilters />
 
-      <Stack direction="column">
-        <Typography align="center">{name}</Typography>
+      <Stack direction="column" spacing={0}>
+        <Typography align="center">
+          <u>{name}</u>
+        </Typography>
 
-        <Typography align="center">{day}</Typography>
+        <Typography fontSize="small" align="center">
+          {day}
+        </Typography>
 
         <Typography>
           Автор: <b>{author_name}</b>
