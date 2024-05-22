@@ -11,7 +11,7 @@ export default function Exhibition() {
     <Section id={IDS.EXHIBITION} title="Выставки">
       <Grid container spacing={4}>
         {artists.map(({ author }, index) => (
-          <Grid key={index} item xs={6} md={3}>
+          <Grid key={index} item xs={6} sm={4} md={2}>
             <Stack direction="column">
               <Photo url={author.photo_url} />
 
