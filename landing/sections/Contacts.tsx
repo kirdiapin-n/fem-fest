@@ -1,3 +1,4 @@
+import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
 import { DEFAULT_ZOOM, REFORUM_SPACE_COORDS } from "constants/map";
 import { Button } from "@mui/material";
 import Stack from "@mui/material/Stack";
@@ -9,9 +10,8 @@ import {
 } from "@react-google-maps/api";
 import React, { useState } from "react";
 import { Section } from "ui/templates/Section";
-import { FAR_TELEGRAM_URL, IDS } from "../../constants/landing";
 
-export function Contacts() {
+export default function Contacts() {
   const [isShow, setIsShow] = useState(false);
 
   const { isLoaded } = useJsApiLoader({
@@ -70,5 +70,3 @@ export function Contacts() {
     </Section>
   );
 }
-
-export default Map;
