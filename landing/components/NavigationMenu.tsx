@@ -1,12 +1,20 @@
+import { IDS } from "constants/landing";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Link, Typography } from "@mui/material";
+import { Link } from "@mui/material";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Tooltip from "@mui/material/Tooltip";
+import { styled } from "@mui/system";
 import React, { useEffect, useState } from "react";
-import { IDS } from "../../constants/landing";
+
+const StyledLink = styled(Link)({
+  color: "black",
+  fontSize: "2rem",
+  fontFamily: "Hlebozavod-Medium, serif",
+  textDecoration: "none",
+});
 
 export default function NavigationMenu() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -92,70 +100,22 @@ export default function NavigationMenu() {
         }}
       >
         <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.ABOUT}`} underline="none" color="black">
-              о нас
-            </Link>
-          </Typography>
+          <StyledLink href={`#${IDS.ABOUT}`}>о нас</StyledLink>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.SCHEDULER}`} underline="none" color="black">
-              лекции
-            </Link>
-          </Typography>
-        </MenuItem>
-        {/*<MenuItem onClick={handleClose}>*/}
-        {/*  <Typography*/}
-        {/*    fontSize="2rem"*/}
-        {/*    color="text.primary"*/}
-        {/*    fontFamily="Hlebozavod-Medium, serif"*/}
-        {/*  >*/}
-        {/*    <Link href={`#${IDS.EXHIBITION}`} underline="none" color="black">*/}
-        {/*      выставка*/}
-        {/*    </Link>*/}
-        {/*  </Typography>*/}
-        {/*</MenuItem>*/}
-        <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.LECTURERS}`} underline="none" color="black">
-              лекторы
-            </Link>
-          </Typography>
+          <StyledLink href={`#${IDS.SCHEDULER}`}>лекции</StyledLink>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.MARKET}`} underline="none" color="black">
-              маркет
-            </Link>
-          </Typography>
+          <StyledLink href={`#${IDS.EXHIBITION}`}>выставка</StyledLink>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.CONTACTS}`} underline="none" color="black">
-              контакты
-            </Link>
-          </Typography>
+          <StyledLink href={`#${IDS.LECTURERS}`}>лекторы</StyledLink>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <StyledLink href={`#${IDS.MARKET}`}>маркет</StyledLink>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <StyledLink href={`#${IDS.CONTACTS}`}>контакты</StyledLink>
         </MenuItem>
       </Menu>
     </Box>
