@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import styles from "../../styles/textline.module.css";
+import styles from "styles/textline.module.css";
 
 interface TextLineProps {
   children: React.ReactNode;

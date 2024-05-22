@@ -1,3 +1,4 @@
+import { IDS } from "constants/landing";
 import { Typography, Link, Box } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/system";
@@ -6,10 +7,9 @@ import femfest from "assets/images/femfest.webp";
 import logo from "assets/images/logo.webp";
 import React from "react";
 import styles from "styles/homepage.module.css";
+import { TextLine } from "ui/atoms/TextLine";
 import { Section } from "ui/templates/Section";
-import { IDS } from "../../constants/landing";
-import { TextLine } from "../../ui/atoms/TextLine";
-import { getRandomImage } from "../../utils/images";
+import { getRandomImage } from "utils/images";
 
 const StyledLink = styled(Link)({
   color: "text.primary",
