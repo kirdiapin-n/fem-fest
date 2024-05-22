@@ -16,7 +16,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_7698.jpeg?alt=media&token=c77181c7-b5ab-4f5b-89ee-13e915b125c3",
       "description": "Мои открыточки про тепло и силу. Они для тех, кого вы хотите обнять и поддержать, даже если (особенно) это вы сами \uD83E\uDD0D",
-      "name": "Открытки"
+      "name": "Открытки от Марии"
     },
     "author_name": "Мария",
     "day": "1 и 2 июня",
@@ -28,7 +28,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%814.jpg?alt=media&token=f148efad-6e41-46bf-9ecc-33ab1dd65468",
       "description": "Я стилист, помогаю девушкам обуздать хаос в шкафах. А ещё я создаю украшения из ювелирного японского бисера: броши, кольца.",
-      "name": "Украшения из бисера"
+      "name": "too_get_her"
     },
     "author_name": "Татьяна Тихонюк",
     "day": "1 и 2 июня",
@@ -41,7 +41,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_20240213_154012-01.jpeg?alt=media&token=b45d1ba9-1aea-475f-ac04-cc0f36204352",
       "description": "Яркий бренд головных уборов и аксессуаров ручной работы. Создан для смелых, ценящих индивидуальность и цвет.",
-      "name": "Durackaya_hat"
+      "name": "durackaya_hat"
     },
     "author_name": "Ольга",
     "day": "1 и 2 июня",
@@ -54,7 +54,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FBB21CACF-1646-4D7A-87AD-1D2517FABE7B.jpg?alt=media&token=1c1c5140-854f-48df-86d8-936e080e110d",
       "description": "Десерты на заказ с индивидуальным подходом - от порционных десертов до сложных тортов для вашего торжества!",
-      "name": "Rosen Sweets"
+      "name": "RosenSweets"
     },
     "author_name": "Александра",
     "day": "2 июня",
@@ -65,21 +65,9 @@
   },
   {
     "product": {
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8118.jpg?alt=media&token=68d3bd28-1a21-47a9-94e0-83935a9e6040",
-      "description": "Мое хобби - шитье. \nЯ шью с большим удовольствием в свое свободное время",
-      "name": "Изделья ручной работы из ткани"
-    },
-    "author_name": "Ольга",
-    "day": "2 июня",
-    "contact": {
-      "telegram": "https://t.me/farfalla_nera_13"
-    }
-  },
-  {
-    "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F2024-05-18_09-07-54.jpeg?alt=media&token=44dbb919-e2a0-4529-a54a-286105ce12d2",
       "description": "Создаю предметы интерьера и одежды в двух техниках ковровая вышивка и макраме. Помогаю создавать уют и обретать в нем чувство дома, а еще украшать и радовать себя.",
-      "name": "ya.zaputalas"
+      "name": "YaZaputalas"
     },
     "author_name": "Мария",
     "day": "2 июня",
@@ -92,7 +80,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_2510.jpeg?alt=media&token=de9555af-2bb9-4bc8-88d1-c10cc3f9d679",
       "description": "Создательница бренда Василиса обожает носить и создавать украшения",
-      "name": "Магазин украшений ручной работы Сокровищница Драго"
+      "name": "dragos.treasury"
     },
     "author_name": "Василиса",
     "day": "2 июня",
@@ -105,7 +93,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2Fbracers_india.jpeg?alt=media&token=f719b094-cee0-41cc-bbd2-9efcdf74ac75",
       "description": "Я мастер мехенди из Херцег Нови. На фестиваль привезу натуральный замес хны, без искусственных красителей и консервантов.",
-      "name": "VrataZaLeto"
+      "name": "shpa_mehendi13"
     },
     "author_name": "Александра",
     "day": "1 и 2 июня",
@@ -118,7 +106,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8110.jpg?alt=media&token=9cbb12c5-2491-458e-9bae-8ce2b7ba0255",
       "description": "Авторские изделия ручной работы из серебра, золота и натуральных камней.",
-      "name": "Ювелирная мастерская Lasgaros Workshop"
+      "name": "Lasgaros.workshop"
     },
     "author_name": "Надия",
     "day": "1 и 2 июня",
@@ -131,7 +119,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8111.jpg?alt=media&token=ece0b90a-0963-4f8d-b62b-c4e006a0ecd8",
       "description": "Создаю чокеры, портупеи, браслеты и ремни из натуральной кожи, выполненные вручную. Эти аксессуары станут стильным дополнением вашего образа",
-      "name": "Мастерская S.A.L.T."
+      "name": "S.A.L.T."
     },
     "author_name": "Анастасия",
     "day": "1 и 2 июня",
@@ -142,9 +130,9 @@
   },
   {
     "product": {
-      "photo_url": "",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_4889.jpg?alt=media&token=9dff32ad-b991-40b5-8222-bb314f83da06",
       "description": "Я очень люблю творчество - вяжу, плету, рисую. На данный момент основное увлечение-плетение из бумажной лозы.",
-      "name": "Бумажная лоза корзины"
+      "name": "Бумажная лоза от Лады"
     },
     "author_name": "Лада",
     "day": "1 и 2 июня",
@@ -169,7 +157,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8114.jpg?alt=media&token=c56e52dd-769f-4998-8321-b2d19cc30551",
       "description": "Ювелирными украшениями и обработкой янтаря я занимаюсь уже много лет. А последние два года я начала экспериментировать с морскими гальками.",
-      "name": "Украшения из гальки"
+      "name": "mm_pebble"
     },
     "author_name": "Мария",
     "day": "1 и 2 июня",
@@ -181,8 +169,8 @@
   {
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FDSC_1845.jpeg?alt=media&token=5e4d3800-c48c-451d-820f-a8225222d401",
-      "description": "Комьюнити художников ювелиров. \nКаждая работа-это деталь гардероба, которая станет вашим другом.",
-      "name": "Мастерская авторских украшений из серебра Крокодил"
+      "description": "Комьюнити художников ювелиров. Каждая работа-это деталь гардероба, которая станет вашим другом.",
+      "name": "crocodile.art.crew"
     },
     "author_name": "Анна",
     "day": "1 и 2 июня",
@@ -194,7 +182,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8116.jpg?alt=media&token=ce4ca2d7-9a4e-4af3-ac2f-ad6aa20e342e",
       "description": "Я волшебница, мастер по пчелиному воску и природным материалам. Люблю все натуральное. Делаю чудесные душистые свечи из пчелиного воска с изумительным ароматом меда, с добавлением трав.",
-      "name": "Свечи пчелиные"
+      "name": "Altrioza"
     },
     "author_name": "Анастасия",
     "day": "1 и 2 июня",
@@ -205,9 +193,9 @@
   },
   {
     "product": {
-      "photo_url": "",
-      "description": "",
-      "name": "Апсайкл зеркал - дискошары, интерьерные штуки"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_9862.jpg?alt=media&token=0825f30f-b6a8-46f9-b0c6-8be375d5262b",
+      "description": "Мы находим ненужные зеркала и вручную нарезаем их на мозаику. А она потом превращается в шары, подносы для украшений и благовоний, небольшие картины и большие лампы.",
+      "name": "so.sisters.me"
     },
     "author_name": "Алена",
     "day": "1 и 2 июня",
@@ -218,9 +206,21 @@
   },
   {
     "product": {
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8118.jpg?alt=media&token=68d3bd28-1a21-47a9-94e0-83935a9e6040",
+      "description": "Мое хобби - шитье. Я шью с большим удовольствием в свое свободное время",
+      "name": "farfalla_nera_13"
+    },
+    "author_name": "Ольга",
+    "day": "2 июня",
+    "contact": {
+      "telegram": "https://t.me/farfalla_nera_13"
+    }
+  },
+  {
+    "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F70698912-5052-4B0B-B10D-5F7660A911F7.jpg?alt=media&token=2309a32a-cb5c-463a-a8d4-7a2a3cd60a7a",
       "description": "Я графическая художница, переехала из Москвы в Черногорию несколько лет назад. На ярмарке буду представлять акварельную графику в стиле анимализма.",
-      "name": "Картины"
+      "name": "SlikaRo"
     },
     "author_name": "Арина",
     "day": "1 и 2 июня",
@@ -232,7 +232,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_8445.jpeg?alt=media&token=28a669b4-5391-4438-90cb-19ee5109fd6a",
       "description": "Вдохновленные красотой Черногории и стремясь к сохранению её природы, мы обратили внимание на проблему переработки отходов. Особенно нас тронула ситуация со стеклом, которое здесь не подлежит переработке.",
-      "name": "\"Без парафина\""
+      "name": "bez_parafina"
     },
     "author_name": "Алексей и Анастасия",
     "day": "1 и 2 июня",
@@ -245,7 +245,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_3711.JPG?alt=media&token=6b134de7-8bc2-4019-b9db-91494ea37991",
       "description": "Украшения “My presious” не о роскоши, а об утонченном стиле, формах, линиях и комбинациях, которые быстро становятся новой классикой.",
-      "name": "My precious - бренд украшений ручной работы"
+      "name": "myprecious.jewelry"
     },
     "author_name": "Анна",
     "day": "1 и 2 июня",
@@ -258,7 +258,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2FIMG_0317.JPG?alt=media&token=8c29b349-63b7-45d0-a945-49acfa2f2f4f",
       "description": "Я занимаюсь керамикой. Делаю наивную и смешную посуду. Экспериментируют с материалом и формой.",
-      "name": "Керамика"
+      "name": "slipjuli"
     },
     "author_name": "Юлия",
     "day": "1 июня",
@@ -270,7 +270,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%8123.jpg?alt=media&token=041120dd-1844-4432-9ee1-2032e6efd72f",
       "description": "Я создаю миниатюрных тедди уже на протяжении 6 лет. Частый комплимент, который получают мои мишки - «удивительный».",
-      "name": "Микро Тедди"
+      "name": "domikteddy"
     },
     "author_name": "Надежда",
     "day": "1 и 2 июня",
@@ -283,7 +283,7 @@
     "product": {
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F0d79c029-9b71-4f27-bbf0-a52ef1d04c60.jpg?alt=media&token=2824b3aa-d68f-4ac5-89b3-fcf8c8a01138",
       "description": "Изделия созданые с заботой о вашем здоровье,красоте и экологии. Мы изготавливаем нижнее белье, сочетающее в себе комфорт и красоту.",
-      "name": "Averdi swimwear"
+      "name": "lingerie_kseni"
     },
     "author_name": "Ксения",
     "day": "1 и 2 июня",
@@ -294,9 +294,9 @@
   },
   {
     "product": {
-      "photo_url": "",
-      "description": "",
-      "name": "Текстурные картины и декор"
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F2024-04-15%2010.01.01.jpeg?alt=media&token=4e5b8321-68d1-43b0-8de9-efcd0d8bfb69",
+      "description": "Я Вика, творец и основательница texture_art.mne, создаю текстурные интерьерные картины и мечтаю о студии на берегу моря, где смогу делиться своим искусством с вами",
+      "name": "texture_art"
     },
     "author_name": "Виктория",
     "day": "1 и 2 июня",
