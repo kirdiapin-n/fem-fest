@@ -1,5 +1,6 @@
 import { IDS } from "constants/landing";
-import { Box, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
+import founders from "api/founders.json";
 import letter from "assets/images/f-letter.webp";
 import womanRights from "assets/images/womans-rights.webp";
 import React from "react";
@@ -7,11 +8,12 @@ import styles from "styles/about.module.css";
 import { Stack } from "ui/atoms/Stack";
 import { Section } from "ui/templates/Section";
 import { getRandomImage } from "utils/images";
+import { Photo } from "../../ui/atoms/Photo";
 
 export default function About() {
   return (
     <Section id={IDS.ABOUT} title={"о нас"}>
-      <Stack spacing={4} direction={"column"}>
+      <Stack spacing={4} direction="column">
         <Stack sx={{ alignItems: "center", justifyContent: "space-between" }}>
           <Stack direction="column" width={{ xs: "100%", lg: "70%" }}>
             <Typography>
@@ -139,6 +141,21 @@ export default function About() {
             </Box>
           </Box>
         </Stack>
+        <Grid container gap={4}>
+          {founders.map((data, index) => (
+            <Grid xs={2} item key={index}>
+              <Stack direction="column">
+                <Photo withoutFilters url={data.photo_url} />
+
+                <Typography fontWeight="bolder" fontSize="1.3rem">
+                  {data.name}
+                </Typography>
+
+                <Typography fontSize="0.8rem">{data.description}</Typography>
+              </Stack>
+            </Grid>
+          ))}
+        </Grid>
       </Stack>
     </Section>
   );
