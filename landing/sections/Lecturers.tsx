@@ -27,7 +27,11 @@ export default function Lecturers() {
     <Section id={IDS.LECTURERS} title="Лекторы">
       <Grid container spacing={6}>
         {data
-          .filter(({ is_not_speaker, hidden }) => !is_not_speaker || hidden)
+          .filter(({ is_not_speaker, hidden }) => {
+            if (hidden) return false;
+
+            return !is_not_speaker;
+          })
           .map((lecturer, index) => (
             <Grid
               key={index}
