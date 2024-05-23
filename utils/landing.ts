@@ -1,13 +1,14 @@
-import { LectureType, TLector } from "types";
+import { LectureType, TDay, TLector } from "types";
 
 export const getLectures = (
   data: TLector[],
-  day: "first" | "second",
+  day: TDay,
   room: "big" | "small"
 ) =>
   data
     .reduce((prev: LectureType[], curr, index) => {
-      if (curr.topic.day !== day || curr.topic.room !== room) return prev;
+      if (curr.hidden || curr.topic.day !== day || curr.topic.room !== room)
+        return prev;
 
       return [...prev, { ...curr, id: index }];
     }, [])
