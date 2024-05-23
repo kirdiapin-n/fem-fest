@@ -1,0 +1,26 @@
+[
+
+  {
+    "name": "Егор Кирдяпин",
+    "role": "Frontend Developer",
+    "contacts": {
+      "email": "loqumihh@gmail.com",
+      "telegram": "https://t.me/loqumi"
+    }
+  },
+  {
+    "name": "Никита Кирдяпин",
+    "role": "Team Leader | Frontend/Backend Developer",
+    "contacts": {
+      "email": "nikita.kirdiapin@gmail.com",
+      "telegram": "https://t.me/ipestilenz"
+    }
+  },
+  {
+    "name": "Евгения Тарануха",
+    "role": "Designer",
+    "contacts": {
+      "telegram": "https://t.me/my_cherry_wish"
+    }
+  }
+]
