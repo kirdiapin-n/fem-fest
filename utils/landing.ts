@@ -1,8 +1,8 @@
-import { LectureType, TLector } from "types";
+import { LectureType, TDay, TLector } from "types";
 
 export const getLectures = (
   data: TLector[],
-  day: "first" | "second",
+  day: TDay,
   room: "big" | "small"
 ) =>
   data

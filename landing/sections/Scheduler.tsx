@@ -1,12 +1,21 @@
 import { ACCENT_FONT } from "constants/fonts";
 import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
-import { Button, Chip, Link, Stack, Typography } from "@mui/material";
+import {
+  Button,
+  Chip,
+  Link,
+  Stack,
+  Tab,
+  Tabs,
+  Typography,
+} from "@mui/material";
 import data from "api/data.json";
 import bg from "assets/images/cloud-background-image.webp";
 import { Icons } from "icons";
-import React from "react";
+import React, { useState } from "react";
 import { LectureType } from "types";
 import { Section } from "ui/templates/Section";
+import { isFirstDay } from "utils/date";
 import { getLectures } from "utils/landing";
 import { concatStrings } from "utils/typography";
 
@@ -14,6 +23,7 @@ type Props = {
   tags: string[];
   items: LectureType[];
 };
+
 function Item({
   id,
   author,
@@ -81,40 +91,65 @@ function List({ tags, items }: Props) {
 }
 
 export default function Scheduler() {
+  const [value, setValue] = useState(isFirstDay());
+
   return (
     <Section
       id={IDS.SCHEDULER}
       title="Расписание"
       sx={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-    url(${bg.src})`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${bg.src})`,
       }}
       color="white"
     >
       <Stack spacing={4} direction="column">
-        <Stack direction="row" gap={4} flexWrap="wrap">
-          <List
-            tags={["1 июня", "большой зал"]}
-            items={getLectures(data, "first", "big")}
+        <Tabs
+          value={value}
+          onChange={(_, val) => setValue(val)}
+          indicatorColor="primary"
+          textColor="primary"
+          variant="fullWidth"
+          aria-label="full width tabs example"
+        >
+          <Tab
+            sx={{ color: "text.primary", fontSize: "2rem" }}
+            label="1 Июня"
+            value="first"
           />
+          <Tab
+            sx={{ color: "text.primary", fontSize: "2rem" }}
+            label="2 июня"
+            value="second"
+          />
+        </Tabs>
 
-          <List
-            tags={["1 июня", "малый зал"]}
-            items={getLectures(data, "first", "small")}
-          />
-        </Stack>
+        {value === "first" && (
+          <Stack direction="row" gap={4} flexWrap="wrap">
+            <List
+              tags={["большой зал"]}
+              items={getLectures(data, value, "big")}
+            />
 
-        <Stack direction="row" spacing={4} flexWrap="wrap">
-          <List
-            tags={["2 июня", "большой зал"]}
-            items={getLectures(data, "second", "big")}
-          />
+            <List
+              tags={["малый зал"]}
+              items={getLectures(data, value, "small")}
+            />
+          </Stack>
+        )}
 
-          <List
-            tags={["2 июня", "Малый зал"]}
-            items={getLectures(data, "second", "small")}
-          />
-        </Stack>
+        {value === "second" && (
+          <Stack direction="row" spacing={4} flexWrap="wrap">
+            <List
+              tags={["большой зал"]}
+              items={getLectures(data, value, "big")}
+            />
+
+            <List
+              tags={["Малый зал"]}
+              items={getLectures(data, value, "small")}
+            />
+          </Stack>
+        )}
         <Stack alignItems="center" width="100%">
           <Button
             component="a"

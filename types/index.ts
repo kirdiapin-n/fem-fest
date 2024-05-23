@@ -48,6 +48,8 @@ export type TLector = {
   topic: Topic;
 };
 
+export type TDay = "first" | "second";
+
 export type LectureType = { id: number } & TLector;
 
 export type TProduct = {
