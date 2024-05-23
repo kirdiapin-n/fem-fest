@@ -1,14 +1,22 @@
+import { IDS } from "constants/landing";
 import { Typography, Link, Box } from "@mui/material";
 import Stack from "@mui/material/Stack";
+import { styled } from "@mui/system";
 import bg from "assets/images/cloud-background-image.webp";
 import femfest from "assets/images/femfest.webp";
 import logo from "assets/images/logo.webp";
 import React from "react";
 import styles from "styles/homepage.module.css";
+import { TextLine } from "ui/atoms/TextLine";
 import { Section } from "ui/templates/Section";
-import { IDS } from "../../constants/landing";
-import { TextLine } from "../../ui/atoms/TextLine";
-import { getRandomImage } from "../../utils/images";
+import { getRandomImage } from "utils/images";
+
+const StyledLink = styled(Link)({
+  color: "text.primary",
+  fontSize: "2rem",
+  fontFamily: "Hlebozavod-Medium, serif",
+  textDecoration: "none",
+});
 
 export default function Home() {
   return (
@@ -45,33 +53,17 @@ export default function Home() {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 0, lg: 2 }}
         >
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.ABOUT}`} underline="hover" color="inherit">
-              о нас
-            </Link>
-          </Typography>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.SCHEDULER}`} underline="hover" color="inherit">
-              расписание
-            </Link>
-          </Typography>
-          {/*<Typography*/}
-          {/*  fontSize="2rem"*/}
-          {/*  color="text.primary"*/}
-          {/*  fontFamily="Hlebozavod-Medium, serif"*/}
-          {/*>*/}
-          {/*  <Link href={`#${IDS.EXHIBITION}`} underline="hover" color="inherit">*/}
-          {/*    выставка*/}
-          {/*  </Link>*/}
-          {/*</Typography>*/}
+          <StyledLink href={`#${IDS.ABOUT}`} underline="hover">
+            о нас
+          </StyledLink>
+
+          <StyledLink href={`#${IDS.SCHEDULER}`} underline="hover">
+            расписание
+          </StyledLink>
+
+          <StyledLink href={`#${IDS.EXHIBITION}`} underline="hover">
+            выставка
+          </StyledLink>
         </Stack>
         <img
           className={styles.logo}
@@ -84,33 +76,17 @@ export default function Home() {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.LECTURERS}`} underline="hover" color="inherit">
-              лекторы
-            </Link>
-          </Typography>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.MARKET}`} underline="hover" color="inherit">
-              маркет
-            </Link>
-          </Typography>
-          <Typography
-            fontSize="2rem"
-            color="text.primary"
-            fontFamily="Hlebozavod-Medium, serif"
-          >
-            <Link href={`#${IDS.CONTACTS}`} underline="hover" color="inherit">
-              Контакты
-            </Link>
-          </Typography>
+          <StyledLink href={`#${IDS.LECTURERS}`} underline="hover">
+            лекторы
+          </StyledLink>
+
+          <StyledLink href={`#${IDS.MARKET}`} underline="hover">
+            маркет
+          </StyledLink>
+
+          <StyledLink href={`#${IDS.CONTACTS}`} underline="hover">
+            Контакты
+          </StyledLink>
         </Stack>
       </Stack>
       <TextLine rotation={7}>

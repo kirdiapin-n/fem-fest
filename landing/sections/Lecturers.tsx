@@ -1,10 +1,10 @@
 import { IDS } from "constants/landing";
 import { Grid, Stack, Typography } from "@mui/material";
 import data from "api/data.json";
+import { Author } from "landing/components/Author";
 import React from "react";
 import { LectureType } from "types";
 import { Section } from "ui/templates/Section";
-import { Author } from "../components/Author";
 
 function Lecturer(props: LectureType) {
   const { id, author, topic, second_author } = props;

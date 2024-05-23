@@ -1,18 +1,31 @@
-import { Typography } from "@mui/material";
+import { IDS } from "constants/landing";
+import { Grid, Typography } from "@mui/material";
+import Stack from "@mui/material/Stack";
+import artists from "api/artists.json";
 import React from "react";
+import { Photo } from "ui/atoms/Photo";
 import { Section } from "ui/templates/Section";
-import { IDS } from "../../constants/landing";
 
 export default function Exhibition() {
   return (
-    <Section id={IDS.EXHIBITION} title={"Выставки"}>
-      <Typography
-        fontSize="2rem"
-        color="text.primary"
-        fontFamily="Hlebozavod-Medium, serif"
-      >
-        Выставка
-      </Typography>
+    <Section id={IDS.EXHIBITION} title="Выставки">
+      <Grid container spacing={4}>
+        {artists.map(({ author }, index) => (
+          <Grid key={index} item xs={6} sm={4} md={2}>
+            <Stack direction="column">
+              <Photo url={author.photo_url} />
+
+              <Typography pt={2} fontSize="1.3rem">
+                {author.name}
+              </Typography>
+
+              <Typography fontSize="0.8rem">{author.description}</Typography>
+
+              <Typography>{author.topic}</Typography>
+            </Stack>
+          </Grid>
+        ))}
+      </Grid>
     </Section>
   );
 }
