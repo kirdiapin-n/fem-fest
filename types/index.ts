@@ -42,6 +42,7 @@ export type Topic = {
 };
 
 export type TLector = {
+  hidden?: boolean;
   is_not_speaker?: boolean;
   author: TAuthor;
   second_author?: TAuthor;

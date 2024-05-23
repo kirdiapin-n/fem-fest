@@ -7,7 +7,8 @@ export const getLectures = (
 ) =>
   data
     .reduce((prev: LectureType[], curr, index) => {
-      if (curr.topic.day !== day || curr.topic.room !== room) return prev;
+      if (curr.hidden || curr.topic.day !== day || curr.topic.room !== room)
+        return prev;
 
       return [...prev, { ...curr, id: index }];
     }, [])
