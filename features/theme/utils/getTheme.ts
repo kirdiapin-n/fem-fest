@@ -17,12 +17,10 @@ const defaultTheme: ThemeOptions = {
         root: {
           borderWidth: "4px",
           borderRadius: "100px",
-          textShadow: "1px 1px 1px black",
         },
         colorPrimary: {
           borderColor: primaryColor,
           color: primaryColor,
-          boxShadow: "1px 1px 1px black",
         },
       },
     },

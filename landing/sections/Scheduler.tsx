@@ -52,13 +52,7 @@ function List({ tags, items }: Props) {
   if (!items.length) return null;
 
   return (
-    <Stack
-      spacing={4}
-      flex={1}
-      sx={{
-        textShadow: "1px 1px 1px black",
-      }}
-    >
+    <Stack spacing={4} flex={1}>
       <Stack direction="row" gap={2} flexWrap="wrap">
         {tags.map((tag, index) => (
           <Chip
@@ -91,7 +85,10 @@ export default function Scheduler() {
     <Section
       id={IDS.SCHEDULER}
       title="Расписание"
-      sx={{ backgroundImage: `url(${bg.src})` }}
+      sx={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url(${bg.src})`,
+      }}
       color="white"
     >
       <Stack spacing={4} direction="column">
