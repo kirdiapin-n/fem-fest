@@ -1,6 +1,7 @@
 import NavigationMenu from "landing/components/NavigationMenu";
 import About from "landing/sections/About";
 import Contacts from "landing/sections/Contacts";
+import Developing from "landing/sections/Developing";
 import Exhibition from "landing/sections/Exhibition";
 import Home from "landing/sections/Home";
 import Lecturers from "landing/sections/Lecturers";
@@ -26,6 +27,8 @@ export default function Index() {
       <Market />
 
       <Contacts />
+
+      <Developing />
     </>
   );
 }
