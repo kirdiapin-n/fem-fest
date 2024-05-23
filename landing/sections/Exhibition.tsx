@@ -8,7 +8,7 @@ import { Section } from "ui/templates/Section";
 
 export default function Exhibition() {
   return (
-    <Section id={IDS.EXHIBITION} title="Выставки">
+    <Section id={IDS.EXHIBITION} title="Выставка художниц">
       <Grid container spacing={4}>
         {artists.map(({ author }, index) => (
           <Grid key={index} item xs={6} sm={4} md={2}>
