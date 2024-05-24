@@ -1,6 +1,6 @@
 import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
 import { DEFAULT_ZOOM, REFORUM_SPACE_COORDS } from "constants/map";
-import { Button } from "@mui/material";
+import { Button, Link, Typography } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import {
   GoogleMap,
@@ -27,6 +27,13 @@ export default function Contacts() {
   return (
     <Section title="Контакты" id={IDS.CONTACTS}>
       <Stack spacing={4}>
+        <Typography fontSize="2rem" textAlign="center" pb={4}>
+          Место проведения мероприятия
+          <Link pl={1} color="inherit" href={url} target="_blank">
+            здесь
+          </Link>
+        </Typography>
+
         <GoogleMap
           zoom={DEFAULT_ZOOM}
           center={REFORUM_SPACE_COORDS}
