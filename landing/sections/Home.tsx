@@ -25,7 +25,8 @@ export default function Home() {
       position="relative"
       sx={{
         backgroundImage: `url(${bg.src})`,
-        paddingTop: { xs: "70px" },
+        minHeight: { xs: "unset", lg: "100vh" },
+        paddingTop: { xs: "70px", lg: "0" },
       }}
       id={IDS.HOME}
     >
@@ -140,7 +141,7 @@ export default function Home() {
           </Typography>
         </Link>
         <Box
-          sx={{ left: "0", top: "0" }}
+          sx={{ left: "0", top: "25%" }}
           width={"8rem"}
           height={"8rem"}
           position={"absolute"}
