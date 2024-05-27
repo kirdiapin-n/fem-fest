@@ -41,7 +41,7 @@
   {
     "author": {
       "name": "Ксения Петрова",
-      "description": "юристка, практикующий психолог, IFS-практик, феминистка.",
+      "description": "Юристка, практикующий психолог, IFS-практик, феминистка.",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882"
     },
     "topic": {
@@ -67,20 +67,6 @@
       "room": "big",
       "time": "15:00",
       "description": "Differences in upbringing between boys and girls"
-    }
-  },
-  {
-    "hidden": true,
-    "author": {
-      "name": "Дина Тансари",
-      "description": "Правозащитница из Казахстана.Соосновательница движения #НеМолчи в Казахстане и Центральной Азии.",
-      "photo_url": ""
-    },
-    "topic": {
-      "day": "first",
-      "room": "big",
-      "time": "17:00",
-      "description": "Домашнее насилие"
     }
   },
   {
@@ -127,7 +113,7 @@
   {
     "author": {
       "name": "Зубарь Евгения",
-      "description": "corporate programs EPAM Montenegro",
+      "description": "Corporate programs EPAM Montenegro",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563"
     },
     "topic": {
@@ -140,12 +126,12 @@
   {
     "author": {
       "name": "Виктория Викторовна Сандо",
-      "description": " Филолог, психолог, психотерапевт, преподаватель.",
+      "description": "Филолог, психолог, психотерапевт, преподаватель.",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd "
     },
     "topic": {
       "day": "first",
-      "room": "small",
+      "room": "big",
       "time": "17:00",
       "description": "Я это мое тело."
     }
