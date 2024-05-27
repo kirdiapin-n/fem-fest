@@ -70,20 +70,6 @@
     }
   },
   {
-    "hidden": true,
-    "author": {
-      "name": "Дина Тансари",
-      "description": "Правозащитница из Казахстана.Соосновательница движения #НеМолчи в Казахстане и Центральной Азии.",
-      "photo_url": ""
-    },
-    "topic": {
-      "day": "first",
-      "room": "big",
-      "time": "17:00",
-      "description": "Домашнее насилие"
-    }
-  },
-  {
     "author": {
       "name": "Maja Raičević",
       "description": "Executive Director / Advocacy Program Coordinator",
@@ -145,7 +131,7 @@
     },
     "topic": {
       "day": "first",
-      "room": "small",
+      "room": "big",
       "time": "17:00",
       "description": "Я это мое тело."
     }
