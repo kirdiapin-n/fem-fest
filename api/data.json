@@ -27,19 +27,6 @@
   },
   {
     "author": {
-      "name": "Маша Мюллер",
-      "description": "Консультантка по родительскому выгоранию, равная консультантка для родитель_ниц и основательница «Лаборатории родительства».",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.38%E2%80%AFAM.jpeg?alt=media&token=ec800a6c-b1df-4186-a93a-bfc8025e43ed"
-    },
-    "topic": {
-      "day": "first",
-      "room": "big",
-      "time": "13:30",
-      "description": "Взаимосвязь между гендерно обусловленным насилием и родительским выгоранием: понимание и поддержка"
-    }
-  },
-  {
-    "author": {
       "name": "Ксения Петрова",
       "description": "Юристка, практикующий психолог, IFS-практик, феминистка.",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6206.JPEG?alt=media&token=39d01b8b-b4d3-45fd-976c-7cdfc7bdc882"
@@ -112,19 +99,6 @@
   },
   {
     "author": {
-      "name": "Зубарь Евгения",
-      "description": "Corporate programs EPAM Montenegro",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_8853.jpeg?alt=media&token=181c7778-324f-45c4-a60f-679803c08563"
-    },
-    "topic": {
-      "day": "first",
-      "room": "small",
-      "time": "13:00",
-      "description": "Зачем нужна корпоративная социальная ответственность в больших корпорациях и при чем тут наши дети?"
-    }
-  },
-  {
-    "author": {
       "name": "Виктория Викторовна Сандо",
       "description": "Филолог, психолог, психотерапевт, преподаватель.",
       "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.44.17%E2%80%AFAM.jpeg?alt=media&token=065b9cc5-953d-4f94-a255-262c99069fcd "
@@ -175,8 +149,8 @@
     },
     "topic": {
       "day": "first",
-      "room": "small",
-      "time": "14:00",
+      "room": "big",
+      "time": "13:30",
       "description": "Разговор-лекция о психиатрии и женском безумии/истерии. Как женщин лечили врачи-мужчины."
     }
   },
