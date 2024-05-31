@@ -214,7 +214,7 @@
     },
     "topic": {
       "day": "second",
-      "room": "small",
+      "room": "big",
       "time": "17:00",
       "description": "«Как рисование спасло мою жизнь»\nПочему важно ставить свои, а не чужие интересы на первое место. Где найти уверенность и опору.\nИ как самой в себя поверить"
     }
@@ -243,19 +243,6 @@
       "room": "big",
       "time": "16:00",
       "description": "Лекция \"Художественный подход в работе с генеративными нейросетями\" (Midjourney, Stable Diffusion, Dalle)."
-    }
-  },
-  {
-    "author": {
-      "name": "Юлия Воротынцева",
-      "description": "Искусствовед, куратор, лектор. Рассматривает искусство ХХ-ХХI веков сквозь призму феминистской оптики.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fjulia_vorotinceva.jpeg?alt=media&token=2d85b4d7-988a-411e-b142-bc202e8efe22"
-    },
-    "topic": {
-      "day": "second",
-      "room": "big",
-      "time": "17:00",
-      "description": "Лекция \"Почему не было великих женщин-художниц?\""
     }
   },
   {
