@@ -1,4 +1,10 @@
-import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
+import {
+  FAR_INSTA_URL,
+  FAR_MAIL_URL,
+  FAR_TELEGRAM_URL,
+  FAR_YOUTUBE_URL,
+  IDS,
+} from "constants/landing";
 import { DEFAULT_ZOOM, REFORUM_SPACE_COORDS } from "constants/map";
 import { Button, Link, Typography } from "@mui/material";
 import Stack from "@mui/material/Stack";
@@ -30,7 +36,7 @@ export default function Contacts() {
         <Typography fontSize="2rem" textAlign="center" pb={4}>
           Место проведения мероприятия
           <Link pl={1} color="inherit" href={url} target="_blank">
-            здесь
+            рефорум space budva
           </Link>
         </Typography>
 
@@ -62,17 +68,60 @@ export default function Contacts() {
           </Marker>
         </GoogleMap>
 
-        <Button
-          component="a"
-          sx={{ alignSelf: "center" }}
-          size="large"
-          href={FAR_TELEGRAM_URL}
-          target="_blank"
-          variant="contained"
-          color="primary"
+        <Stack
+          direction={{ xs: "column", lg: "row" }}
+          // direction="row"
+          justifyContent="center"
+          alignItems="center"
+          // flexWrap="wrap"
+          spacing={4}
+          width="100%"
         >
-          Ссылка на наш телеграм
-        </Button>
+          <Button
+            component="a"
+            sx={{ alignSelf: "center" }}
+            size="large"
+            href={FAR_TELEGRAM_URL}
+            target="_blank"
+            variant="contained"
+            color="primary"
+          >
+            Telegram
+          </Button>
+          <Button
+            component="a"
+            sx={{ alignSelf: "center" }}
+            size="large"
+            href={`mailto:${FAR_MAIL_URL}`}
+            target="_blank"
+            variant="contained"
+            color="primary"
+          >
+            Написать на почту
+          </Button>
+          <Button
+            component="a"
+            sx={{ alignSelf: "center" }}
+            size="large"
+            href={FAR_YOUTUBE_URL}
+            target="_blank"
+            variant="contained"
+            color="primary"
+          >
+            Youtube
+          </Button>
+          <Button
+            component="a"
+            sx={{ alignSelf: "center" }}
+            size="large"
+            href={FAR_INSTA_URL}
+            target="_blank"
+            variant="contained"
+            color="primary"
+          >
+            Instagram
+          </Button>
+        </Stack>
       </Stack>
     </Section>
   );

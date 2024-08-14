@@ -20,9 +20,9 @@ export default function Index() {
 
       <Scheduler />
 
-      <Exhibition />
-
       <Lecturers />
+
+      <Exhibition />
 
       <Market />
 
