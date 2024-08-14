@@ -47,6 +47,7 @@ export type TLector = {
   author: TAuthor;
   second_author?: TAuthor;
   topic: Topic;
+  video?: string;
 };
 
 export type TDay = "first" | "second";

@@ -10,8 +10,8 @@ import { Stack } from "ui/atoms/Stack";
 import { Section } from "ui/templates/Section";
 
 function Product(props: TProduct) {
-  const { product, contact, author_name, day } = props;
-  const { description, photo_url, name } = product;
+  const { product, contact, author_name } = props;
+  const { photo_url, name } = product;
 
   return (
     <Stack direction="column">
@@ -22,17 +22,17 @@ function Product(props: TProduct) {
           <u>{name}</u>
         </Typography>
 
-        <Typography fontSize="small" align="center">
-          {day}
-        </Typography>
+        {/*<Typography fontSize="small" align="center">*/}
+        {/*  {day}*/}
+        {/*</Typography>*/}
 
-        <Typography>
+        <Typography align="center">
           Автор: <b>{author_name}</b>
         </Typography>
 
-        {description && (
-          <Typography whiteSpace="pre-wrap">О себе: {description}</Typography>
-        )}
+        {/*{description && (*/}
+        {/*  <Typography whiteSpace="pre-wrap">О себе: {description}</Typography>*/}
+        {/*)}*/}
       </Stack>
 
       <Stack justifyContent="center">

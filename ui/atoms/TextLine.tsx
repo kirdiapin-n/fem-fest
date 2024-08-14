@@ -32,8 +32,7 @@ export const TextLine = ({
       fontFamily="Hlebozavod-Medium, serif"
       noWrap
     >
-      {children}
-      {children}
+      {children} {children}
     </Typography>
   </div>
 );

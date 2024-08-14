@@ -21,7 +21,7 @@ export default function Exhibition() {
 
               <Typography fontSize="0.8rem">{author.description}</Typography>
 
-              <Typography>{author.topic}</Typography>
+              {/*<Typography>{author.topic}</Typography>*/}
             </Stack>
           </Grid>
         ))}

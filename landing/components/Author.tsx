@@ -21,7 +21,7 @@ export function Author(
   const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
 
   return (
-    <StyledStack>
+    <StyledStack sx={{ cursor: "pointer" }}>
       <Photo
         url={photo_url}
         isFirstSpeaker={isFirstSpeaker}
