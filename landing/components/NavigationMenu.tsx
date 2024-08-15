@@ -105,15 +105,15 @@ export default function NavigationMenu() {
         <MenuItem onClick={handleClose}>
           <StyledLink href={`#${IDS.SCHEDULER}`}>лекции</StyledLink>
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.EXHIBITION}`}>выставка</StyledLink>
-        </MenuItem>
+        {/*<MenuItem onClick={handleClose}>*/}
+        {/*  <StyledLink href={`#${IDS.EXHIBITION}`}>выставка</StyledLink>*/}
+        {/*</MenuItem>*/}
         <MenuItem onClick={handleClose}>
           <StyledLink href={`#${IDS.LECTURERS}`}>лекторы</StyledLink>
         </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.MARKET}`}>маркет</StyledLink>
-        </MenuItem>
+        {/*<MenuItem onClick={handleClose}>*/}
+        {/*  <StyledLink href={`#${IDS.MARKET}`}>маркет</StyledLink>*/}
+        {/*</MenuItem>*/}
         <MenuItem onClick={handleClose}>
           <StyledLink href={`#${IDS.CONTACTS}`}>контакты</StyledLink>
         </MenuItem>

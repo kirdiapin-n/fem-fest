@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
 import { Icons } from "icons";
-import React from "react";
+import React, { memo } from "react";
 import styles from "styles/about.module.css";
 import { getRandomImage } from "utils/images";
 
@@ -29,6 +29,16 @@ const PHOTO_RATIO_PERCENTS = `${PHOTO_RATIO}%`;
 const PHOTO_TOP_POSITION_PERCENTS = `${(MAX_PERCENTS - PHOTO_RATIO) / 2}%`;
 const PHOTO_LEFT_POSITION = `${MAX_PERCENTS - PHOTO_RATIO}%`;
 const ABSTRACTION_SIZE_PERCENT = "25%";
+
+const RandomImage = memo(() => {
+  return (
+    <img
+      className={styles.abstractRightAngle}
+      alt="abstraction"
+      src={getRandomImage()}
+    />
+  );
+});
 
 export function Photo({
   url,
@@ -107,11 +117,7 @@ export function Photo({
             zIndex: "1",
           }}
         >
-          <img
-            className={styles.abstractRightAngle}
-            alt="abstraction"
-            src={getRandomImage()}
-          />
+          <RandomImage />
         </Box>
       )}
 
@@ -126,11 +132,7 @@ export function Photo({
             top: isFirstSpeaker ? "-5%" : "unset",
           }}
         >
-          <img
-            className={styles.abstractRightAngle}
-            alt="abstraction"
-            src={getRandomImage()}
-          />
+          <RandomImage />
         </Box>
       )}
     </Box>

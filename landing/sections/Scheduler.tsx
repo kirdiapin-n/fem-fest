@@ -17,7 +17,7 @@ import { Icons } from "icons";
 import React, { useState } from "react";
 // import { LectureType } from "types";
 import { Section } from "ui/templates/Section";
-import { isFirstDay } from "utils/date";
+// import { isFirstDay } from "utils/date";
 // import { getLectures } from "utils/landing";
 // import { concatStrings } from "utils/typography";
 
@@ -103,7 +103,7 @@ function List({ tags, customContent }: Props) {
 }
 
 export default function Scheduler() {
-  const [value, setValue] = useState(isFirstDay());
+  const [value, setValue] = useState("first");
 
   return (
     <Section
@@ -124,12 +124,18 @@ export default function Scheduler() {
           aria-label="full width tabs example"
         >
           <Tab
-            sx={{ color: "text.primary", fontSize: "2rem" }}
+            sx={{
+              color: "text.primary",
+              fontSize: { xs: "1.5rem", lg: "2rem" },
+            }}
             label="Актуальное"
             value="first"
           />
           <Tab
-            sx={{ color: "text.primary", fontSize: "2rem" }}
+            sx={{
+              color: "text.primary",
+              fontSize: { xs: "1.5rem", lg: "2rem" },
+            }}
             label="Прошедшие мероприятия"
             value="second"
           />
