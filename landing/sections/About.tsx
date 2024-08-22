@@ -21,7 +21,8 @@ export default function About() {
 
           <Typography>
             <b>Наша миссия:</b> смена социальной нормы в области дискриминации
-            женщин, противостояние культуре насилия.
+            женщин* (FLINTA: female, lesbian, intersex, trans and agender)
+            противостояние культуре насилия, борьба с патриархальными устоями.
           </Typography>
 
           <Typography>
