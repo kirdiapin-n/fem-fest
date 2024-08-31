@@ -158,10 +158,23 @@ export default function Scheduler() {
               }
             />
 
-            {/*<List*/}
-            {/*  tags={["малый зал"]}*/}
-            {/*  items={getLectures(data, value, "small")}*/}
-            {/*/>*/}
+            <List
+              tags={["14 сентября"]}
+              // items={getLectures(data, value, "big")}
+              customContent={
+                <Typography fontSize="1.5rem" lineHeight="2.5rem">
+                  18.30 - Фем Шабаш. Встреча в{" "}
+                  <StyledLink href={`#${IDS.CONTACTS}`}>
+                    Reform Space Budva
+                  </StyledLink>
+                  . Больше информации в посте{" "}
+                  <StyledLink href={`https://t.me/FAR_Montenegro/228`}>
+                    телеграм
+                  </StyledLink>
+                  .
+                </Typography>
+              }
+            />
           </Stack>
         )}
 
