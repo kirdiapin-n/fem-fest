@@ -18,10 +18,10 @@ export function Author(
   const { photo_url, name, description, isFirstSpeaker, isSecondSpeaker } =
     props;
 
-  const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
+  // const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
 
   return (
-    <StyledStack>
+    <StyledStack sx={{ cursor: "pointer" }}>
       <Photo
         url={photo_url}
         isFirstSpeaker={isFirstSpeaker}
@@ -29,9 +29,10 @@ export function Author(
       />
 
       <Stack direction="row">
-        {!areTwoSpeakers && <div style={{ flex: 1 }}></div>}
+        {/*{!areTwoSpeakers && <div style={{ flex: 1 }}></div>}*/}
+        <div style={{ flex: 0.1 }}></div>
 
-        <Stack flex={2}>
+        <Stack flex={2} marginTop={2}>
           <Typography variant="h5" letterSpacing=".5rem" fontSize="1.3rem">
             {name}
           </Typography>

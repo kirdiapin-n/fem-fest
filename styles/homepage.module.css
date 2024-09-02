@@ -1,7 +1,12 @@
 .femfest {
     z-index: 1;
-    height: 28rem;
-    width: 22rem;
+
+    /* Стили для лого Фем Феста */
+    /*height: 28rem;*/
+    /*width: 22rem;*/
+
+    height: 24rem;
+    width: 18rem;
 
     @media (min-width: 1441px ) {
         height: 50vh;

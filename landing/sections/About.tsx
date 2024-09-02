@@ -20,8 +20,14 @@ export default function About() {
           </Typography>
 
           <Typography>
+            <b>Наша миссия:</b> смена социальной нормы в области дискриминации
+            женщин* (FLINTA: female, lesbian, intersex, trans and agender)
+            противостояние культуре насилия, борьба с патриархальными устоями.
+          </Typography>
+
+          <Typography>
             <b>Наша цель:</b> создать мультифункциональное профем комьюнити -
-            поддерживающее, помогающее, обучающее, вдохновляющее
+            поддерживающее, помогающее, обучающее, вдохновляющее.
           </Typography>
 
           <Typography>
@@ -40,7 +46,9 @@ export default function About() {
               стеклянный потолок, а также в целом сложности с поиском работы в
               условиях эмиграции;
             </Typography>
-            <Typography component="li">сложности с адаптацией.</Typography>
+            <Typography component="li">
+              сложности с адаптацией и социализацией.
+            </Typography>
           </Box>
 
           <Typography>
@@ -50,7 +58,7 @@ export default function About() {
           <Typography>
             Каждое воскресенье проводим фемзавтраки в разных форматах. Например,
             пикник, распродажа, "просто поныть", общение, арт-медитация,
-            дискуссии на актуальные темы
+            дискуссии на актуальные темы.
           </Typography>
 
           <Typography>

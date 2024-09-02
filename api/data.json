@@ -10,7 +10,8 @@
       "room": "big",
       "time": "12:00",
       "description": "Кто боится секспросвета: почему провалились попытки секс.воспитания в РФ?"
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=Fv5VJhxc6zY"
   },
   {
     "author": {
@@ -23,7 +24,8 @@
       "room": "big",
       "time": "11:00",
       "description": "Тема власти в межличностных отношениях."
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=ieE69eYG_W8"
   },
   {
     "author": {
@@ -36,7 +38,8 @@
       "room": "big",
       "time": "16:00",
       "description": "Депрессия, патриархат и феминизм. Почему женщины болеют депрессией намного чаще"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -54,7 +57,8 @@
       "room": "big",
       "time": "15:00",
       "description": "Differences in upbringing between boys and girls"
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=v9xvnYJHoTA"
   },
   {
     "author": {
@@ -68,7 +72,8 @@
       "room": "big",
       "time": "18:00",
       "description": "CŽP is a non-profit, non-partisan, non-religious organization that fights against all forms of violence against women and ensures their access to justice, developing gender-equal democratic practices and collaborating with all relevant domestic and international actors."
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=9OxBxcdHEto"
   },
   {
     "author": {
@@ -82,7 +87,8 @@
       "room": "big",
       "time": "19:00",
       "description": "Про настоящих мужчин - почему их не существует и почему это хорошо?"
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=lrZyp0NOIUo"
   },
   {
     "is_not_speaker": true,
@@ -95,7 +101,8 @@
       "room": "big",
       "time": "21:00",
       "description": "Кроссдрессинг приветствуется! Это отличная возможность попробовать что-то новое и выразить себя через одежду. Будьте смелыми и креативными!"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -108,7 +115,8 @@
       "room": "big",
       "time": "17:00",
       "description": "Я это мое тело."
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=Cj1kbEnyb-g"
   },
   {
     "author": {
@@ -121,7 +129,8 @@
       "room": "big",
       "time": "11:00",
       "description": "Гендерные стереотипы в мультиках."
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -134,7 +143,8 @@
       "room": "big",
       "time": "12:00",
       "description": "Голос в женском имидже: сила или слабость?"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -152,7 +162,8 @@
       "room": "big",
       "time": "13:30",
       "description": "Истерички и порядочные женщины: женская психиатрия в каверзных вопросах и мемах"
-    }
+    },
+    "video" : "https://www.youtube.com/watch?v=fdNZnMPffLc"
   },
   {
     "author": {
@@ -165,7 +176,8 @@
       "room": "big",
       "time": "13:00",
       "description": "Мастер-класс \"Живая речь.\""
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -178,7 +190,8 @@
       "room": "big",
       "time": "14:00",
       "description": "Тело, Камера,взгляд. Что становится видимым?"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -191,7 +204,8 @@
       "room": "small",
       "time": "12:00",
       "description": "Почему я не молчу"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -204,7 +218,8 @@
       "room": "small",
       "time": "14:00",
       "description": "Воркшоп по лаконичному письму"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -217,7 +232,8 @@
       "room": "big",
       "time": "17:00",
       "description": "«Как рисование спасло мою жизнь»\nПочему важно ставить свои, а не чужие интересы на первое место. Где найти уверенность и опору.\nИ как самой в себя поверить"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -230,7 +246,8 @@
       "room": "small",
       "time": "15:00",
       "description": "Мастермайнд «Я устала все время чувствовать, что недостаточно хороша»"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -243,7 +260,8 @@
       "room": "big",
       "time": "16:00",
       "description": "Лекция \"Художественный подход в работе с генеративными нейросетями\" (Midjourney, Stable Diffusion, Dalle)."
-    }
+    },
+    "video" : ""
   },
   {
     "is_not_speaker": true,
@@ -255,7 +273,8 @@
       "room": "big",
       "time": "18:00",
       "description": "Лада Учаева, Ира Цыханская, Tania BigSister, Мария Макарова, Настя Вареник, Катя Кэндор"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -268,7 +287,8 @@
       "room": "small",
       "time": "18:00",
       "description": "Барский своп едет в гости в Будву!"
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -281,7 +301,8 @@
       "room": "big",
       "time": "18:30",
       "description": "Перформанс \"die Lorelei\". Художница поднимает тему потери идентичности, которая происходит с ней в иммиграции."
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -294,7 +315,8 @@
       "room": "big",
       "time": "20:00",
       "description": "Выступление Like Standup Montenegro"
-    }
+    },
+    "video" : ""
   },
   {
     "is_not_speaker": true,
@@ -307,7 +329,8 @@
       "room": "big",
       "time": "21:30",
       "description": "Приходите сами и приводите друзей. Эковечеринка – это пространство для всех, кто любит веселиться и заботиться о нашей планете."
-    }
+    },
+    "video" : ""
   },
   {
     "author": {
@@ -320,6 +343,7 @@
       "room": "big",
       "time": "15:00",
       "description": "Экофеминизм - программа видео арта"
-    }
+    },
+    "video" : ""
   }
 ]
