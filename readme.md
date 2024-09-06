@@ -10,4 +10,4 @@
 ### Simple start
 ```npm run dev``` [site](http://localhost:3000)
 
-#### [web app](https://fem-fest-me.web.app/)
+#### [web app](https://fem-community.space/)

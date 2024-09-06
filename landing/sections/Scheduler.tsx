@@ -111,6 +111,7 @@ export default function Scheduler() {
       title="Расписание"
       sx={{
         backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${bg.src})`,
+        minHeight: { xs: "unset", lg: "100vh" },
       }}
       color="white"
     >
