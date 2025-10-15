@@ -1,20 +1,16 @@
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
 import styles from "styles/textline.module.css";
 
 interface TextLineProps {
-  children: React.ReactNode;
   left?: boolean;
   rotation?: number;
+  text: string;
 }
 
-export const TextLine = ({
-  children,
-  rotation,
-  left,
-  ...props
-}: TextLineProps) => (
-  <div
+export const TextLine = ({ text, rotation, left, ...props }: TextLineProps) => (
+  <Box
+    bgcolor="text.primary"
     className={styles.textlineContainer}
     style={{
       position: "absolute",
@@ -32,7 +28,7 @@ export const TextLine = ({
       fontFamily="Hlebozavod-Medium, serif"
       noWrap
     >
-      {children} {children}
+      {text.repeat(20)}
     </Typography>
-  </div>
+  </Box>
 );
