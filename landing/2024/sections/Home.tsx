@@ -3,10 +3,6 @@ import { Link, Box } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/system";
 import bg from "assets/images/cloud-background-image.webp";
-// Фем Фест лого
-// import femfest from "assets/images/femfest.webp";
-
-// Лого символа
 import femfest from "assets/images/fem_community.webp";
 import logo from "assets/images/logo.webp";
 import React from "react";
@@ -65,10 +61,6 @@ export default function Home() {
           <StyledLink href={`#${IDS.SCHEDULER}`} underline="hover">
             расписание
           </StyledLink>
-
-          {/*<StyledLink href={`#${IDS.EXHIBITION}`} underline="hover">*/}
-          {/*  выставка*/}
-          {/*</StyledLink>*/}
         </Stack>
         <img
           className={styles.logo}
@@ -84,10 +76,6 @@ export default function Home() {
           <StyledLink href={`#${IDS.LECTURERS}`} underline="hover">
             лекторы
           </StyledLink>
-
-          {/*<StyledLink href={`#${IDS.MARKET}`} underline="hover">*/}
-          {/*  маркет*/}
-          {/*</StyledLink>*/}
 
           <StyledLink href={`#${IDS.CONTACTS}`} underline="hover">
             Контакты
@@ -118,32 +106,8 @@ export default function Home() {
         direction={{ xs: "column", lg: "row" }}
         spacing={{ xs: 3, lg: 0 }}
       >
-        {/*<Typography*/}
-        {/*  sx={{*/}
-        {/*    fontSize: { xs: "4rem", lg: "8rem" },*/}
-        {/*    lineHeight: "6rem",*/}
-        {/*    width: { xs: "100%", lg: "33%" },*/}
-        {/*  }}*/}
-        {/*  color="text.primary"*/}
-        {/*  fontFamily="Hlebozavod-Medium, serif"*/}
-        {/*>*/}
-        {/*  1-2 июня*/}
-        {/*</Typography>*/}
         <img className={styles.femfest} alt="fem fest" src={femfest.src} />
-        {/*<Link href={`#${IDS.CONTACTS}`} underline="hover" color="text.primary">*/}
-        {/*  <Typography*/}
-        {/*    position="relative"*/}
-        {/*    sx={{*/}
-        {/*      fontSize: { xs: "3rem", lg: "5rem" },*/}
-        {/*      lineHeight: { xs: "4rem", lg: "4.5rem" },*/}
-        {/*    }}*/}
-        {/*    color="text.primary"*/}
-        {/*    whiteSpace="pre-wrap"*/}
-        {/*    fontFamily="Hlebozavod-Medium, serif"*/}
-        {/*  >*/}
-        {/*    {`рефорум space\nбудва`}*/}
-        {/*  </Typography>*/}
-        {/*</Link>*/}
+
         <Box
           sx={{ left: "0", top: "25%" }}
           width={"8rem"}

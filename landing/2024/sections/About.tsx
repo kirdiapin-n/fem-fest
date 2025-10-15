@@ -1,6 +1,6 @@
 import { IDS } from "constants/landing";
 import { Box, Grid, Typography } from "@mui/material";
-import founders from "api/founders.json";
+import founders from "api/2024/fem-fest/founders.json";
 import letter from "assets/images/f-letter.webp";
 import womanRights from "assets/images/womans-rights.webp";
 import React from "react";
@@ -8,7 +8,7 @@ import styles from "styles/about.module.css";
 import { Stack } from "ui/atoms/Stack";
 import { Section } from "ui/templates/Section";
 import { getRandomImage } from "utils/images";
-import { Photo } from "../../ui/atoms/Photo";
+import { Photo } from "../../../ui/atoms/Photo";
 
 export default function About() {
   return (

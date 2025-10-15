@@ -1,7 +1,7 @@
 import { IDS } from "constants/landing";
 import { Grid, Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
-import data from "api/products.json";
+import data from "api/2024/fem-fest/products.json";
 import { Icons } from "icons";
 import React from "react";
 import { TProduct } from "types";
