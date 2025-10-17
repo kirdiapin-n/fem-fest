@@ -3,9 +3,12 @@ import { Theme, ThemeOptions } from "types";
 import { createTheme, deepPurple, grey } from "utils/styles";
 
 const titles = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
-const primaryColor = "#CCFF5E";
 
-const defaultTheme: ThemeOptions = {
+type TOptions = {
+  primaryColor: `#${string}`;
+};
+
+const defaultTheme = (opt: TOptions): ThemeOptions => ({
   components: {
     MuiBadge: {
       styleOverrides: {
@@ -19,8 +22,8 @@ const defaultTheme: ThemeOptions = {
           borderRadius: "100px",
         },
         colorPrimary: {
-          borderColor: primaryColor,
-          color: primaryColor,
+          borderColor: opt.primaryColor,
+          color: opt.primaryColor,
         },
       },
     },
@@ -40,28 +43,29 @@ const defaultTheme: ThemeOptions = {
       };
     }, {}),
   },
-};
-
-export const lightTheme = createTheme({
-  ...defaultTheme,
-  palette: {
-    mode: "light",
-    primary: {
-      light: primaryColor,
-      dark: primaryColor,
-      main: primaryColor,
-    },
-    secondary: grey,
-    divider: deepPurple[300],
-    text: {
-      primary: primaryColor,
-      secondary: grey[700],
-    },
-  },
 });
 
-export const getTheme = () =>
-  ({
+export const lightTheme = (opt: TOptions) =>
+  createTheme({
     ...defaultTheme,
-    ...lightTheme,
+    palette: {
+      mode: "light",
+      primary: {
+        light: opt.primaryColor,
+        dark: opt.primaryColor,
+        main: opt.primaryColor,
+      },
+      secondary: grey,
+      divider: deepPurple[300],
+      text: {
+        primary: opt.primaryColor,
+        secondary: grey[700],
+      },
+    },
+  });
+
+export const getTheme = (opt: { primaryColor: `#${string}` }) =>
+  ({
+    ...defaultTheme(opt),
+    ...lightTheme(opt),
   } as Theme);

@@ -1,29 +1,22 @@
-// import { ACCENT_FONT } from "constants/fonts";
 import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
 import {
   Button,
   Chip,
   Link,
-  // Link,
   Stack,
   Tab,
   Tabs,
   Typography,
 } from "@mui/material";
-// import data from "api/data.json";
 import { styled } from "@mui/system";
 import bg from "assets/images/cloud-background-image.webp";
 import { Icons } from "icons";
+import NextLink from "next/link";
 import React, { useState } from "react";
-// import { LectureType } from "types";
 import { Section } from "ui/templates/Section";
-// import { isFirstDay } from "utils/date";
-// import { getLectures } from "utils/landing";
-// import { concatStrings } from "utils/typography";
 
 type Props = {
   tags: string[];
-  // items: LectureType[];
   customContent?: React.ReactNode;
 };
 
@@ -34,43 +27,7 @@ const StyledLink = styled(Link)({
   textDecoration: "underline",
 });
 
-// function Item({
-//   id,
-//   author,
-//   second_author,
-//   is_not_speaker,
-//   topic,
-// }: LectureType) {
-//   const authorName = concatStrings(" и ", author.name, second_author?.name);
-//
-//   const authorNameElement = is_not_speaker ? (
-//     <b>{authorName}</b>
-//   ) : (
-//     <Link color="inherit" underline="none" href={`#${id}`}>
-//       <b>{authorName}</b>
-//     </Link>
-//   );
-//
-//   return (
-//     <Stack key={id} direction="row" spacing={2}>
-//       <Typography
-//         fontFamily={ACCENT_FONT}
-//         letterSpacing="0.2rem"
-//         fontSize="1.5rem"
-//         lineHeight="2.5rem"
-//       >
-//         {topic.time}
-//       </Typography>
-//       <Typography fontSize="1.3rem" lineHeight="2.3rem">
-//         {concatStrings(". ", authorNameElement, topic.description)}
-//       </Typography>
-//     </Stack>
-//   );
-// }
-
 function List({ tags, customContent }: Props) {
-  // if (!items.length) return null;
-
   return (
     <Stack spacing={4} flex={1}>
       <Stack direction="row" gap={2} flexWrap="wrap">
@@ -92,12 +49,6 @@ function List({ tags, customContent }: Props) {
       </Stack>
 
       {customContent}
-
-      {/*<Stack spacing={2}>*/}
-      {/*  {items.map((props) => (*/}
-      {/*    <Item key={props.id} {...props} />*/}
-      {/*  ))}*/}
-      {/*</Stack>*/}
     </Stack>
   );
 }
@@ -176,6 +127,8 @@ export default function Scheduler() {
                 </Typography>
               }
             />
+
+            <NextLink href="/2024/fem-fest">Fem fest 2024</NextLink>
           </Stack>
         )}
 
