@@ -1,15 +1,16 @@
 import { IDS } from "constants/landing";
-import { Link, Box } from "@mui/material";
+import { Box, Link } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/system";
-import bg from "assets/images/cloud-background-image.webp";
 import femfest from "assets/images/fem_community.webp";
 import logo from "assets/images/logo.webp";
+import bg from "assets/images/mashroom.webp";
+
 import React from "react";
 import styles from "styles/homepage.module.css";
 import { TextLine } from "ui/atoms/TextLine";
 import { Section } from "ui/templates/Section";
-import { getRandomImage } from "utils/images";
+import { getRandomImageFor2025FemSabat } from "utils/images";
 
 const StyledLink = styled(Link)({
   color: "text.primary",
@@ -18,13 +19,31 @@ const StyledLink = styled(Link)({
   textDecoration: "none",
 });
 
+const StyledSection = styled(Section)({
+  "&:before": {
+    content: '" "',
+    display: "block",
+    position: "absolute",
+    left: 0,
+    top: 0,
+    width: "100%",
+    height: "100%",
+    opacity: 0.2,
+    backgroundImage: `url(${bg.src})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "100% 100%",
+    backgroundSize: "contain",
+  },
+});
+
 export default function Home() {
   return (
-    <Section
+    <StyledSection
       overflow="hidden"
       position="relative"
       sx={{
-        backgroundImage: `url(${bg.src})`,
+        background:
+          "linear-gradient(to bottom, #575755 0%, #F4F5F8 25%, #CECECE 75%, #4C4C4C 100%)",
         minHeight: { xs: "unset", lg: "100vh" },
         paddingTop: { xs: "70px", lg: "0" },
       }}
@@ -32,15 +51,14 @@ export default function Home() {
     >
       <Box
         display={{ xs: "none", lg: "block" }}
-        sx={{ left: "20%", bottom: "-6%" }}
+        sx={{ left: "20%", bottom: "0" }}
         width={"12rem"}
-        height={"12rem"}
         position={"absolute"}
       >
         <img
           className={styles.abstractUnderDate}
           alt="abstraction"
-          src={getRandomImage()}
+          src={getRandomImageFor2025FemSabat()}
         />
       </Box>
       <Stack
@@ -84,12 +102,14 @@ export default function Home() {
       </Stack>
       <TextLine
         rotation={7}
-        text={"взаимопомощь лекции консультации общение дискуссии"}
+        text="лекции консультации выставки общение взаимопомощь DJ set вечеринка маркет"
       ></TextLine>
       <TextLine
         rotation={-0.11}
+        bgcolor="black"
+        color={"white"}
         left
-        text={"взаимопомощь лекции консультации общение дискуссии"}
+        text="лекции консультации выставки общение взаимопомощь DJ set вечеринка маркет"
       ></TextLine>
 
       <Stack
@@ -110,28 +130,26 @@ export default function Home() {
         <Box
           sx={{ left: "0", top: "25%" }}
           width={"8rem"}
-          height={"8rem"}
           position={"absolute"}
         >
           <img
             className={styles.abstractUnderDate}
             alt="abstraction"
-            src={getRandomImage()}
+            src={getRandomImageFor2025FemSabat()}
           />
         </Box>
         <Box
           sx={{ right: "20%", bottom: "0" }}
           width={"8rem"}
-          height={"8rem"}
           position={"absolute"}
         >
           <img
             className={styles.abstractUnderDate}
             alt="abstraction"
-            src={getRandomImage()}
+            src={getRandomImageFor2025FemSabat()}
           />
         </Box>
       </Stack>
-    </Section>
+    </StyledSection>
   );
 }

@@ -8,51 +8,59 @@ type TOptions = {
   primaryColor: `#${string}`;
 };
 
-const defaultTheme = (opt: TOptions): ThemeOptions => ({
-  components: {
-    MuiBadge: {
-      styleOverrides: {
-        badge: { fontSize: 9, height: 15, minWidth: 15 },
-      },
-    },
-    MuiChip: {
-      styleOverrides: {
-        root: {
-          borderWidth: "4px",
-          borderRadius: "100px",
-        },
-        colorPrimary: {
-          borderColor: opt.primaryColor,
-          color: opt.primaryColor,
-        },
-      },
-    },
-  },
-  typography: {
-    allVariants: {
-      zIndex: 1,
-    },
-    fontFamily: BLOCK_FONT,
-    ...titles.reduce((prev, curr) => {
-      return {
-        ...prev,
-        [curr]: {
-          letterSpacing: "1.5rem",
-          fontFamily: ACCENT_FONT,
-        },
-      };
-    }, {}),
-  },
-});
-
-export const lightTheme = (opt: TOptions) =>
+const defaultTheme = (opt: TOptions): ThemeOptions =>
   createTheme({
-    ...defaultTheme,
+    components: {
+      MuiBadge: {
+        styleOverrides: {
+          badge: { fontSize: 9, height: 15, minWidth: 15 },
+        },
+      },
+      MuiChip: {
+        styleOverrides: {
+          root: {
+            borderWidth: "4px",
+            borderRadius: "100px",
+          },
+          colorPrimary: {
+            borderColor: opt.primaryColor,
+            color: opt.primaryColor,
+          },
+        },
+      },
+      MuiTabs: {
+        styleOverrides: {
+          root: {
+            indicator: opt.primaryColor,
+          },
+        },
+      },
+      MuiTab: {
+        styleOverrides: {
+          root: {
+            color: opt.primaryColor,
+            fontSize: "2rem",
+          },
+        },
+      },
+    },
+    typography: {
+      allVariants: {
+        zIndex: 1,
+      },
+      fontFamily: BLOCK_FONT,
+      ...titles.reduce((prev, curr) => {
+        return {
+          ...prev,
+          [curr]: {
+            letterSpacing: "1.5rem",
+            fontFamily: ACCENT_FONT,
+          },
+        };
+      }, {}),
+    },
     palette: {
-      mode: "light",
       primary: {
-        light: opt.primaryColor,
-        dark: opt.primaryColor,
         main: opt.primaryColor,
       },
       secondary: grey,
@@ -67,5 +75,4 @@ export const lightTheme = (opt: TOptions) =>
 export const getTheme = (opt: { primaryColor: `#${string}` }) =>
   ({
     ...defaultTheme(opt),
-    ...lightTheme(opt),
   } as Theme);

@@ -1,0 +1,50 @@
+[
+  {
+    "author": {
+      "name": "Ира Цыханская",
+      "description": "Мультимедийный художник и дизайнер",
+      "topic": "Я работаю с видео и объектами, создавая проекты, направленные на поиск новой идентичности. Мое творчество сосредоточено на связке ритуалов и повседневности, исследовании и переосмыслении их взаимодействия.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIrina.JPG?alt=media&token=404e490a-26c0-4b9d-bf42-847974d1cce3"
+    }
+  },
+  {
+    "author": {
+      "name": "Tania BigSister",
+      "description": "Художница и активистка",
+      "topic": "Отображаю реальность",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FTania%20BigSister.JPG?alt=media&token=542eee2f-0f67-44ee-a2c6-a958126adc16"
+    }
+  },
+  {
+    "author": {
+      "name": "Мария Макарова",
+      "description": "Художница",
+      "topic": "Занимаюсь скульптурой, вопросами телесности и личных границ тела. Я пытаюсь создать скульптурный оттиск моего впечатления от живых форм - я бы назвала это направление \"скульптурный импрессионизм\".",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fmaria_m.JPG?alt=media&token=e53a96b3-2c08-4026-804c-9ba145c6be88"
+    }
+  },
+  {
+    "author": {
+      "name": "Лада Учаева",
+      "description": "Художница",
+      "topic": "Создаю объекты в различных техниках, работаю с тканью, вышивкой. Важнейшие для меня темы - христианская философия и феминизм.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Flada.JPG?alt=media&token=33510f6b-e3b3-4c04-8134-e5c9487c8127"
+    }
+  },
+  {
+    "author": {
+      "name": "Настя Вареник",
+      "description": "Художница-исследовательница",
+      "topic": "Моя миссия - делать голоса и истории женщин видимыми, нормализовывать многогранность и силу женщин, задавать обществу провокационные вопросы и демонстрировать те женские проблемы, которые пока не видны.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fnastya.JPG?alt=media&token=51b2df87-d8e7-49d4-bc9e-fccb6fe22469"
+    }
+  },
+  {
+    "author": {
+      "name": "Катя Кэндор",
+      "description": "Мультидисциплинарная художница",
+      "topic": "Это мое первое художественное высказывание в феминистском поле. Как художник я исследую вопросы самоидентификации, влияние социума и контекста на становление личности.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fkatya.jpg?alt=media&token=1b9de5d8-b3a7-4fac-b5aa-93f30929799f"
+    }
+  }
+]

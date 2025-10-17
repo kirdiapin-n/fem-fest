@@ -11,7 +11,6 @@ import {
 import { styled } from "@mui/system";
 import bg from "assets/images/cloud-background-image.webp";
 import { Icons } from "icons";
-import NextLink from "next/link";
 import React, { useState } from "react";
 import { Section } from "ui/templates/Section";
 
@@ -127,8 +126,6 @@ export default function Scheduler() {
                 </Typography>
               }
             />
-
-            <NextLink href="/2024/fem-fest">Fem fest 2024</NextLink>
           </Stack>
         )}
 

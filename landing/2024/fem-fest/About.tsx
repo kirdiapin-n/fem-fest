@@ -5,10 +5,10 @@ import letter from "assets/images/f-letter.webp";
 import womanRights from "assets/images/womans-rights.webp";
 import React from "react";
 import styles from "styles/about.module.css";
+import { Photo } from "ui/atoms/Photo";
 import { Stack } from "ui/atoms/Stack";
 import { Section } from "ui/templates/Section";
-import { getRandomImage } from "utils/images";
-import { Photo } from "../../../ui/atoms/Photo";
+import { getRandomImageFor2024FemFest } from "utils/images";
 
 export default function About() {
   return (
@@ -119,7 +119,7 @@ export default function About() {
             <img
               className={styles.abstractLeftAngle}
               alt="abstraction"
-              src={getRandomImage()}
+              src={getRandomImageFor2024FemFest()}
             />
           </Box>
           <Box
@@ -139,7 +139,7 @@ export default function About() {
             <img
               className={styles.abstractRightAngle}
               alt="abstraction"
-              src={getRandomImage()}
+              src={getRandomImageFor2024FemFest()}
             />
           </Box>
         </Box>

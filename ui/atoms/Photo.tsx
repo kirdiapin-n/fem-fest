@@ -4,7 +4,7 @@ import pink_fl from "assets/images/pink_realistic_fluffy.webp";
 import { Icons } from "icons";
 import React, { memo } from "react";
 import styles from "styles/about.module.css";
-import { getRandomImage } from "utils/images";
+import { getRandomImageFor2024FemFest } from "utils/images";
 
 const StyledBox = styled(Box)({
   backgroundPosition: "center center",
@@ -35,7 +35,7 @@ const RandomImage = memo(() => {
     <img
       className={styles.abstractRightAngle}
       alt="abstraction"
-      src={getRandomImage()}
+      src={getRandomImageFor2024FemFest()}
     />
   );
 });

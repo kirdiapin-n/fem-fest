@@ -6,11 +6,20 @@ interface TextLineProps {
   left?: boolean;
   rotation?: number;
   text: string;
+  bgcolor?: string;
+  color?: string;
 }
 
-export const TextLine = ({ text, rotation, left, ...props }: TextLineProps) => (
+export const TextLine = ({
+  text,
+  rotation,
+  left,
+  bgcolor,
+  color,
+  ...props
+}: TextLineProps) => (
   <Box
-    bgcolor="text.primary"
+    bgcolor={bgcolor || "text.primary"}
     className={styles.textlineContainer}
     style={{
       position: "absolute",
@@ -24,7 +33,7 @@ export const TextLine = ({ text, rotation, left, ...props }: TextLineProps) => (
         left ? styles.leftAnimation : styles.rightAnimation
       }`}
       fontSize="2rem"
-      color="black"
+      color={color || "black"}
       fontFamily="Hlebozavod-Medium, serif"
       noWrap
     >

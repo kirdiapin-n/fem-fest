@@ -1,4 +1,9 @@
+import abstract27 from "assets/abstractions/broken-5.webp";
+import abstract28 from "assets/abstractions/broken-6.webp";
+import abstract29 from "assets/abstractions/d235eee335af86cfd69433daae0b4e4c.webp";
 import abstract8 from "assets/abstractions/patrick.webp";
+import abstract30 from "assets/abstractions/Shape_024.webp";
+import abstract31 from "assets/abstractions/Shape_070.webp";
 import abstract3 from "assets/abstractions/sref_https___i_0000_Layer-25.webp";
 import abstract1 from "assets/abstractions/sref_https___i_0000_Layer-2_1.webp";
 import abstract2 from "assets/abstractions/sref_https___i_0001_Layer-1_1.webp";
@@ -25,7 +30,9 @@ import abstract11 from "assets/abstractions/sref_https___i_0020_Layer-6.webp";
 import abstract10 from "assets/abstractions/sref_https___i_0021_Layer-7.webp";
 import abstract9 from "assets/abstractions/sref_https___i_0022_Layer-8.webp";
 
-export const IMAGES = [
+// 2025 FEM SABAT
+
+export const IMAGES_2024_FEM_FEST = [
   abstract1,
   abstract2,
   abstract3,
@@ -52,4 +59,12 @@ export const IMAGES = [
   abstract24,
   abstract25,
   abstract26,
+];
+
+export const IMAGES_2025_FEM_SABAT = [
+  abstract27,
+  abstract28,
+  abstract29,
+  abstract30,
+  abstract31,
 ];
