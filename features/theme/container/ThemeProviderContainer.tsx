@@ -3,8 +3,10 @@ import { usePathname } from "next/navigation";
 import React, { useMemo } from "react";
 import { ThemeProvider as MuiThemeProvider } from "ui/atoms";
 
+const defaultColor = "#CB1020";
+
 const primaryByRoute: Record<string, `#${string}`> = {
-  "/": "#CB1020",
+  "/": defaultColor,
   "/2024/fem-fest": "#CCFF5E",
 };
 export const ThemeProviderContainer = ({
@@ -15,7 +17,7 @@ export const ThemeProviderContainer = ({
   const pathname = usePathname() ?? "/";
 
   const theme = useMemo(
-    () => getTheme({ primaryColor: primaryByRoute[pathname] }),
+    () => getTheme({ primaryColor: primaryByRoute[pathname] || defaultColor }),
     [pathname]
   );
 

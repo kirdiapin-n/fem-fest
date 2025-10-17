@@ -20,7 +20,7 @@ export const Footer = () => {
 
       <Stack flexWrap="wrap" direction="row" justifyContent="space-between">
         {developers.map(({ name, contacts, role }) => (
-          <Stack spacing={1} p={4}>
+          <Stack spacing={1} p={4} key={name}>
             <Typography fontSize="1.3rem">{name}</Typography>
 
             <Typography fontSize="0.8rem">{role}</Typography>
