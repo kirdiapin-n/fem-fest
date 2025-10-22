@@ -33,6 +33,7 @@ const StyledSection = styled(Section)({
     backgroundRepeat: "no-repeat",
     backgroundPosition: "100% 100%",
     backgroundSize: "contain",
+    pointerEvents: "none",
   },
 });
 
