@@ -6,6 +6,7 @@ const titles = ["h1", "h2", "h3", "h4", "h5", "h6"] as const;
 
 type TOptions = {
   primaryColor: `#${string}`;
+  backgroundColor: `#${string}`;
 };
 
 const defaultTheme = (opt: TOptions): ThemeOptions =>
@@ -63,6 +64,9 @@ const defaultTheme = (opt: TOptions): ThemeOptions =>
       primary: {
         main: opt.primaryColor,
       },
+      background: {
+        paper: opt.backgroundColor,
+      },
       secondary: grey,
       divider: deepPurple[300],
       text: {
@@ -72,7 +76,7 @@ const defaultTheme = (opt: TOptions): ThemeOptions =>
     },
   });
 
-export const getTheme = (opt: { primaryColor: `#${string}` }) =>
+export const getTheme = (opt: TOptions) =>
   ({
     ...defaultTheme(opt),
   } as Theme);

@@ -9,6 +9,12 @@ const primaryByRoute: Record<string, `#${string}`> = {
   "/": defaultColor,
   "/2024/fem-fest": "#CCFF5E",
 };
+
+const backgroundColorByRoute: Record<string, `#${string}`> = {
+  "/": "#CECECE",
+  "/2024/fem-fest": "#FFFFFF",
+};
+
 export const ThemeProviderContainer = ({
   children,
 }: {
@@ -17,7 +23,11 @@ export const ThemeProviderContainer = ({
   const pathname = usePathname() ?? "/";
 
   const theme = useMemo(
-    () => getTheme({ primaryColor: primaryByRoute[pathname] || defaultColor }),
+    () =>
+      getTheme({
+        primaryColor: primaryByRoute[pathname] || defaultColor,
+        backgroundColor: backgroundColorByRoute[pathname] || defaultColor,
+      }),
     [pathname]
   );
 
