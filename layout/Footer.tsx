@@ -1,9 +1,9 @@
 import { Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
+import developers from "api/developers.json";
 import { Icons } from "icons";
 import React from "react";
-import developers from "../api/developers.json";
 
 export const Footer = () => {
   return (
