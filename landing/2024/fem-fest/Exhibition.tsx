@@ -1,7 +1,7 @@
 import { IDS } from "constants/landing";
 import { Grid, Typography } from "@mui/material";
 import Stack from "@mui/material/Stack";
-import artists from "api/artists.json";
+import artists from "api/2024/fem-fest/artists.json";
 import React from "react";
 import { Photo } from "ui/atoms/Photo";
 import { Section } from "ui/templates/Section";

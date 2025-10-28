@@ -1,9 +1,9 @@
 import { Typography } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
+import developers from "api/developers.json";
 import { Icons } from "icons";
 import React from "react";
-import developers from "../api/developers.json";
 
 export const Footer = () => {
   return (
@@ -20,7 +20,7 @@ export const Footer = () => {
 
       <Stack flexWrap="wrap" direction="row" justifyContent="space-between">
         {developers.map(({ name, contacts, role }) => (
-          <Stack spacing={1} p={4}>
+          <Stack spacing={1} p={4} key={name}>
             <Typography fontSize="1.3rem">{name}</Typography>
 
             <Typography fontSize="0.8rem">{role}</Typography>

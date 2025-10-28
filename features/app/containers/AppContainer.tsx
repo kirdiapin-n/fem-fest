@@ -1,8 +1,8 @@
 import { NotifyContainer } from "features/notifications/containers/NotifyContainer";
+// import { Footer } from "layout/Footer";
 import React from "react";
 import { Main } from "ui/templates/Main";
 import { Page } from "ui/templates/Page";
-import { Footer } from "../../../layout/Footer";
 
 export const AppContainer = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -11,7 +11,7 @@ export const AppContainer = ({ children }: { children: React.ReactNode }) => {
 
       <NotifyContainer />
 
-      <Footer />
+      {/*<Footer />*/}
     </Page>
   );
 };

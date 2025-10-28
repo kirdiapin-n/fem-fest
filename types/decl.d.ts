@@ -1,4 +1,5 @@
 import "@testing-library/jest-dom/extend-expect";
+import "@mui/material/styles";
 
 declare module "*.svg" {
   import React = require("react");
@@ -35,5 +36,14 @@ declare module "*.css" {
 declare global {
   interface IWindow {
     EMULATORS_STARTED: any; // 👈️ turn off type checking
+  }
+}
+
+declare module "@mui/material/styles" {
+  interface Palette {
+    brand: Palette["primary"]; // копия по структуре
+  }
+  interface PaletteOptions {
+    brand?: PaletteOptions["primary"];
   }
 }

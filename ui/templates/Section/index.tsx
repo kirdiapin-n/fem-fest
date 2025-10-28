@@ -9,10 +9,10 @@ type Props = {
 
 export const Section = ({ children, title, ...props }: Props) => {
   return (
-    <StyledSection component={"section"} {...props}>
+    <StyledSection component="section" {...props}>
       {title && (
-        <StyledTitle bgcolor={"text.primary"}>
-          <Typography color={"black"} variant="h1" fontSize="3rem">
+        <StyledTitle bgcolor="text.primary">
+          <Typography color="black" variant="h1" fontSize="3rem">
             {title}
           </Typography>
         </StyledTitle>
@@ -22,12 +22,15 @@ export const Section = ({ children, title, ...props }: Props) => {
   );
 };
 
-const StyledSection = styled(Box)(() => ({
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  width: "100%",
-  overflowX: "hidden",
-}));
+const StyledSection = styled(Box)(({ theme }) => {
+  return {
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundColor: theme.palette.background.paper,
+    width: "100%",
+    overflowX: "hidden",
+  };
+});
 
 const StyledTitle = styled(Box)(({ theme }) => ({
   padding: theme.spacing(2),

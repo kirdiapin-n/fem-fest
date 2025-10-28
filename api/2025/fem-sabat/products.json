@@ -1,0 +1,15 @@
+[
+  {
+    "product": {
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/products%2F%D1%812.jpg?alt=media&token=692102c3-8ab7-4a27-9a08-a98412be74d3",
+      "description": "Раньше наш дом был в Петербурге, а сейчас я восстанавливаю свое дело здесь, в маленьком прибрежном городке Херцег-Нови. В мастерской шью изделия из натурально кожи.",
+      "name": "Glaube.c"
+    },
+    "author_name": "Вера",
+    "day": "1 июня",
+    "contact": {
+      "instagram": "https://instagram.com/glaube.c/",
+      "telegram": "https://t.me/veravalitova42"
+    }
+  }
+]

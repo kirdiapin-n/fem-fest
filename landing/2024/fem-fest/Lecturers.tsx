@@ -10,7 +10,7 @@ import {
   Typography,
   Link,
 } from "@mui/material";
-import data from "api/data.json";
+import data from "api/2024/fem-fest/data.json";
 import { Author } from "landing/components/Author";
 import React, { useState } from "react";
 import { LectureType } from "types";
