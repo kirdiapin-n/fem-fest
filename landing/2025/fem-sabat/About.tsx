@@ -71,9 +71,9 @@ export default function About() {
 
       <Grid pt={2} container spacing={4}>
         {founders.map((data, index) => (
-          <Grid key={index} item xs={6} sm={6} md={4}>
+          <Grid key={index} item xs={6} sm={6} md={3}>
             <Stack direction="column">
-              <Photo withoutFilters url={data.photo_url} />
+              <Photo bg_variant="black" withoutFilters url={data.photo_url} />
 
               <Typography fontWeight="bolder" fontSize="1.4rem">
                 {data.name}

@@ -1,0 +1,16 @@
+[
+  {
+    "author": {
+      "name": "Марина Травкова",
+      "description": "Семейный психолог, супружеский и секс-терапевт.Занимаюсь сексуальным образованием взрослых и детей, участвую в просветительских проектах.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be"
+    },
+    "topic": {
+      "day": "first",
+      "room": "big",
+      "time": "12:00",
+      "description": "Кто боится секспросвета: почему провалились попытки секс.воспитания в РФ?"
+    },
+    "video" : "https://www.youtube.com/watch?v=Fv5VJhxc6zY"
+  }
+]

@@ -10,7 +10,7 @@ import {
   Typography,
   Link,
 } from "@mui/material";
-import data from "api/2024/fem-fest/data.json";
+import lectures from "api/2025/fem-sabat/lectures.json";
 import { Author } from "landing/components/Author";
 import React, { useState } from "react";
 import { LectureType } from "types";
@@ -128,7 +128,7 @@ function Lecturer(props: LectureType) {
             fullWidth
             target="_blank"
             variant="contained"
-            color="brand"
+            color="primary"
             onClick={() => setConfirmClose(false)}
           >
             Нет
@@ -139,7 +139,7 @@ function Lecturer(props: LectureType) {
             fullWidth
             target="_blank"
             variant="contained"
-            color="brand"
+            color="primary"
             onClick={handleConfirmClose}
           >
             Да
@@ -169,20 +169,11 @@ export default function Lecturers() {
         *Нажмите на лектора, чтобы посмотреть запись
       </Typography>
       <Grid container spacing={6}>
-        {data
-          .filter(({ is_not_speaker }) => {
-            return !is_not_speaker;
-          })
-          .map((lecturer, index) => (
-            <Grid
-              key={index}
-              item
-              xs={lecturer.second_author ? 12 : 6}
-              md={lecturer.second_author ? 6 : 3}
-            >
-              <Lecturer {...lecturer} id={index} />
-            </Grid>
-          ))}
+        {lectures.map((lecturer, index) => (
+          <Grid key={index} item xs={6} md={3}>
+            <Lecturer {...lecturer} id={index} />
+          </Grid>
+        ))}
       </Grid>
     </Section>
   );

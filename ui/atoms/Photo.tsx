@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import { styled } from "@mui/system";
+import black_fl from "assets/images/black_realistic_fluffy.webp";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
 import { Icons } from "icons";
 import React, { memo } from "react";
@@ -45,11 +46,13 @@ export function Photo({
   isFirstSpeaker,
   isSecondSpeaker,
   withoutFilters,
+  bg_variant = "pink",
 }: {
   url?: string;
   isFirstSpeaker?: boolean;
   isSecondSpeaker?: boolean;
   withoutFilters?: boolean;
+  bg_variant?: "pink" | "black";
 }) {
   const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
   const showBottomPic = areTwoSpeakers
@@ -57,6 +60,11 @@ export function Photo({
     : true;
 
   const showTopPic = areTwoSpeakers ? !isFirstSpeaker && isSecondSpeaker : true;
+
+  const bgMap = {
+    pink: pink_fl.src,
+    black: black_fl.src,
+  };
 
   return (
     <Box
@@ -72,7 +80,7 @@ export function Photo({
     >
       <img
         style={{ position: "absolute", top: 0, left: 0 }}
-        src={pink_fl.src}
+        src={bgMap[bg_variant]}
         width="100%"
         height="100%"
         alt="pink_fl"
