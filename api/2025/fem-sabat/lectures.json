@@ -2,15 +2,31 @@
   {
     "author": {
       "name": "Марина Травкова",
-      "description": "Семейный психолог, супружеский и секс-терапевт.Занимаюсь сексуальным образованием взрослых и детей, участвую в просветительских проектах.",
-      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2Fphoto_2024-05-18%2011.27.21%E2%80%AFAM.jpeg?alt=media&token=2e197765-07df-48f9-9799-df236d7a00be"
+      "description": "Семейная психологиня, супружеская и секс-терапевтка, специалистка по работе с:  супружескими конфликтами, сексуальными дисфункциям, домашнему насилию.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2F2025-10-27%2015.11.35.jpg?alt=media&token=435b9b41-41b4-4ed3-b3fb-726197db8383"
     },
     "topic": {
-      "day": "first",
-      "room": "big",
-      "time": "12:00",
-      "description": "Кто боится секспросвета: почему провалились попытки секс.воспитания в РФ?"
+      "description": "Оргазм - идентичность - равноправие: как внимание к женскому удовольствию меняет картину мира"
+    }
+  },
+  {
+    "author": {
+      "name": "Tati Mockingbird",
+      "description": "феминистка, преподавательница, исследовательница.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2F8797BB12-478D-4F45-B60A-303558DA99FE.jpeg?alt=media&token=19d66ca3-7457-431e-9447-5709ae369c0e"
     },
-    "video" : "https://www.youtube.com/watch?v=Fv5VJhxc6zY"
+    "topic": {
+      "description": "FEMALE RAGE: Женская злость как политический капитал."
+    }
+  },
+  {
+    "author": {
+      "name": "Tati Mockingbird",
+      "description": "феминистка, преподавательница, исследовательница.",
+      "photo_url": "https://firebasestorage.googleapis.com/v0/b/fem-fest-me.appspot.com/o/photos%2FIMG_6495.JPG?alt=media&token=a77729cb-6fa3-4366-8132-bcc27db4d77b"
+    },
+    "topic": {
+      "description": "Расследования преступлений против женщин: кто и зачем этим занимается?"
+    }
   }
 ]

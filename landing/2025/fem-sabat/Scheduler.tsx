@@ -1,15 +1,7 @@
 import { FAR_TELEGRAM_URL, IDS } from "constants/landing";
-import {
-  Button,
-  Chip,
-  Link,
-  Stack,
-  Tab,
-  Tabs,
-  Typography,
-} from "@mui/material";
-import { styled } from "@mui/system";
-import bg from "assets/images/cloud-background-image.webp";
+import { Button, Chip, Stack, Tab, Tabs, Typography } from "@mui/material";
+import schedule from "api/2025/fem-sabat/schedule.json";
+import abstraction from "assets/abstractions/horns_and_eyes.webp";
 import { Icons } from "icons";
 import NextLink from "next/link";
 import React, { useState } from "react";
@@ -19,13 +11,6 @@ type Props = {
   tags: string[];
   customContent?: React.ReactNode;
 };
-
-const StyledLink = styled(Link)({
-  color: "white",
-  fontSize: "1.5rem",
-  lineHeight: "2.5rem",
-  textDecoration: "underline",
-});
 
 function List({ tags, customContent }: Props) {
   return (
@@ -61,7 +46,11 @@ export default function Scheduler() {
       id={IDS.SCHEDULER}
       title="Расписание"
       sx={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(${bg.src})`,
+        background: "black",
+        backgroundImage: `url(${abstraction.src})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "100% 100%",
+        backgroundSize: "contain",
         minHeight: { xs: "unset", lg: "100vh" },
       }}
       color="white"
@@ -78,59 +67,43 @@ export default function Scheduler() {
         </Tabs>
 
         {value === "first" && (
-          <Stack maxWidth={400} direction="row" gap={4} flexWrap="wrap">
-            <List
-              tags={["Каждое воскресенье"]}
-              // items={getLectures(data, value, "big")}
-              customContent={
-                <Typography fontSize="1.5rem" lineHeight="2.5rem">
-                  11:00 - Регулярная открытая встреча в{" "}
-                  <StyledLink href={`#${IDS.CONTACTS}`}>
-                    Reform Space Budva
-                  </StyledLink>
-                  : завтракаем и обсуждаем актуальную информацию по теме
-                  феминизма.
+          <Stack gap={4} flexWrap="wrap">
+            {schedule.map((item, index) => (
+              <Stack direction="row" spacing={2} key={index}>
+                <Typography fontSize="1.5rem" whiteSpace="nowrap">
+                  <time>
+                    {item.start_time} - {item.end_time}
+                  </time>
                 </Typography>
-              }
-            />
 
-            <List
-              tags={["14 сентября"]}
-              // items={getLectures(data, value, "big")}
-              customContent={
-                <Typography fontSize="1.5rem" lineHeight="2.5rem">
-                  18.30 - Фем Шабаш. Встреча в{" "}
-                  <StyledLink href={`#${IDS.CONTACTS}`}>
-                    Reform Space Budva
-                  </StyledLink>
-                  . Больше информации в посте{" "}
-                  <StyledLink href={`https://t.me/FAR_Montenegro/228`}>
-                    телеграм
-                  </StyledLink>
-                  .
-                </Typography>
-              }
-            />
+                <Typography
+                  fontSize="1.5rem"
+                  sx={{
+                    "& > span": {
+                      color: "text.primary",
+                      fontWeight: "bold",
+                    },
+                  }}
+                  whiteSpace="pre-wrap"
+                  dangerouslySetInnerHTML={{ __html: item.description }}
+                />
+              </Stack>
+            ))}
           </Stack>
         )}
-
         {value === "second" && (
           <Stack maxWidth={800} direction="row" spacing={4} flexWrap="wrap">
             <List
-              tags={["Фемфест"]}
+              tags={["Фемфест 2024"]}
               customContent={
                 <>
                   <Typography fontSize="1.5rem" lineHeight="2.5rem">
-                    <StyledLink href={`#${IDS.MARKET}`}>Маркет</StyledLink> —
-                    это ярмарка, где мастера и ремесленники представляли свои
-                    уникальные изделия ручной работы.
+                    Маркет — это ярмарка, где мастера и ремесленники
+                    представляли свои уникальные изделия ручной работы.
                   </Typography>
                   <Typography fontSize="1.5rem" lineHeight="2.5rem">
-                    <StyledLink href={`#${IDS.EXHIBITION}`}>
-                      Выставка
-                    </StyledLink>{" "}
-                    — это событие, на котором художники представляли свои
-                    работы, созданные в различных стилях и техниках.
+                    Выставка — это событие, на котором художники представляли
+                    свои работы, созданные в различных стилях и техниках.
                   </Typography>
 
                   <Button

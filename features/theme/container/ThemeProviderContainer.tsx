@@ -11,7 +11,7 @@ const primaryByRoute: Record<string, `#${string}`> = {
 };
 
 const backgroundColorByRoute: Record<string, `#${string}`> = {
-  "/": "#CECECE",
+  "/": "#A5A5A5",
   "/2024/fem-fest": "#FFFFFF",
 };
 

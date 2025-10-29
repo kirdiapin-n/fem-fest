@@ -1,4 +1,4 @@
-import { Stack, Typography } from "@mui/material";
+import { Stack, SxProps, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import React from "react";
 import { TAuthor } from "types";
@@ -13,16 +13,29 @@ const StyledStack = styled(Stack)(() => ({
 }));
 
 export function Author(
-  props: TAuthor & { isFirstSpeaker?: boolean; isSecondSpeaker?: boolean }
+  props: TAuthor & {
+    isFirstSpeaker?: boolean;
+    isSecondSpeaker?: boolean;
+    bg_variant?: "black" | "pink";
+    sx?: SxProps;
+  }
 ) {
-  const { photo_url, name, description, isFirstSpeaker, isSecondSpeaker } =
-    props;
+  const {
+    photo_url,
+    name,
+    description,
+    isFirstSpeaker,
+    isSecondSpeaker,
+    bg_variant,
+    sx,
+  } = props;
 
   // const areTwoSpeakers = isFirstSpeaker || isSecondSpeaker;
 
   return (
-    <StyledStack sx={{ cursor: "pointer" }}>
+    <StyledStack sx={sx}>
       <Photo
+        bg_variant={bg_variant}
         url={photo_url}
         isFirstSpeaker={isFirstSpeaker}
         isSecondSpeaker={isSecondSpeaker}
