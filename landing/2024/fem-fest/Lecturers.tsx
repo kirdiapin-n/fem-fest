@@ -64,7 +64,11 @@ function Lecturer(props: LectureType) {
     <>
       <Stack id={String(id)} spacing={2} onClick={handleClickOpen}>
         <Stack direction="row">
-          <Author {...author} isFirstSpeaker={!!second_author} />
+          <Author
+            {...author}
+            sx={{ cursor: "pointer" }}
+            isFirstSpeaker={!!second_author}
+          />
 
           {second_author && <Author {...second_author} isSecondSpeaker />}
         </Stack>
