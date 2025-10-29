@@ -1,0 +1,37 @@
+[
+  {
+    "start_time": "11:00",
+    "end_time": "11:30",
+    "description": "Открытие"
+  },
+  {
+    "start_time": "11:30",
+    "end_time": "13:00",
+    "description": "<span>Настя Красильникова.</span>\nРасследования преступлений против женщин: кто и зачем этим занимается"
+  },
+  {
+    "start_time": "13:05",
+    "end_time": "14:00",
+    "description": "Фемквиз"
+  },
+  {
+    "start_time": "14:00",
+    "end_time": "15:00",
+    "description": "Перерыв"
+  },
+  {
+    "start_time": "15:10",
+    "end_time": "16:45",
+    "description": "<span>Tati Mockingbird.</span> Female Rage: Женская злость как политический капитал."
+  },
+  {
+    "start_time": "17:10",
+    "end_time": "18:20",
+    "description": "<span>Марина травкова.</span> Оргазм - идентичность - равноправие: как внимание к женскому удовольствию меняет картину мира"
+  },
+  {
+    "start_time": "18:30",
+    "end_time": "19:30",
+    "description": "dj set <span>Насти Красильниковой</span>"
+  }
+]

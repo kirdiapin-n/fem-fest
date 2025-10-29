@@ -3,7 +3,7 @@ import About from "landing/2025/fem-sabat/About";
 import Home from "landing/2025/fem-sabat/Home";
 // import Lecturers from "landing/2025/fem-sabat/Lecturers";
 // import Market from "landing/2025/fem-sabat/Market";
-// import Scheduler from "landing/2025/fem-sabat/Scheduler";
+import Scheduler from "landing/2025/fem-sabat/Scheduler";
 import NavigationMenu from "landing/components/NavigationMenu";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default function Index() {
 
       <About />
 
-      {/*<Scheduler />*/}
+      <Scheduler />
 
       {/*<Lecturers />*/}
 
