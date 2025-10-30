@@ -103,6 +103,9 @@ export default function NavigationMenu() {
           <StyledLink href={`#${IDS.ABOUT}`}>о нас</StyledLink>
         </MenuItem>
         <MenuItem onClick={handleClose}>
+          <StyledLink href={`#${IDS.DONATIONS}`}>пожертвования</StyledLink>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
           <StyledLink href={`#${IDS.SCHEDULER}`}>лекции</StyledLink>
         </MenuItem>
         {/*<MenuItem onClick={handleClose}>*/}

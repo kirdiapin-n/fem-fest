@@ -80,6 +80,10 @@ export default function Home() {
           <StyledLink href={`#${IDS.SCHEDULER}`} underline="hover">
             расписание
           </StyledLink>
+
+          <StyledLink href={`#${IDS.LECTURERS}`} underline="hover">
+            лекторы
+          </StyledLink>
         </Stack>
         <img
           className={styles.logo}
@@ -92,8 +96,8 @@ export default function Home() {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
-          <StyledLink href={`#${IDS.LECTURERS}`} underline="hover">
-            лекторы
+          <StyledLink href={`#${IDS.DONATIONS}`} underline="hover">
+            Пожертвовать
           </StyledLink>
 
           <StyledLink href={`#${IDS.CONTACTS}`} underline="hover">

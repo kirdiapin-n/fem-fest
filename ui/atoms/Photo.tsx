@@ -3,9 +3,13 @@ import { styled } from "@mui/system";
 import black_fl from "assets/images/black_realistic_fluffy.webp";
 import pink_fl from "assets/images/pink_realistic_fluffy.webp";
 import { Icons } from "icons";
+import { usePathname } from "next/navigation";
 import React, { memo } from "react";
 import styles from "styles/about.module.css";
-import { getRandomImageFor2024FemFest } from "utils/images";
+import {
+  getRandomImageFor2024FemFest,
+  getRandomImageFor2025FemSabat,
+} from "utils/images";
 
 const StyledBox = styled(Box)({
   backgroundPosition: "center center",
@@ -31,13 +35,18 @@ const PHOTO_TOP_POSITION_PERCENTS = `${(MAX_PERCENTS - PHOTO_RATIO) / 2}%`;
 const PHOTO_LEFT_POSITION = `${MAX_PERCENTS - PHOTO_RATIO}%`;
 const ABSTRACTION_SIZE_PERCENT = "25%";
 
+const getSrcMap: Record<string, () => string> = {
+  "/": getRandomImageFor2025FemSabat,
+  "/2024/fem-fest": getRandomImageFor2024FemFest,
+};
+
 const RandomImage = memo(() => {
+  const pathname = usePathname() ?? "/";
+
+  const fn = getSrcMap[pathname];
+
   return (
-    <img
-      className={styles.abstractRightAngle}
-      alt="abstraction"
-      src={getRandomImageFor2024FemFest()}
-    />
+    <img className={styles.abstractRightAngle} alt="abstraction" src={fn()} />
   );
 });
 
