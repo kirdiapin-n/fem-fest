@@ -8,6 +8,7 @@ export const IDS = {
   PHOTO: "photo",
   CONTACTS: "contacts",
   TICKETS: "tickets",
+  DONATIONS: "donations",
 };
 
 export const FAR_TELEGRAM_URL = "https://t.me/femmnecommunity";

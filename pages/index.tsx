@@ -6,6 +6,7 @@ import Lecturers from "landing/2025/fem-sabat/Lecturers";
 import Scheduler from "landing/2025/fem-sabat/Scheduler";
 import NavigationMenu from "landing/components/NavigationMenu";
 import React from "react";
+import Donations from "../landing/2025/fem-sabat/Donations";
 import Tickets from "../landing/2025/fem-sabat/Tickets";
 
 export default function Index() {
@@ -22,6 +23,8 @@ export default function Index() {
       <Lecturers />
 
       <Tickets />
+
+      <Donations />
 
       {/*<Market />*/}
 
