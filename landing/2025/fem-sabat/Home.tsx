@@ -2,7 +2,7 @@ import { IDS } from "constants/landing";
 import { Box, Link } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import { styled } from "@mui/system";
-import femfest from "assets/images/fem_community.webp";
+import femfest from "assets/images/fem_community_balck.webp";
 import logo from "assets/images/logo.webp";
 import bg from "assets/images/mashroom.webp";
 

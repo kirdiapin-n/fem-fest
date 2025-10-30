@@ -14,6 +14,7 @@ import {
   Marker,
   useJsApiLoader,
 } from "@react-google-maps/api";
+import location from "api/2025/fem-sabat/location.json";
 import React, { useState } from "react";
 import { Section } from "ui/templates/Section";
 
@@ -24,7 +25,7 @@ export default function Contacts() {
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "",
   });
 
-  const url = `https://www.google.com/maps?saddr=My+Location&daddr=${REFORUM_SPACE_COORDS.lat},${REFORUM_SPACE_COORDS.lng}`;
+  const url = `https://www.google.com/maps?saddr=My+Location&daddr=${location.lat},${location.lng}`;
 
   const handleClick = () => setIsShow(!isShow);
 
@@ -36,7 +37,7 @@ export default function Contacts() {
         <Typography fontSize="2rem" textAlign="center" pb={4}>
           Место проведения мероприятия
           <Link pl={1} color="inherit" href={url} target="_blank">
-            рефорум space budva
+            {location.title}
           </Link>
         </Typography>
 
