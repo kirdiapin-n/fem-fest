@@ -51,7 +51,6 @@ export default function Donations() {
               <Button
                 sx={{ mt: 2, mb: 1 }}
                 variant="contained"
-                color="success"
                 fullWidth
                 component={Link}
                 href="https://link.trustwallet.com/send?address=0xdb9573284eD127793A26Daa34c4B8AAe72B89893&asset=c60_t0xdAC17F958D2ee523a2206206994597C13D831ec7"
