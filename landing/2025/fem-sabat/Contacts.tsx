@@ -5,7 +5,7 @@ import {
   FAR_YOUTUBE_URL,
   IDS,
 } from "constants/landing";
-import { DEFAULT_ZOOM, REFORUM_SPACE_COORDS } from "constants/map";
+import { DEFAULT_ZOOM } from "constants/map";
 import { Button, Link, Typography } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import {
@@ -31,6 +31,8 @@ export default function Contacts() {
 
   if (!isLoaded) return <div>Loading....</div>;
 
+  const position = { lat: Number(location.lat), lng: Number(location.lng) };
+
   return (
     <Section title="Контакты" id={IDS.CONTACTS}>
       <Stack spacing={4}>
@@ -43,13 +45,13 @@ export default function Contacts() {
 
         <GoogleMap
           zoom={DEFAULT_ZOOM}
-          center={REFORUM_SPACE_COORDS}
+          center={position}
           mapContainerStyle={{ width: "90%", height: "70vh", margin: "auto" }}
         >
           <Marker
             clickable
             title="Reforum Space Budva"
-            position={REFORUM_SPACE_COORDS}
+            position={position}
             onClick={handleClick}
           >
             {isShow && (
