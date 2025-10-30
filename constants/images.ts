@@ -1,6 +1,16 @@
 import abstract27 from "assets/abstractions/broken-5.webp";
 import abstract28 from "assets/abstractions/broken-6.webp";
 import abstract29 from "assets/abstractions/d235eee335af86cfd69433daae0b4e4c.webp";
+import babstract1 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (1).png";
+import babstract10 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (10).png";
+import babstract11 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (11).png";
+import babstract12 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (12).png";
+import babstract13 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (13).png";
+import babstract14 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (14).png";
+import babstract2 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (2).png";
+import babstract3 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (3).png";
+import babstract4 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (4).png";
+import babstract from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background.png";
 import abstract8 from "assets/abstractions/patrick.webp";
 import abstract30 from "assets/abstractions/Shape_024.webp";
 import abstract31 from "assets/abstractions/Shape_070.webp";
@@ -29,6 +39,11 @@ import abstract12 from "assets/abstractions/sref_https___i_0019_Layer-5.webp";
 import abstract11 from "assets/abstractions/sref_https___i_0020_Layer-6.webp";
 import abstract10 from "assets/abstractions/sref_https___i_0021_Layer-7.webp";
 import abstract9 from "assets/abstractions/sref_https___i_0022_Layer-8.webp";
+import babstract5 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (5).png";
+import babstract6 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (6).png";
+import babstract7 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (7).png";
+import babstract8 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (8).png";
+import babstract9 from "assets/abstractions/fem-sabat-abstract_stars_3d_form,_collection,_cinema4d,_on_white_background (9).png";
 
 // 2025 FEM SABAT
 
@@ -67,4 +82,19 @@ export const IMAGES_2025_FEM_SABAT = [
   abstract29,
   abstract30,
   abstract31,
+  babstract,
+  babstract1,
+  babstract2,
+  babstract3,
+  babstract4,
+  babstract5,
+  babstract6,
+  babstract7,
+  babstract8,
+  babstract9,
+  babstract10,
+  babstract11,
+  babstract12,
+  babstract13,
+  babstract14,
 ];

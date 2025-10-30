@@ -1,7 +1,7 @@
 import { IDS } from "constants/landing";
 import { Box, Grid, Typography } from "@mui/material";
 import founders from "api/2025/fem-sabat/founders.json";
-import letter from "assets/images/f-letter.webp";
+import letter from "assets/images/f-letter-black.webp";
 import womanRights from "assets/images/womans-rights.webp";
 import React from "react";
 import styles from "styles/about.module.css";
