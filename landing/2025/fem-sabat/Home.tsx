@@ -96,6 +96,10 @@ export default function Home() {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
+          <StyledLink href={`#${IDS.TICKETS}`} underline="hover">
+            Купить билеты
+          </StyledLink>
+
           <StyledLink href={`#${IDS.DONATIONS}`} underline="hover">
             Пожертвовать
           </StyledLink>
