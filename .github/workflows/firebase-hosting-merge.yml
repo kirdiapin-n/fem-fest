@@ -8,6 +8,12 @@ name: Deploy to Firebase Hosting on merge
       - master
 env:
   NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
+  NEXT_PUBLIC_API_KEY: ${{ secrets.FIREBASE_FIREBASE_API_KEY }}
+  NEXT_PUBLIC_AUTH_DOMAIN: ${{ vars.FIREBASE_AUTH_DOMAIN }}
+  NEXT_PUBLIC_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
+  NEXT_PUBLIC_STORAGE_BUCKET: ${{ vars.FIREBASE_STORAGE_BUCKET }}
+  NEXT_PUBLIC_APP_ID: ${{ vars.FIREBASE_APP_ID }}
+  NEXT_PUBLIC_MEASUREMENT_ID: ${{ vars.FIREBASE_MEASUREMENT_ID }}
 permissions: write-all
 jobs:
   build_and_deploy:
