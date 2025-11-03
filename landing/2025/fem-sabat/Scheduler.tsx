@@ -62,7 +62,7 @@ export default function Scheduler() {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="Актуальное" value="first" />
+          <Tab label="Фем Шабаш" value="first" />
           <Tab label="Прошедшие мероприятия" value="second" />
         </Tabs>
 

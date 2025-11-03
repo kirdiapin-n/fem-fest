@@ -7,7 +7,7 @@ import { Section } from "ui/templates/Section";
 
 export default function Lecturers() {
   return (
-    <Section id={IDS.LECTURERS} title="Лекторы">
+    <Section id={IDS.LECTURERS} title="Лекторки">
       <Grid container spacing={6}>
         {lectures.map((lecturer, index) => (
           <Grid key={index} item xs={6} md={3}>
