@@ -14,6 +14,7 @@ import revolutIcon from "assets/images/revolut_icon.png";
 import tinkoffIcon from "assets/images/Tinkoff_Bank_icon.png";
 import wiseIcon from "assets/images/wise_icon.png";
 import { Section } from "ui/templates/Section";
+import { trackTicketClick } from "utils/analytics";
 
 const Price = styled(Typography)(({ theme }) => ({
   fontFamily: "Hlebozavod-Medium, serif",
@@ -67,6 +68,7 @@ export default function Tickets() {
                   href="https://wise.com/pay/me/kseniiap262"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackTicketClick("wise", "eur")}
                 >
                   Wise
                 </Button>
@@ -85,6 +87,7 @@ export default function Tickets() {
                   href="http://revolut.me/arinak90"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackTicketClick("revolut", "eur")}
                 >
                   Revolut
                 </Button>
@@ -113,6 +116,7 @@ export default function Tickets() {
                 href="https://www.tbank.ru/cf/8kIxnljQZLV"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackTicketClick("tinkoff", "rub")}
               >
                 Т‑банк
               </Button>

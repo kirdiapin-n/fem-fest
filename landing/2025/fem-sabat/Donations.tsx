@@ -11,6 +11,7 @@ import {
 import qrcode from "assets/images/qrcode.jpeg";
 import React from "react";
 import { Section } from "ui/templates/Section";
+import { trackDonationClick } from "utils/analytics";
 
 export default function Donations() {
   return (
@@ -55,6 +56,7 @@ export default function Donations() {
                 component={Link}
                 href="https://link.trustwallet.com/send?address=0xdb9573284eD127793A26Daa34c4B8AAe72B89893&asset=c60_t0xdAC17F958D2ee523a2206206994597C13D831ec7"
                 target="_blank"
+                onClick={() => trackDonationClick("trust_wallet")}
               >
                 Оплатить через Trust Wallet
               </Button>
@@ -87,6 +89,7 @@ export default function Donations() {
                 component={Link}
                 href="https://www.tbank.ru/cf/9q2J6kIxtsl"
                 target="_blank"
+                onClick={() => trackDonationClick("tbank")}
               >
                 Открыть страницу Т-Банка
               </Button>

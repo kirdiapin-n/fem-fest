@@ -4,10 +4,13 @@ import { ThemeProviderContainer } from "features/theme/container/ThemeProviderCo
 import type { AppProps } from "next/app";
 import "normalize.css/normalize.css";
 import React from "react";
+import { usePageTracking } from "utils/analytics";
 import "styles/index.css";
 import "fonts/fonts.css";
 
 const App = ({ Component, pageProps }: AppProps) => {
+  usePageTracking();
+
   return (
     <ThemeProviderContainer>
       <HeadContainer />

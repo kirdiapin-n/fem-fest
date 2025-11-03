@@ -1,9 +1,11 @@
 // Import the functions you need from the SDKs you need
+import { getAnalytics, logEvent } from "firebase/analytics";
 import { getApp, getApps, initializeApp } from "firebase/app";
 import { Auth, connectAuthEmulator, getAuth, User } from "firebase/auth";
 import { connectFirestoreEmulator, getFirestore } from "firebase/firestore";
 import { getPerformance } from "firebase/performance";
 import { connectStorageEmulator, getStorage } from "firebase/storage";
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -59,3 +61,33 @@ export function getCurrentUser(auth: Auth) {
 }
 
 export default db;
+
+// Initialize Analytics only on client-side
+let analytics: ReturnType<typeof getAnalytics> | null = null;
+
+if (typeof window !== "undefined") {
+  try {
+    analytics = getAnalytics(app);
+  } catch (error) {
+    // Analytics already initialized or measurementId is missing
+    console.warn("Firebase Analytics initialization failed:", error);
+  }
+}
+
+// Export analytics instance and helper functions
+export function getFirebaseAnalytics() {
+  return analytics;
+}
+
+export function trackEvent(
+  eventName: string,
+  eventParams?: Record<string, any>
+) {
+  if (analytics) {
+    try {
+      logEvent(analytics, eventName, eventParams);
+    } catch (error) {
+      console.warn("Failed to log analytics event:", error);
+    }
+  }
+}
