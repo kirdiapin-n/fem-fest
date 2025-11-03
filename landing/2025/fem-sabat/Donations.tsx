@@ -14,7 +14,7 @@ import { Section } from "ui/templates/Section";
 
 export default function Donations() {
   return (
-    <Section id={IDS.DONATIONS} title={"Пожертвования"}>
+    <Section id={IDS.DONATIONS} title="Донаты">
       <Stack spacing={4} alignItems="center">
         <Typography variant="body1" fontSize="2rem" textAlign="center">
           Поддержите наше сообщество! <br />
