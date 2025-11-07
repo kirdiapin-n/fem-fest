@@ -38,7 +38,14 @@ const StyledSection = styled(Section)({
   },
 });
 
-export default function Home() {
+export default function Home({
+  links,
+}: {
+  links: { href: string; title: string; shortTitle?: string }[];
+}) {
+  const firstPartLinks = links.slice(0, 3);
+  const secondPartLinks = links.slice(3);
+
   return (
     <StyledSection
       overflow="hidden"
@@ -74,17 +81,15 @@ export default function Home() {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 0, lg: 2 }}
         >
-          <StyledLink href={`#${IDS.ABOUT}`} underline="hover">
-            о нас
-          </StyledLink>
-
-          <StyledLink href={`#${IDS.SCHEDULER}`} underline="hover">
-            расписание
-          </StyledLink>
-
-          <StyledLink href={`#${IDS.LECTURERS}`} underline="hover">
-            лекторки
-          </StyledLink>
+          {firstPartLinks.map((link) => (
+            <StyledLink
+              key={link.href}
+              href={`#${link.href}`}
+              underline="hover"
+            >
+              {link.shortTitle || link.title}
+            </StyledLink>
+          ))}
         </Stack>
         <img
           className={styles.logo}
@@ -97,17 +102,15 @@ export default function Home() {
           direction={{ xs: "column", sm: "row" }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
-          <StyledLink href={`#${IDS.TICKETS}`} underline="hover">
-            Билеты
-          </StyledLink>
-
-          <StyledLink href={`#${IDS.DONATIONS}`} underline="hover">
-            Донаты
-          </StyledLink>
-
-          <StyledLink href={`#${IDS.CONTACTS}`} underline="hover">
-            Контакты
-          </StyledLink>
+          {secondPartLinks.map((link) => (
+            <StyledLink
+              key={link.href}
+              href={`#${link.href}`}
+              underline="hover"
+            >
+              {link.shortTitle || link.title}
+            </StyledLink>
+          ))}
         </Stack>
       </Stack>
       <Stack
