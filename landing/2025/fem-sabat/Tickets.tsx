@@ -9,7 +9,6 @@ import {
   Typography,
 } from "@mui/material";
 import { styled } from "@mui/system";
-import abstraction from "assets/abstractions/horns_and_eyes.webp";
 import revolutIcon from "assets/images/revolut_icon.png";
 import tinkoffIcon from "assets/images/Tinkoff_Bank_icon.png";
 import wiseIcon from "assets/images/wise_icon.png";
@@ -32,18 +31,7 @@ const TicketCard = styled(Card)(({ theme }) => ({
 
 export default function Tickets() {
   return (
-    <Section
-      title="Покупка билетов"
-      id={IDS.TICKETS}
-      sx={{
-        background: "black",
-        backgroundImage: `url(${abstraction.src})`,
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "0% 100%",
-        backgroundSize: "contain",
-      }}
-      color="white"
-    >
+    <Section title="Покупка билетов" id={IDS.TICKETS}>
       <Stack justifyItems="flex-end" spacing={{ xs: 3, md: 4 }} p={6}>
         <Typography fontSize="1.5rem">Приобрести билет онлайн</Typography>
 

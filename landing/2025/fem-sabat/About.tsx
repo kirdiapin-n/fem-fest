@@ -10,10 +10,22 @@ import { Stack } from "ui/atoms/Stack";
 import { WhoWeAre } from "ui/atoms/WhoWeAre";
 import { Section } from "ui/templates/Section";
 import { getRandomImageFor2025FemSabat } from "utils/images";
+import abstraction from "../../../assets/abstractions/horns_and_eyes.webp";
 
 export default function About() {
   return (
-    <Section id={IDS.ABOUT} title={"о нас"}>
+    <Section
+      id={IDS.ABOUT}
+      title={"о нас"}
+      sx={{
+        background: "black",
+        backgroundImage: `url(${abstraction.src})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "100% 0%",
+        backgroundSize: "contain",
+      }}
+      color="white"
+    >
       <Stack sx={{ alignItems: "center", justifyContent: "space-between" }}>
         <WhoWeAre />
 
