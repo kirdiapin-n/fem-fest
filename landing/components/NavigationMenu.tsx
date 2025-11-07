@@ -1,4 +1,3 @@
-import { IDS } from "constants/landing";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "@mui/material";
 import Box from "@mui/material/Box";
@@ -16,7 +15,11 @@ const StyledLink = styled(Link)({
   textDecoration: "none",
 });
 
-export default function NavigationMenu() {
+type NavMenuProps = {
+  links: { href: string; title: string }[];
+};
+
+export default function NavigationMenu({ links }: NavMenuProps) {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -99,27 +102,11 @@ export default function NavigationMenu() {
           horizontal: "right",
         }}
       >
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.ABOUT}`}>о нас</StyledLink>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.DONATIONS}`}>донаты</StyledLink>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.SCHEDULER}`}>лекции</StyledLink>
-        </MenuItem>
-        {/*<MenuItem onClick={handleClose}>*/}
-        {/*  <StyledLink href={`#${IDS.EXHIBITION}`}>выставка</StyledLink>*/}
-        {/*</MenuItem>*/}
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.LECTURERS}`}>лекторки</StyledLink>
-        </MenuItem>
-        {/*<MenuItem onClick={handleClose}>*/}
-        {/*  <StyledLink href={`#${IDS.MARKET}`}>маркет</StyledLink>*/}
-        {/*</MenuItem>*/}
-        <MenuItem onClick={handleClose}>
-          <StyledLink href={`#${IDS.CONTACTS}`}>контакты</StyledLink>
-        </MenuItem>
+        {links.map((item) => (
+          <MenuItem key={item.href} onClick={handleClose}>
+            <StyledLink href={`#${item.href}`}>{item.title}</StyledLink>
+          </MenuItem>
+        ))}
       </Menu>
     </Box>
   );
