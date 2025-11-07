@@ -11,7 +11,12 @@ import { IDS } from "../constants/landing";
 
 export const routes = [
   { href: IDS.SCHEDULER, title: "Расписание", component: <Scheduler /> },
-  { href: IDS.TICKETS, title: "Покупка билетов", component: <Tickets /> },
+  {
+    href: IDS.TICKETS,
+    title: "Покупка билетов",
+    shortTitle: "Билеты",
+    component: <Tickets />,
+  },
   { href: IDS.LECTURERS, title: "Лекторки", component: <Lecturers /> },
   { href: IDS.DONATIONS, title: "Донаты", component: <Donations /> },
   { href: IDS.ABOUT, title: "О нас", component: <About /> },
@@ -23,7 +28,7 @@ export default function Index() {
     <>
       <NavigationMenu links={routes} />
 
-      <Home />
+      <Home links={routes} />
 
       {routes.map((route) => (
         <React.Fragment key={route.href}>{route.component}</React.Fragment>
